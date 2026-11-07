@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TCP Congestion Control Simulator & NS-3 Analyzer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- App Header -->
+    <header class="app-header">
+        <div class="brand-section">
+            <h1>TCP Congestion Control Simulator & NS-3 Analyzer</h1>
+            <p>Interactive Performance Benchmark & "Under-The-Hood" Protocol Explorer (Tahoe, Reno, NewReno, Cubic)</p>
+        </div>
+        <div class="header-badges">
+            <span class="badge badge-ns3">NS-3 Compatible</span>
+            <span class="badge badge-sender">RFC 5681 / 8312</span>
+            <span class="badge badge-receiver">Computer Networks CBP</span>
+            <button id="btn-open-viva" class="badge badge-viva" style="cursor: pointer; border: 1px solid #c084fc; background: rgba(192, 132, 252, 0.2); color: #c084fc;">🎓 Viva Exam Quiz</button>
+        </div>
+    </header>
+
+    <!-- Top Simulation Controls -->
+    <section class="control-bar">
+        <!-- Topology Selector -->
+        <div class="control-group">
+            <label for="select-topology">Topology:</label>
+            <select id="select-topology">
+                <option value="dumbbell" selected>Standard Bottleneck Dumbbell</option>
+                <option value="multiflow">Dual-Flow Cross Traffic (Fairness Benchmark)</option>
+                <option value="wireless">5G / Wireless Last-Mile (Fading Loss)</option>
+                <option value="multihop">Multi-Hop Backbone (3-Router Cascade)</option>
+            </select>
+        </div>
+
+        <!-- Algorithm Selector -->
+        <div class="control-group">
+            <label for="select-algorithm">Algorithm:</label>
+            <select id="select-algorithm">
+                <option value="TcpCubic" selected>TCP Cubic (Linux Default - RFC 8312)</option>
+                <option value="TcpReno">TCP Reno (Fast Recovery - RFC 5681)</option>
+                <option value="TcpNewReno">TCP NewReno (Partial ACKs - RFC 6582)</option>
+                <option value="TcpTahoe">TCP Tahoe (1988 Classic - RFC 2001)</option>
+            </select>
+        </div>
+
+        <!-- Guided Scenario Selector -->
+        <div class="control-group">
+            <label for="select-scenario">Guided Scenario:</label>
+            <select id="select-scenario">
+                <option value="custom">-- Free Exploration Mode --</option>
+                <option value="fast_retransmit">1. The 3 Duplicate ACK Phenomenon</option>
+                <option value="bufferbloat">2. Bufferbloat & The Latency Trap</option>
+                <option value="satellite_lfn">3. Satellite Link / Long Fat Network (LFN)</option>
+                <option value="tahoe_vs_reno">4. Tahoe vs Reno: The Penalty of Resetting to 1</option>
+            </select>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="control-group">
+            <button id="btn-play" class="btn-action btn-primary">▶ Start Simulation</button>
+            <button id="btn-step" class="btn-action">⏯ Step (0.05s)</button>
+            <button id="btn-reset" class="btn-action btn-danger">↺ Reset</button>
+        </div>
+
+        <!-- Speed Slider with extended range down to 0.05x (ultra slow motion) -->
+        <div class="control-group">
+            <label for="slider-speed" class="has-tooltip" data-term="sim_speed">Speed:</label>
+            <input type="range" id="slider-speed" min="0.05" max="2.0" step="0.05" value="0.5">
+            <span id="label-speed" class="slider-val">0.50x</span>
+        </div>
+
+        <div class="control-group" style="margin-left: auto;">
+            <label for="file-ns3-trace" class="btn-action" style="cursor: pointer;">📂 Import NS-3 Trace</label>
+            <input type="file" id="file-ns3-trace" accept=".data,.tr,.txt,.json" style="display: none;">
+        </div>
+    </section>
+
+    <!-- Network Channel Parameter Sliders -->
+    <section class="params-panel">
+        <div class="slider-group">
+            <div class="slider-header">
+                <span class="has-tooltip" data-term="bandwidth">Bottleneck Bandwidth:</span>
+                <span id="val-bw" class="slider-val">10.0 Mbps</span>
+            </div>
+            <input type="range" id="param-bw" min="1" max="50" step="1" value="10">
+        </div>
+
+        <div class="slider-group">
+            <div class="slider-header">
+                <span class="has-tooltip" data-term="delay">Bottleneck Delay (RTT/2):</span>
+                <span id="val-delay" class="slider-val">20.0 ms</span>
+            </div>
+            <input type="range" id="param-delay" min="5" max="100" step="5" value="20">
+        </div>
+
+        <div class="slider-group">
+            <div class="slider-header">
+                <span class="has-tooltip" data-term="loss">Packet Loss Rate:</span>
+                <span id="val-loss" class="slider-val">1.0%</span>
+            </div>
+            <input type="range" id="param-loss" min="0" max="10" step="0.5" value="1.0">
+        </div>
+
+        <div class="slider-group">
+            <div class="slider-header">
+                <span class="has-tooltip" data-term="queue">Router Buffer Capacity:</span>
+                <span id="val-queue" class="slider-val">50 pkts</span>
+            </div>
+            <input type="range" id="param-queue" min="10" max="100" step="5" value="50">
+        </div>
+    </section>
+
+    <!-- Main Workspace (Simulation Canvas on Left, Under-The-Hood Inspector on Right) -->
+    <main class="main-workspace">
+        
+        <!-- Left: Interactive Topology Canvas + Live Metrics + Graph -->
+        <div class="simulation-section">
+            
+            <!-- Topology Card -->
+            <div class="card">
+                <div class="card-header">
+                    <h2 id="topology-title">Dumbbell Network Topology</h2>
+                    <span class="tip">💡 Click on Sender, Routers, Buffer, or Moving Packets to inspect internal registers!</span>
+                </div>
+                <div class="canvas-wrapper">
+                    <canvas id="topology-canvas" height="280"></canvas>
+                </div>
+            </div>
+
+            <!-- Live Metrics Ribbon with Keywords & Hover Tooltips -->
+            <div class="metrics-ribbon">
+                <div class="metric-pill has-tooltip" data-term="throughput">
+                    <span class="label">Instant Throughput ⓘ</span>
+                    <span id="metric-throughput" class="value value-green">0.00 Mbps</span>
+                </div>
+                <div class="metric-pill has-tooltip" data-term="goodput">
+                    <span class="label">Avg Goodput ⓘ</span>
+                    <span id="metric-avg-throughput" class="value value-green">0.00 Mbps</span>
+                </div>
+                <div class="metric-pill has-tooltip" data-term="cwnd">
+                    <span class="label">Congestion Window (cwnd) ⓘ</span>
+                    <span id="metric-cwnd" class="value">1.00 MSS</span>
+                </div>
+                <div class="metric-pill has-tooltip" data-term="ssthresh">
+                    <span class="label">Slow Start Thresh (ssthresh) ⓘ</span>
+                    <span id="metric-ssthresh" class="value value-amber">32.0 MSS</span>
+                </div>
+                <div class="metric-pill has-tooltip" data-term="qdelay">
+                    <span class="label">Queuing Delay ⓘ</span>
+                    <span id="metric-qdelay" class="value value-purple">0.0 ms</span>
+                </div>
+                <div class="metric-pill has-tooltip" data-term="bdp">
+                    <span class="label">Pipe BDP ⓘ</span>
+                    <span id="metric-bdp" class="value">37.6 pkts</span>
+                </div>
+                <div class="metric-pill has-tooltip" data-term="drops">
+                    <span class="label">Dropped Packets ⓘ</span>
+                    <span id="metric-drops" class="value value-rose">0</span>
+                </div>
+            </div>
+
+            <!-- Interactive Metrics Chart -->
+            <div class="card">
+                <div class="card-header">
+                    <h2>Real-Time Performance Analysis</h2>
+                    <div class="chart-tabs">
+                        <button class="tab-btn active" data-mode="CWND">cwnd & ssthresh</button>
+                        <button class="tab-btn" data-mode="THROUGHPUT">Throughput (Goodput)</button>
+                        <button class="tab-btn" data-mode="QUEUE">Queue Occupancy</button>
+                    </div>
+                </div>
+                <div class="canvas-wrapper">
+                    <canvas id="chart-canvas" height="240"></canvas>
+                </div>
+                <span class="tip" style="display: block; margin-top: 8px;">💡 Click any point on the curve to freeze and analyze the exact mathematical rule & RFC event that triggered it!</span>
+            </div>
+
+        </div>
+
+        <!-- Right: "Under-The-Hood" Deep-Dive Inspector Panel -->
+        <aside class="inspector-panel" id="under-the-hood-panel">
+            <!-- Dynamically populated by UnderTheHoodInspector -->
+        </aside>
+
+    </main>
+
+    <!-- Step-by-Step Live Simulation Narrator (Point 3) -->
+    <section class="narrator-card">
+        <div class="narrator-header">
+            <div class="narrator-badge">
+                <span class="pulse-indicator"></span>
+                <span id="narrator-phase-badge">INITIALIZING</span>
+            </div>
+            <h3>Under-The-Hood Live Step-by-Step Execution Narrator</h3>
+            <span class="narrator-time" id="narrator-clock">t = 0.000s</span>
+        </div>
+        <div class="narrator-body">
+            <div class="narrator-steps" id="narrator-steps-container">
+                <div class="narrator-step active">
+                    <div class="step-num">1</div>
+                    <div class="step-content">
+                        <strong>Window Transmission:</strong>
+                        <span id="narrator-step-1">Sender is waiting to transmit. Click 'Start Simulation' or pick a scenario above.</span>
+                    </div>
+                </div>
+                <div class="narrator-step">
+                    <div class="step-num">2</div>
+                    <div class="step-content">
+                        <strong>Bottleneck Queue Dynamics:</strong>
+                        <span id="narrator-step-2">Queue is empty (0/50 pkts). Link is idle.</span>
+                    </div>
+                </div>
+                <div class="narrator-step">
+                    <div class="step-num">3</div>
+                    <div class="step-content">
+                        <strong>Receiver Acknowledgments:</strong>
+                        <span id="narrator-step-3">Receiver ready to generate cumulative and duplicate ACKs.</span>
+                    </div>
+                </div>
+                <div class="narrator-step">
+                    <div class="step-num">4</div>
+                    <div class="step-content">
+                        <strong>Algorithm State Decision:</strong>
+                        <span id="narrator-step-4">Congestion control registers initialized (cwnd = 1 MSS, ssthresh = 32 MSS).</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dynamic Model Comparison & Environmental Fitness Footer (Point 4) -->
+    <section class="model-comparison-footer">
+        <div class="footer-section-header">
+            <h3>Algorithm Fitness & Comparative Suitability Matrix</h3>
+            <p>Real-time analysis comparing Tahoe, Reno, NewReno, and Cubic under the current simulated network conditions:</p>
+        </div>
+
+        <!-- Real-Time Environmental Diagnosis Banner -->
+        <div class="diagnosis-banner" id="diagnosis-banner">
+            <div class="diag-icon">⚡</div>
+            <div class="diag-text">
+                <h4 id="diag-title">Current Environment: Standard Low-Latency Bottleneck Link</h4>
+                <p id="diag-desc">Analyzing network parameters...</p>
+            </div>
+            <div class="diag-recommendation" id="diag-badge">
+                RECOMMENDED: TCP CUBIC
+            </div>
+        </div>
+
+        <!-- Model Comparison Cards Grid -->
+        <div class="comparison-cards-grid">
+            <!-- Tahoe Card -->
+            <div class="model-card" id="card-tahoe">
+                <div class="mc-header">
+                    <h4>TCP Tahoe (1988)</h4>
+                    <span class="mc-rfc">RFC 2001</span>
+                </div>
+                <div class="mc-score" id="score-tahoe">Suitability: Poor</div>
+                <div class="mc-pros-cons">
+                    <div class="mc-pro">✔ Safe: Flushes congestion completely</div>
+                    <div class="mc-con">✖ Sluggish: Slashing cwnd to 1 MSS destroys goodput</div>
+                </div>
+                <div class="mc-best-for">
+                    <strong>Best Condition:</strong> Extremely congested networks with high buffer contention where full link drainage is required.
+                </div>
+            </div>
+
+            <!-- Reno Card -->
+            <div class="model-card" id="card-reno">
+                <div class="mc-header">
+                    <h4>TCP Reno (1990)</h4>
+                    <span class="mc-rfc">RFC 5681</span>
+                </div>
+                <div class="mc-score" id="score-reno">Suitability: Moderate</div>
+                <div class="mc-pros-cons">
+                    <div class="mc-pro">✔ Fast Recovery: Halves cwnd on 3 Dup ACKs</div>
+                    <div class="mc-con">✖ Stalls on multiple drops in single window</div>
+                </div>
+                <div class="mc-best-for">
+                    <strong>Best Condition:</strong> Low-delay LANs and wired links with single, isolated packet drop events.
+                </div>
+            </div>
+
+            <!-- NewReno Card -->
+            <div class="model-card" id="card-newreno">
+                <div class="mc-header">
+                    <h4>TCP NewReno (1999)</h4>
+                    <span class="mc-rfc">RFC 6582</span>
+                </div>
+                <div class="mc-score" id="score-newreno">Suitability: High</div>
+                <div class="mc-pros-cons">
+                    <div class="mc-pro">✔ Partial ACKs: Handles multiple drops per window</div>
+                    <div class="mc-con">✖ Linear AIMD (+1 MSS/RTT) still slow on high BDP</div>
+                </div>
+                <div class="mc-best-for">
+                    <strong>Best Condition:</strong> Bursty networks with multiple packet drops within a single round-trip time.
+                </div>
+            </div>
+
+            <!-- Cubic Card -->
+            <div class="model-card featured" id="card-cubic">
+                <div class="mc-header">
+                    <h4>TCP Cubic (2008)</h4>
+                    <span class="mc-rfc">RFC 8312</span>
+                </div>
+                <div class="mc-score" id="score-cubic">Suitability: Optimal</div>
+                <div class="mc-pros-cons">
+                    <div class="mc-pro">✔ RTT-Independent: Cubic polynomial function</div>
+                    <div class="mc-pro">✔ Rapid recovery on Long Fat Networks (LFNs)</div>
+                </div>
+                <div class="mc-best-for">
+                    <strong>Best Condition:</strong> High-bandwidth, high-latency links (Internet, Satellite, 5G, and Cloud Data Centers).
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bottom Event Log -->
+    <section class="event-log-container">
+        <h3>Live Event & Packet Drop Stream</h3>
+        <div class="log-stream" id="event-log-stream">
+            <div class="log-entry">
+                <span class="log-time">[0.000s]</span>
+                <span class="log-INFO">System initialized. Click 'Start Simulation' or select a Guided Scenario above.</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Keyword Tooltip Popup Element -->
+    <div id="keyword-tooltip-card" class="keyword-tooltip-card" style="display: none;">
+        <h4 id="tt-title">Keyword</h4>
+        <div id="tt-formula" class="tt-formula"></div>
+        <p id="tt-def">Definition</p>
+        <div id="tt-context" class="tt-context"></div>
+    </div>
+
+    <!-- Application Script Module -->
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>

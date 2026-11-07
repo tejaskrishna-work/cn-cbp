@@ -1,0 +1,7437 @@
+{
+  "metadata": {
+    "variant": "TcpTahoe",
+    "bottleneck_bw": "10.0Mbps",
+    "bottleneck_delay": "20.0ms",
+    "packet_loss_rate": 0.05,
+    "queue_size_pkts": 50,
+    "simulation_time_sec": 20.0,
+    "avg_throughput_mbps": 8.39,
+    "pdr_percentage": 99.92,
+    "total_drops": 12
+  },
+  "cwnd": [
+    {
+      "time": 1.0,
+      "cwnd_mss": 2.0,
+      "cwnd_bytes": 2920,
+      "ssthresh_mss": 32.0,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 2.0 MSS (ssthresh: 32.0)."
+    },
+    {
+      "time": 1.044,
+      "cwnd_mss": 4.0,
+      "cwnd_bytes": 5840,
+      "ssthresh_mss": 32.0,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 4.0 MSS (ssthresh: 32.0)."
+    },
+    {
+      "time": 1.088,
+      "cwnd_mss": 8.0,
+      "cwnd_bytes": 11680,
+      "ssthresh_mss": 32.0,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 8.0 MSS (ssthresh: 32.0)."
+    },
+    {
+      "time": 1.132,
+      "cwnd_mss": 16.0,
+      "cwnd_bytes": 23360,
+      "ssthresh_mss": 32.0,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 16.0 MSS (ssthresh: 32.0)."
+    },
+    {
+      "time": 1.176,
+      "cwnd_mss": 32.0,
+      "cwnd_bytes": 46720,
+      "ssthresh_mss": 32.0,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 32.0 MSS (ssthresh: 32.0)."
+    },
+    {
+      "time": 1.22,
+      "cwnd_mss": 33.0,
+      "cwnd_bytes": 48180,
+      "ssthresh_mss": 32.0,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 33.0 MSS."
+    },
+    {
+      "time": 1.264,
+      "cwnd_mss": 34.0,
+      "cwnd_bytes": 49640,
+      "ssthresh_mss": 32.0,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 34.0 MSS."
+    },
+    {
+      "time": 1.308,
+      "cwnd_mss": 35.0,
+      "cwnd_bytes": 51100,
+      "ssthresh_mss": 32.0,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 35.0 MSS."
+    },
+    {
+      "time": 1.352,
+      "cwnd_mss": 36.0,
+      "cwnd_bytes": 52560,
+      "ssthresh_mss": 32.0,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 36.0 MSS."
+    },
+    {
+      "time": 1.396,
+      "cwnd_mss": 37.0,
+      "cwnd_bytes": 54020,
+      "ssthresh_mss": 32.0,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 37.0 MSS."
+    },
+    {
+      "time": 1.44,
+      "cwnd_mss": 38.0,
+      "cwnd_bytes": 55480,
+      "ssthresh_mss": 32.0,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 38.0 MSS."
+    },
+    {
+      "time": 1.484,
+      "cwnd_mss": 39.0,
+      "cwnd_bytes": 56940,
+      "ssthresh_mss": 32.0,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 39.0 MSS."
+    },
+    {
+      "time": 1.528,
+      "cwnd_mss": 40.0,
+      "cwnd_bytes": 58400,
+      "ssthresh_mss": 32.0,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 40.0 MSS."
+    },
+    {
+      "time": 1.572,
+      "cwnd_mss": 41.0,
+      "cwnd_bytes": 59860,
+      "ssthresh_mss": 32.0,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 41.0 MSS."
+    },
+    {
+      "time": 1.616,
+      "cwnd_mss": 42.0,
+      "cwnd_bytes": 61320,
+      "ssthresh_mss": 32.0,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 42.0 MSS."
+    },
+    {
+      "time": 1.66,
+      "cwnd_mss": 43.0,
+      "cwnd_bytes": 62780,
+      "ssthresh_mss": 32.0,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 43.0 MSS."
+    },
+    {
+      "time": 1.704,
+      "cwnd_mss": 44.0,
+      "cwnd_bytes": 64240,
+      "ssthresh_mss": 32.0,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 44.0 MSS."
+    },
+    {
+      "time": 1.748,
+      "cwnd_mss": 45.0,
+      "cwnd_bytes": 65700,
+      "ssthresh_mss": 32.0,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 45.0 MSS."
+    },
+    {
+      "time": 1.792,
+      "cwnd_mss": 46.0,
+      "cwnd_bytes": 67160,
+      "ssthresh_mss": 32.0,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 46.0 MSS."
+    },
+    {
+      "time": 1.836,
+      "cwnd_mss": 47.0,
+      "cwnd_bytes": 68620,
+      "ssthresh_mss": 32.0,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 47.0 MSS."
+    },
+    {
+      "time": 1.88,
+      "cwnd_mss": 48.0,
+      "cwnd_bytes": 70080,
+      "ssthresh_mss": 32.0,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 48.0 MSS."
+    },
+    {
+      "time": 1.924,
+      "cwnd_mss": 49.0,
+      "cwnd_bytes": 71540,
+      "ssthresh_mss": 32.0,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 49.0 MSS."
+    },
+    {
+      "time": 1.968,
+      "cwnd_mss": 50.0,
+      "cwnd_bytes": 73000,
+      "ssthresh_mss": 32.0,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 50.0 MSS."
+    },
+    {
+      "time": 2.012,
+      "cwnd_mss": 51.0,
+      "cwnd_bytes": 74460,
+      "ssthresh_mss": 32.0,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 51.0 MSS."
+    },
+    {
+      "time": 2.056,
+      "cwnd_mss": 52.0,
+      "cwnd_bytes": 75920,
+      "ssthresh_mss": 32.0,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 52.0 MSS."
+    },
+    {
+      "time": 2.1,
+      "cwnd_mss": 53.0,
+      "cwnd_bytes": 77380,
+      "ssthresh_mss": 32.0,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 53.0 MSS."
+    },
+    {
+      "time": 2.144,
+      "cwnd_mss": 54.0,
+      "cwnd_bytes": 78840,
+      "ssthresh_mss": 32.0,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 54.0 MSS."
+    },
+    {
+      "time": 2.188,
+      "cwnd_mss": 55.0,
+      "cwnd_bytes": 80300,
+      "ssthresh_mss": 32.0,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 55.0 MSS."
+    },
+    {
+      "time": 2.232,
+      "cwnd_mss": 56.0,
+      "cwnd_bytes": 81760,
+      "ssthresh_mss": 32.0,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 56.0 MSS."
+    },
+    {
+      "time": 2.276,
+      "cwnd_mss": 57.0,
+      "cwnd_bytes": 83220,
+      "ssthresh_mss": 32.0,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 57.0 MSS."
+    },
+    {
+      "time": 2.32,
+      "cwnd_mss": 58.0,
+      "cwnd_bytes": 84680,
+      "ssthresh_mss": 32.0,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 58.0 MSS."
+    },
+    {
+      "time": 2.364,
+      "cwnd_mss": 59.0,
+      "cwnd_bytes": 86140,
+      "ssthresh_mss": 32.0,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 59.0 MSS."
+    },
+    {
+      "time": 2.408,
+      "cwnd_mss": 60.0,
+      "cwnd_bytes": 87600,
+      "ssthresh_mss": 32.0,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 60.0 MSS."
+    },
+    {
+      "time": 2.452,
+      "cwnd_mss": 61.0,
+      "cwnd_bytes": 89060,
+      "ssthresh_mss": 32.0,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 61.0 MSS."
+    },
+    {
+      "time": 2.496,
+      "cwnd_mss": 1.0,
+      "cwnd_bytes": 1460,
+      "ssthresh_mss": 30,
+      "state": "SLOW_START",
+      "explanation": "Tahoe detected loss. Reset cwnd to 1 MSS, ssthresh set to 30 MSS."
+    },
+    {
+      "time": 2.54,
+      "cwnd_mss": 2.0,
+      "cwnd_bytes": 2920,
+      "ssthresh_mss": 30,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 2.0 MSS (ssthresh: 30.0)."
+    },
+    {
+      "time": 2.584,
+      "cwnd_mss": 4.0,
+      "cwnd_bytes": 5840,
+      "ssthresh_mss": 30,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 4.0 MSS (ssthresh: 30.0)."
+    },
+    {
+      "time": 2.628,
+      "cwnd_mss": 8.0,
+      "cwnd_bytes": 11680,
+      "ssthresh_mss": 30,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 8.0 MSS (ssthresh: 30.0)."
+    },
+    {
+      "time": 2.672,
+      "cwnd_mss": 16.0,
+      "cwnd_bytes": 23360,
+      "ssthresh_mss": 30,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 16.0 MSS (ssthresh: 30.0)."
+    },
+    {
+      "time": 2.716,
+      "cwnd_mss": 30,
+      "cwnd_bytes": 43800,
+      "ssthresh_mss": 30,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 30.0 MSS (ssthresh: 30.0)."
+    },
+    {
+      "time": 2.76,
+      "cwnd_mss": 31.0,
+      "cwnd_bytes": 45260,
+      "ssthresh_mss": 30,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 31.0 MSS."
+    },
+    {
+      "time": 2.804,
+      "cwnd_mss": 32.0,
+      "cwnd_bytes": 46720,
+      "ssthresh_mss": 30,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 32.0 MSS."
+    },
+    {
+      "time": 2.848,
+      "cwnd_mss": 33.0,
+      "cwnd_bytes": 48180,
+      "ssthresh_mss": 30,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 33.0 MSS."
+    },
+    {
+      "time": 2.892,
+      "cwnd_mss": 34.0,
+      "cwnd_bytes": 49640,
+      "ssthresh_mss": 30,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 34.0 MSS."
+    },
+    {
+      "time": 2.936,
+      "cwnd_mss": 35.0,
+      "cwnd_bytes": 51100,
+      "ssthresh_mss": 30,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 35.0 MSS."
+    },
+    {
+      "time": 2.98,
+      "cwnd_mss": 36.0,
+      "cwnd_bytes": 52560,
+      "ssthresh_mss": 30,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 36.0 MSS."
+    },
+    {
+      "time": 3.024,
+      "cwnd_mss": 37.0,
+      "cwnd_bytes": 54020,
+      "ssthresh_mss": 30,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 37.0 MSS."
+    },
+    {
+      "time": 3.068,
+      "cwnd_mss": 38.0,
+      "cwnd_bytes": 55480,
+      "ssthresh_mss": 30,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 38.0 MSS."
+    },
+    {
+      "time": 3.112,
+      "cwnd_mss": 39.0,
+      "cwnd_bytes": 56940,
+      "ssthresh_mss": 30,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 39.0 MSS."
+    },
+    {
+      "time": 3.156,
+      "cwnd_mss": 40.0,
+      "cwnd_bytes": 58400,
+      "ssthresh_mss": 30,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 40.0 MSS."
+    },
+    {
+      "time": 3.2,
+      "cwnd_mss": 41.0,
+      "cwnd_bytes": 59860,
+      "ssthresh_mss": 30,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 41.0 MSS."
+    },
+    {
+      "time": 3.244,
+      "cwnd_mss": 42.0,
+      "cwnd_bytes": 61320,
+      "ssthresh_mss": 30,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 42.0 MSS."
+    },
+    {
+      "time": 3.288,
+      "cwnd_mss": 43.0,
+      "cwnd_bytes": 62780,
+      "ssthresh_mss": 30,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 43.0 MSS."
+    },
+    {
+      "time": 3.332,
+      "cwnd_mss": 44.0,
+      "cwnd_bytes": 64240,
+      "ssthresh_mss": 30,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 44.0 MSS."
+    },
+    {
+      "time": 3.376,
+      "cwnd_mss": 45.0,
+      "cwnd_bytes": 65700,
+      "ssthresh_mss": 30,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 45.0 MSS."
+    },
+    {
+      "time": 3.42,
+      "cwnd_mss": 46.0,
+      "cwnd_bytes": 67160,
+      "ssthresh_mss": 30,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 46.0 MSS."
+    },
+    {
+      "time": 3.464,
+      "cwnd_mss": 47.0,
+      "cwnd_bytes": 68620,
+      "ssthresh_mss": 30,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 47.0 MSS."
+    },
+    {
+      "time": 3.508,
+      "cwnd_mss": 48.0,
+      "cwnd_bytes": 70080,
+      "ssthresh_mss": 30,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 48.0 MSS."
+    },
+    {
+      "time": 3.552,
+      "cwnd_mss": 49.0,
+      "cwnd_bytes": 71540,
+      "ssthresh_mss": 30,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 49.0 MSS."
+    },
+    {
+      "time": 3.596,
+      "cwnd_mss": 50.0,
+      "cwnd_bytes": 73000,
+      "ssthresh_mss": 30,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 50.0 MSS."
+    },
+    {
+      "time": 3.64,
+      "cwnd_mss": 51.0,
+      "cwnd_bytes": 74460,
+      "ssthresh_mss": 30,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 51.0 MSS."
+    },
+    {
+      "time": 3.684,
+      "cwnd_mss": 52.0,
+      "cwnd_bytes": 75920,
+      "ssthresh_mss": 30,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 52.0 MSS."
+    },
+    {
+      "time": 3.728,
+      "cwnd_mss": 53.0,
+      "cwnd_bytes": 77380,
+      "ssthresh_mss": 30,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 53.0 MSS."
+    },
+    {
+      "time": 3.772,
+      "cwnd_mss": 54.0,
+      "cwnd_bytes": 78840,
+      "ssthresh_mss": 30,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 54.0 MSS."
+    },
+    {
+      "time": 3.816,
+      "cwnd_mss": 55.0,
+      "cwnd_bytes": 80300,
+      "ssthresh_mss": 30,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 55.0 MSS."
+    },
+    {
+      "time": 3.86,
+      "cwnd_mss": 56.0,
+      "cwnd_bytes": 81760,
+      "ssthresh_mss": 30,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 56.0 MSS."
+    },
+    {
+      "time": 3.904,
+      "cwnd_mss": 57.0,
+      "cwnd_bytes": 83220,
+      "ssthresh_mss": 30,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 57.0 MSS."
+    },
+    {
+      "time": 3.948,
+      "cwnd_mss": 58.0,
+      "cwnd_bytes": 84680,
+      "ssthresh_mss": 30,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 58.0 MSS."
+    },
+    {
+      "time": 3.992,
+      "cwnd_mss": 1.0,
+      "cwnd_bytes": 1460,
+      "ssthresh_mss": 29,
+      "state": "SLOW_START",
+      "explanation": "Tahoe detected loss. Reset cwnd to 1 MSS, ssthresh set to 29 MSS."
+    },
+    {
+      "time": 4.036,
+      "cwnd_mss": 2.0,
+      "cwnd_bytes": 2920,
+      "ssthresh_mss": 29,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 2.0 MSS (ssthresh: 29.0)."
+    },
+    {
+      "time": 4.08,
+      "cwnd_mss": 4.0,
+      "cwnd_bytes": 5840,
+      "ssthresh_mss": 29,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 4.0 MSS (ssthresh: 29.0)."
+    },
+    {
+      "time": 4.124,
+      "cwnd_mss": 8.0,
+      "cwnd_bytes": 11680,
+      "ssthresh_mss": 29,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 8.0 MSS (ssthresh: 29.0)."
+    },
+    {
+      "time": 4.168,
+      "cwnd_mss": 16.0,
+      "cwnd_bytes": 23360,
+      "ssthresh_mss": 29,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 16.0 MSS (ssthresh: 29.0)."
+    },
+    {
+      "time": 4.212,
+      "cwnd_mss": 29,
+      "cwnd_bytes": 42340,
+      "ssthresh_mss": 29,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 29.0 MSS (ssthresh: 29.0)."
+    },
+    {
+      "time": 4.256,
+      "cwnd_mss": 30.0,
+      "cwnd_bytes": 43800,
+      "ssthresh_mss": 29,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 30.0 MSS."
+    },
+    {
+      "time": 4.3,
+      "cwnd_mss": 31.0,
+      "cwnd_bytes": 45260,
+      "ssthresh_mss": 29,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 31.0 MSS."
+    },
+    {
+      "time": 4.344,
+      "cwnd_mss": 32.0,
+      "cwnd_bytes": 46720,
+      "ssthresh_mss": 29,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 32.0 MSS."
+    },
+    {
+      "time": 4.388,
+      "cwnd_mss": 33.0,
+      "cwnd_bytes": 48180,
+      "ssthresh_mss": 29,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 33.0 MSS."
+    },
+    {
+      "time": 4.432,
+      "cwnd_mss": 34.0,
+      "cwnd_bytes": 49640,
+      "ssthresh_mss": 29,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 34.0 MSS."
+    },
+    {
+      "time": 4.476,
+      "cwnd_mss": 35.0,
+      "cwnd_bytes": 51100,
+      "ssthresh_mss": 29,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 35.0 MSS."
+    },
+    {
+      "time": 4.52,
+      "cwnd_mss": 36.0,
+      "cwnd_bytes": 52560,
+      "ssthresh_mss": 29,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 36.0 MSS."
+    },
+    {
+      "time": 4.564,
+      "cwnd_mss": 37.0,
+      "cwnd_bytes": 54020,
+      "ssthresh_mss": 29,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 37.0 MSS."
+    },
+    {
+      "time": 4.608,
+      "cwnd_mss": 38.0,
+      "cwnd_bytes": 55480,
+      "ssthresh_mss": 29,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 38.0 MSS."
+    },
+    {
+      "time": 4.652,
+      "cwnd_mss": 39.0,
+      "cwnd_bytes": 56940,
+      "ssthresh_mss": 29,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 39.0 MSS."
+    },
+    {
+      "time": 4.696,
+      "cwnd_mss": 40.0,
+      "cwnd_bytes": 58400,
+      "ssthresh_mss": 29,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 40.0 MSS."
+    },
+    {
+      "time": 4.74,
+      "cwnd_mss": 41.0,
+      "cwnd_bytes": 59860,
+      "ssthresh_mss": 29,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 41.0 MSS."
+    },
+    {
+      "time": 4.784,
+      "cwnd_mss": 42.0,
+      "cwnd_bytes": 61320,
+      "ssthresh_mss": 29,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 42.0 MSS."
+    },
+    {
+      "time": 4.828,
+      "cwnd_mss": 43.0,
+      "cwnd_bytes": 62780,
+      "ssthresh_mss": 29,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 43.0 MSS."
+    },
+    {
+      "time": 4.872,
+      "cwnd_mss": 44.0,
+      "cwnd_bytes": 64240,
+      "ssthresh_mss": 29,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 44.0 MSS."
+    },
+    {
+      "time": 4.916,
+      "cwnd_mss": 45.0,
+      "cwnd_bytes": 65700,
+      "ssthresh_mss": 29,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 45.0 MSS."
+    },
+    {
+      "time": 4.96,
+      "cwnd_mss": 46.0,
+      "cwnd_bytes": 67160,
+      "ssthresh_mss": 29,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 46.0 MSS."
+    },
+    {
+      "time": 5.004,
+      "cwnd_mss": 47.0,
+      "cwnd_bytes": 68620,
+      "ssthresh_mss": 29,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 47.0 MSS."
+    },
+    {
+      "time": 5.048,
+      "cwnd_mss": 48.0,
+      "cwnd_bytes": 70080,
+      "ssthresh_mss": 29,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 48.0 MSS."
+    },
+    {
+      "time": 5.092,
+      "cwnd_mss": 49.0,
+      "cwnd_bytes": 71540,
+      "ssthresh_mss": 29,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 49.0 MSS."
+    },
+    {
+      "time": 5.136,
+      "cwnd_mss": 50.0,
+      "cwnd_bytes": 73000,
+      "ssthresh_mss": 29,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 50.0 MSS."
+    },
+    {
+      "time": 5.18,
+      "cwnd_mss": 51.0,
+      "cwnd_bytes": 74460,
+      "ssthresh_mss": 29,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 51.0 MSS."
+    },
+    {
+      "time": 5.224,
+      "cwnd_mss": 52.0,
+      "cwnd_bytes": 75920,
+      "ssthresh_mss": 29,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 52.0 MSS."
+    },
+    {
+      "time": 5.268,
+      "cwnd_mss": 53.0,
+      "cwnd_bytes": 77380,
+      "ssthresh_mss": 29,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 53.0 MSS."
+    },
+    {
+      "time": 5.312,
+      "cwnd_mss": 54.0,
+      "cwnd_bytes": 78840,
+      "ssthresh_mss": 29,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 54.0 MSS."
+    },
+    {
+      "time": 5.356,
+      "cwnd_mss": 55.0,
+      "cwnd_bytes": 80300,
+      "ssthresh_mss": 29,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 55.0 MSS."
+    },
+    {
+      "time": 5.4,
+      "cwnd_mss": 56.0,
+      "cwnd_bytes": 81760,
+      "ssthresh_mss": 29,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 56.0 MSS."
+    },
+    {
+      "time": 5.444,
+      "cwnd_mss": 57.0,
+      "cwnd_bytes": 83220,
+      "ssthresh_mss": 29,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 57.0 MSS."
+    },
+    {
+      "time": 5.488,
+      "cwnd_mss": 1.0,
+      "cwnd_bytes": 1460,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Tahoe detected loss. Reset cwnd to 1 MSS, ssthresh set to 28 MSS."
+    },
+    {
+      "time": 5.532,
+      "cwnd_mss": 2.0,
+      "cwnd_bytes": 2920,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 2.0 MSS (ssthresh: 28.0)."
+    },
+    {
+      "time": 5.576,
+      "cwnd_mss": 4.0,
+      "cwnd_bytes": 5840,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 4.0 MSS (ssthresh: 28.0)."
+    },
+    {
+      "time": 5.62,
+      "cwnd_mss": 8.0,
+      "cwnd_bytes": 11680,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 8.0 MSS (ssthresh: 28.0)."
+    },
+    {
+      "time": 5.664,
+      "cwnd_mss": 16.0,
+      "cwnd_bytes": 23360,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 16.0 MSS (ssthresh: 28.0)."
+    },
+    {
+      "time": 5.708,
+      "cwnd_mss": 28,
+      "cwnd_bytes": 40880,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 28.0 MSS (ssthresh: 28.0)."
+    },
+    {
+      "time": 5.752,
+      "cwnd_mss": 29.0,
+      "cwnd_bytes": 42340,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 29.0 MSS."
+    },
+    {
+      "time": 5.796,
+      "cwnd_mss": 30.0,
+      "cwnd_bytes": 43800,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 30.0 MSS."
+    },
+    {
+      "time": 5.84,
+      "cwnd_mss": 31.0,
+      "cwnd_bytes": 45260,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 31.0 MSS."
+    },
+    {
+      "time": 5.884,
+      "cwnd_mss": 32.0,
+      "cwnd_bytes": 46720,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 32.0 MSS."
+    },
+    {
+      "time": 5.928,
+      "cwnd_mss": 33.0,
+      "cwnd_bytes": 48180,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 33.0 MSS."
+    },
+    {
+      "time": 5.972,
+      "cwnd_mss": 34.0,
+      "cwnd_bytes": 49640,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 34.0 MSS."
+    },
+    {
+      "time": 6.016,
+      "cwnd_mss": 35.0,
+      "cwnd_bytes": 51100,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 35.0 MSS."
+    },
+    {
+      "time": 6.06,
+      "cwnd_mss": 36.0,
+      "cwnd_bytes": 52560,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 36.0 MSS."
+    },
+    {
+      "time": 6.104,
+      "cwnd_mss": 37.0,
+      "cwnd_bytes": 54020,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 37.0 MSS."
+    },
+    {
+      "time": 6.148,
+      "cwnd_mss": 38.0,
+      "cwnd_bytes": 55480,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 38.0 MSS."
+    },
+    {
+      "time": 6.192,
+      "cwnd_mss": 39.0,
+      "cwnd_bytes": 56940,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 39.0 MSS."
+    },
+    {
+      "time": 6.236,
+      "cwnd_mss": 40.0,
+      "cwnd_bytes": 58400,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 40.0 MSS."
+    },
+    {
+      "time": 6.28,
+      "cwnd_mss": 41.0,
+      "cwnd_bytes": 59860,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 41.0 MSS."
+    },
+    {
+      "time": 6.324,
+      "cwnd_mss": 42.0,
+      "cwnd_bytes": 61320,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 42.0 MSS."
+    },
+    {
+      "time": 6.368,
+      "cwnd_mss": 43.0,
+      "cwnd_bytes": 62780,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 43.0 MSS."
+    },
+    {
+      "time": 6.412,
+      "cwnd_mss": 44.0,
+      "cwnd_bytes": 64240,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 44.0 MSS."
+    },
+    {
+      "time": 6.456,
+      "cwnd_mss": 45.0,
+      "cwnd_bytes": 65700,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 45.0 MSS."
+    },
+    {
+      "time": 6.5,
+      "cwnd_mss": 46.0,
+      "cwnd_bytes": 67160,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 46.0 MSS."
+    },
+    {
+      "time": 6.544,
+      "cwnd_mss": 47.0,
+      "cwnd_bytes": 68620,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 47.0 MSS."
+    },
+    {
+      "time": 6.588,
+      "cwnd_mss": 48.0,
+      "cwnd_bytes": 70080,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 48.0 MSS."
+    },
+    {
+      "time": 6.632,
+      "cwnd_mss": 49.0,
+      "cwnd_bytes": 71540,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 49.0 MSS."
+    },
+    {
+      "time": 6.676,
+      "cwnd_mss": 50.0,
+      "cwnd_bytes": 73000,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 50.0 MSS."
+    },
+    {
+      "time": 6.72,
+      "cwnd_mss": 51.0,
+      "cwnd_bytes": 74460,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 51.0 MSS."
+    },
+    {
+      "time": 6.764,
+      "cwnd_mss": 52.0,
+      "cwnd_bytes": 75920,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 52.0 MSS."
+    },
+    {
+      "time": 6.808,
+      "cwnd_mss": 53.0,
+      "cwnd_bytes": 77380,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 53.0 MSS."
+    },
+    {
+      "time": 6.852,
+      "cwnd_mss": 54.0,
+      "cwnd_bytes": 78840,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 54.0 MSS."
+    },
+    {
+      "time": 6.896,
+      "cwnd_mss": 55.0,
+      "cwnd_bytes": 80300,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 55.0 MSS."
+    },
+    {
+      "time": 6.94,
+      "cwnd_mss": 56.0,
+      "cwnd_bytes": 81760,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 56.0 MSS."
+    },
+    {
+      "time": 6.984,
+      "cwnd_mss": 1.0,
+      "cwnd_bytes": 1460,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Tahoe detected loss. Reset cwnd to 1 MSS, ssthresh set to 28 MSS."
+    },
+    {
+      "time": 7.028,
+      "cwnd_mss": 2.0,
+      "cwnd_bytes": 2920,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 2.0 MSS (ssthresh: 28.0)."
+    },
+    {
+      "time": 7.072,
+      "cwnd_mss": 4.0,
+      "cwnd_bytes": 5840,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 4.0 MSS (ssthresh: 28.0)."
+    },
+    {
+      "time": 7.116,
+      "cwnd_mss": 8.0,
+      "cwnd_bytes": 11680,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 8.0 MSS (ssthresh: 28.0)."
+    },
+    {
+      "time": 7.16,
+      "cwnd_mss": 16.0,
+      "cwnd_bytes": 23360,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 16.0 MSS (ssthresh: 28.0)."
+    },
+    {
+      "time": 7.204,
+      "cwnd_mss": 28,
+      "cwnd_bytes": 40880,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 28.0 MSS (ssthresh: 28.0)."
+    },
+    {
+      "time": 7.248,
+      "cwnd_mss": 29.0,
+      "cwnd_bytes": 42340,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 29.0 MSS."
+    },
+    {
+      "time": 7.292,
+      "cwnd_mss": 30.0,
+      "cwnd_bytes": 43800,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 30.0 MSS."
+    },
+    {
+      "time": 7.336,
+      "cwnd_mss": 31.0,
+      "cwnd_bytes": 45260,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 31.0 MSS."
+    },
+    {
+      "time": 7.38,
+      "cwnd_mss": 32.0,
+      "cwnd_bytes": 46720,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 32.0 MSS."
+    },
+    {
+      "time": 7.424,
+      "cwnd_mss": 33.0,
+      "cwnd_bytes": 48180,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 33.0 MSS."
+    },
+    {
+      "time": 7.468,
+      "cwnd_mss": 34.0,
+      "cwnd_bytes": 49640,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 34.0 MSS."
+    },
+    {
+      "time": 7.512,
+      "cwnd_mss": 35.0,
+      "cwnd_bytes": 51100,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 35.0 MSS."
+    },
+    {
+      "time": 7.556,
+      "cwnd_mss": 36.0,
+      "cwnd_bytes": 52560,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 36.0 MSS."
+    },
+    {
+      "time": 7.6,
+      "cwnd_mss": 37.0,
+      "cwnd_bytes": 54020,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 37.0 MSS."
+    },
+    {
+      "time": 7.644,
+      "cwnd_mss": 38.0,
+      "cwnd_bytes": 55480,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 38.0 MSS."
+    },
+    {
+      "time": 7.688,
+      "cwnd_mss": 39.0,
+      "cwnd_bytes": 56940,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 39.0 MSS."
+    },
+    {
+      "time": 7.732,
+      "cwnd_mss": 40.0,
+      "cwnd_bytes": 58400,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 40.0 MSS."
+    },
+    {
+      "time": 7.776,
+      "cwnd_mss": 41.0,
+      "cwnd_bytes": 59860,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 41.0 MSS."
+    },
+    {
+      "time": 7.82,
+      "cwnd_mss": 42.0,
+      "cwnd_bytes": 61320,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 42.0 MSS."
+    },
+    {
+      "time": 7.864,
+      "cwnd_mss": 43.0,
+      "cwnd_bytes": 62780,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 43.0 MSS."
+    },
+    {
+      "time": 7.908,
+      "cwnd_mss": 44.0,
+      "cwnd_bytes": 64240,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 44.0 MSS."
+    },
+    {
+      "time": 7.952,
+      "cwnd_mss": 45.0,
+      "cwnd_bytes": 65700,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 45.0 MSS."
+    },
+    {
+      "time": 7.996,
+      "cwnd_mss": 46.0,
+      "cwnd_bytes": 67160,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 46.0 MSS."
+    },
+    {
+      "time": 8.04,
+      "cwnd_mss": 47.0,
+      "cwnd_bytes": 68620,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 47.0 MSS."
+    },
+    {
+      "time": 8.084,
+      "cwnd_mss": 48.0,
+      "cwnd_bytes": 70080,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 48.0 MSS."
+    },
+    {
+      "time": 8.128,
+      "cwnd_mss": 49.0,
+      "cwnd_bytes": 71540,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 49.0 MSS."
+    },
+    {
+      "time": 8.172,
+      "cwnd_mss": 50.0,
+      "cwnd_bytes": 73000,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 50.0 MSS."
+    },
+    {
+      "time": 8.216,
+      "cwnd_mss": 51.0,
+      "cwnd_bytes": 74460,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 51.0 MSS."
+    },
+    {
+      "time": 8.26,
+      "cwnd_mss": 52.0,
+      "cwnd_bytes": 75920,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 52.0 MSS."
+    },
+    {
+      "time": 8.304,
+      "cwnd_mss": 53.0,
+      "cwnd_bytes": 77380,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 53.0 MSS."
+    },
+    {
+      "time": 8.348,
+      "cwnd_mss": 54.0,
+      "cwnd_bytes": 78840,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 54.0 MSS."
+    },
+    {
+      "time": 8.392,
+      "cwnd_mss": 55.0,
+      "cwnd_bytes": 80300,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 55.0 MSS."
+    },
+    {
+      "time": 8.436,
+      "cwnd_mss": 56.0,
+      "cwnd_bytes": 81760,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 56.0 MSS."
+    },
+    {
+      "time": 8.48,
+      "cwnd_mss": 1.0,
+      "cwnd_bytes": 1460,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Tahoe detected loss. Reset cwnd to 1 MSS, ssthresh set to 28 MSS."
+    },
+    {
+      "time": 8.524,
+      "cwnd_mss": 2.0,
+      "cwnd_bytes": 2920,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 2.0 MSS (ssthresh: 28.0)."
+    },
+    {
+      "time": 8.568,
+      "cwnd_mss": 4.0,
+      "cwnd_bytes": 5840,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 4.0 MSS (ssthresh: 28.0)."
+    },
+    {
+      "time": 8.612,
+      "cwnd_mss": 8.0,
+      "cwnd_bytes": 11680,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 8.0 MSS (ssthresh: 28.0)."
+    },
+    {
+      "time": 8.656,
+      "cwnd_mss": 16.0,
+      "cwnd_bytes": 23360,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 16.0 MSS (ssthresh: 28.0)."
+    },
+    {
+      "time": 8.7,
+      "cwnd_mss": 28,
+      "cwnd_bytes": 40880,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 28.0 MSS (ssthresh: 28.0)."
+    },
+    {
+      "time": 8.744,
+      "cwnd_mss": 29.0,
+      "cwnd_bytes": 42340,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 29.0 MSS."
+    },
+    {
+      "time": 8.788,
+      "cwnd_mss": 30.0,
+      "cwnd_bytes": 43800,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 30.0 MSS."
+    },
+    {
+      "time": 8.832,
+      "cwnd_mss": 31.0,
+      "cwnd_bytes": 45260,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 31.0 MSS."
+    },
+    {
+      "time": 8.876,
+      "cwnd_mss": 32.0,
+      "cwnd_bytes": 46720,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 32.0 MSS."
+    },
+    {
+      "time": 8.92,
+      "cwnd_mss": 33.0,
+      "cwnd_bytes": 48180,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 33.0 MSS."
+    },
+    {
+      "time": 8.964,
+      "cwnd_mss": 34.0,
+      "cwnd_bytes": 49640,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 34.0 MSS."
+    },
+    {
+      "time": 9.008,
+      "cwnd_mss": 35.0,
+      "cwnd_bytes": 51100,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 35.0 MSS."
+    },
+    {
+      "time": 9.052,
+      "cwnd_mss": 36.0,
+      "cwnd_bytes": 52560,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 36.0 MSS."
+    },
+    {
+      "time": 9.096,
+      "cwnd_mss": 37.0,
+      "cwnd_bytes": 54020,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 37.0 MSS."
+    },
+    {
+      "time": 9.14,
+      "cwnd_mss": 38.0,
+      "cwnd_bytes": 55480,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 38.0 MSS."
+    },
+    {
+      "time": 9.184,
+      "cwnd_mss": 39.0,
+      "cwnd_bytes": 56940,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 39.0 MSS."
+    },
+    {
+      "time": 9.228,
+      "cwnd_mss": 40.0,
+      "cwnd_bytes": 58400,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 40.0 MSS."
+    },
+    {
+      "time": 9.272,
+      "cwnd_mss": 41.0,
+      "cwnd_bytes": 59860,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 41.0 MSS."
+    },
+    {
+      "time": 9.316,
+      "cwnd_mss": 42.0,
+      "cwnd_bytes": 61320,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 42.0 MSS."
+    },
+    {
+      "time": 9.36,
+      "cwnd_mss": 43.0,
+      "cwnd_bytes": 62780,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 43.0 MSS."
+    },
+    {
+      "time": 9.404,
+      "cwnd_mss": 44.0,
+      "cwnd_bytes": 64240,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 44.0 MSS."
+    },
+    {
+      "time": 9.448,
+      "cwnd_mss": 45.0,
+      "cwnd_bytes": 65700,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 45.0 MSS."
+    },
+    {
+      "time": 9.492,
+      "cwnd_mss": 46.0,
+      "cwnd_bytes": 67160,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 46.0 MSS."
+    },
+    {
+      "time": 9.536,
+      "cwnd_mss": 47.0,
+      "cwnd_bytes": 68620,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 47.0 MSS."
+    },
+    {
+      "time": 9.58,
+      "cwnd_mss": 48.0,
+      "cwnd_bytes": 70080,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 48.0 MSS."
+    },
+    {
+      "time": 9.624,
+      "cwnd_mss": 49.0,
+      "cwnd_bytes": 71540,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 49.0 MSS."
+    },
+    {
+      "time": 9.668,
+      "cwnd_mss": 50.0,
+      "cwnd_bytes": 73000,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 50.0 MSS."
+    },
+    {
+      "time": 9.712,
+      "cwnd_mss": 51.0,
+      "cwnd_bytes": 74460,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 51.0 MSS."
+    },
+    {
+      "time": 9.756,
+      "cwnd_mss": 52.0,
+      "cwnd_bytes": 75920,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 52.0 MSS."
+    },
+    {
+      "time": 9.8,
+      "cwnd_mss": 53.0,
+      "cwnd_bytes": 77380,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 53.0 MSS."
+    },
+    {
+      "time": 9.844,
+      "cwnd_mss": 54.0,
+      "cwnd_bytes": 78840,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 54.0 MSS."
+    },
+    {
+      "time": 9.888,
+      "cwnd_mss": 55.0,
+      "cwnd_bytes": 80300,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 55.0 MSS."
+    },
+    {
+      "time": 9.932,
+      "cwnd_mss": 56.0,
+      "cwnd_bytes": 81760,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 56.0 MSS."
+    },
+    {
+      "time": 9.976,
+      "cwnd_mss": 57.0,
+      "cwnd_bytes": 83220,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 57.0 MSS."
+    },
+    {
+      "time": 10.02,
+      "cwnd_mss": 1.0,
+      "cwnd_bytes": 1460,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Tahoe detected loss. Reset cwnd to 1 MSS, ssthresh set to 28 MSS."
+    },
+    {
+      "time": 10.064,
+      "cwnd_mss": 2.0,
+      "cwnd_bytes": 2920,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 2.0 MSS (ssthresh: 28.0)."
+    },
+    {
+      "time": 10.108,
+      "cwnd_mss": 4.0,
+      "cwnd_bytes": 5840,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 4.0 MSS (ssthresh: 28.0)."
+    },
+    {
+      "time": 10.152,
+      "cwnd_mss": 8.0,
+      "cwnd_bytes": 11680,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 8.0 MSS (ssthresh: 28.0)."
+    },
+    {
+      "time": 10.196,
+      "cwnd_mss": 16.0,
+      "cwnd_bytes": 23360,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 16.0 MSS (ssthresh: 28.0)."
+    },
+    {
+      "time": 10.24,
+      "cwnd_mss": 28,
+      "cwnd_bytes": 40880,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 28.0 MSS (ssthresh: 28.0)."
+    },
+    {
+      "time": 10.284,
+      "cwnd_mss": 29.0,
+      "cwnd_bytes": 42340,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 29.0 MSS."
+    },
+    {
+      "time": 10.328,
+      "cwnd_mss": 30.0,
+      "cwnd_bytes": 43800,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 30.0 MSS."
+    },
+    {
+      "time": 10.372,
+      "cwnd_mss": 31.0,
+      "cwnd_bytes": 45260,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 31.0 MSS."
+    },
+    {
+      "time": 10.416,
+      "cwnd_mss": 32.0,
+      "cwnd_bytes": 46720,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 32.0 MSS."
+    },
+    {
+      "time": 10.46,
+      "cwnd_mss": 33.0,
+      "cwnd_bytes": 48180,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 33.0 MSS."
+    },
+    {
+      "time": 10.504,
+      "cwnd_mss": 34.0,
+      "cwnd_bytes": 49640,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 34.0 MSS."
+    },
+    {
+      "time": 10.548,
+      "cwnd_mss": 35.0,
+      "cwnd_bytes": 51100,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 35.0 MSS."
+    },
+    {
+      "time": 10.592,
+      "cwnd_mss": 36.0,
+      "cwnd_bytes": 52560,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 36.0 MSS."
+    },
+    {
+      "time": 10.636,
+      "cwnd_mss": 37.0,
+      "cwnd_bytes": 54020,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 37.0 MSS."
+    },
+    {
+      "time": 10.68,
+      "cwnd_mss": 38.0,
+      "cwnd_bytes": 55480,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 38.0 MSS."
+    },
+    {
+      "time": 10.724,
+      "cwnd_mss": 39.0,
+      "cwnd_bytes": 56940,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 39.0 MSS."
+    },
+    {
+      "time": 10.768,
+      "cwnd_mss": 40.0,
+      "cwnd_bytes": 58400,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 40.0 MSS."
+    },
+    {
+      "time": 10.812,
+      "cwnd_mss": 41.0,
+      "cwnd_bytes": 59860,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 41.0 MSS."
+    },
+    {
+      "time": 10.856,
+      "cwnd_mss": 42.0,
+      "cwnd_bytes": 61320,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 42.0 MSS."
+    },
+    {
+      "time": 10.9,
+      "cwnd_mss": 43.0,
+      "cwnd_bytes": 62780,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 43.0 MSS."
+    },
+    {
+      "time": 10.944,
+      "cwnd_mss": 44.0,
+      "cwnd_bytes": 64240,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 44.0 MSS."
+    },
+    {
+      "time": 10.988,
+      "cwnd_mss": 45.0,
+      "cwnd_bytes": 65700,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 45.0 MSS."
+    },
+    {
+      "time": 11.032,
+      "cwnd_mss": 46.0,
+      "cwnd_bytes": 67160,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 46.0 MSS."
+    },
+    {
+      "time": 11.076,
+      "cwnd_mss": 47.0,
+      "cwnd_bytes": 68620,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 47.0 MSS."
+    },
+    {
+      "time": 11.12,
+      "cwnd_mss": 48.0,
+      "cwnd_bytes": 70080,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 48.0 MSS."
+    },
+    {
+      "time": 11.164,
+      "cwnd_mss": 49.0,
+      "cwnd_bytes": 71540,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 49.0 MSS."
+    },
+    {
+      "time": 11.208,
+      "cwnd_mss": 50.0,
+      "cwnd_bytes": 73000,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 50.0 MSS."
+    },
+    {
+      "time": 11.252,
+      "cwnd_mss": 51.0,
+      "cwnd_bytes": 74460,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 51.0 MSS."
+    },
+    {
+      "time": 11.296,
+      "cwnd_mss": 52.0,
+      "cwnd_bytes": 75920,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 52.0 MSS."
+    },
+    {
+      "time": 11.34,
+      "cwnd_mss": 53.0,
+      "cwnd_bytes": 77380,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 53.0 MSS."
+    },
+    {
+      "time": 11.384,
+      "cwnd_mss": 54.0,
+      "cwnd_bytes": 78840,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 54.0 MSS."
+    },
+    {
+      "time": 11.428,
+      "cwnd_mss": 55.0,
+      "cwnd_bytes": 80300,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 55.0 MSS."
+    },
+    {
+      "time": 11.472,
+      "cwnd_mss": 56.0,
+      "cwnd_bytes": 81760,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 56.0 MSS."
+    },
+    {
+      "time": 11.516,
+      "cwnd_mss": 1.0,
+      "cwnd_bytes": 1460,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Tahoe detected loss. Reset cwnd to 1 MSS, ssthresh set to 28 MSS."
+    },
+    {
+      "time": 11.56,
+      "cwnd_mss": 2.0,
+      "cwnd_bytes": 2920,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 2.0 MSS (ssthresh: 28.0)."
+    },
+    {
+      "time": 11.604,
+      "cwnd_mss": 4.0,
+      "cwnd_bytes": 5840,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 4.0 MSS (ssthresh: 28.0)."
+    },
+    {
+      "time": 11.648,
+      "cwnd_mss": 8.0,
+      "cwnd_bytes": 11680,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 8.0 MSS (ssthresh: 28.0)."
+    },
+    {
+      "time": 11.692,
+      "cwnd_mss": 16.0,
+      "cwnd_bytes": 23360,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 16.0 MSS (ssthresh: 28.0)."
+    },
+    {
+      "time": 11.736,
+      "cwnd_mss": 28,
+      "cwnd_bytes": 40880,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 28.0 MSS (ssthresh: 28.0)."
+    },
+    {
+      "time": 11.78,
+      "cwnd_mss": 29.0,
+      "cwnd_bytes": 42340,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 29.0 MSS."
+    },
+    {
+      "time": 11.824,
+      "cwnd_mss": 30.0,
+      "cwnd_bytes": 43800,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 30.0 MSS."
+    },
+    {
+      "time": 11.868,
+      "cwnd_mss": 31.0,
+      "cwnd_bytes": 45260,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 31.0 MSS."
+    },
+    {
+      "time": 11.912,
+      "cwnd_mss": 32.0,
+      "cwnd_bytes": 46720,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 32.0 MSS."
+    },
+    {
+      "time": 11.956,
+      "cwnd_mss": 33.0,
+      "cwnd_bytes": 48180,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 33.0 MSS."
+    },
+    {
+      "time": 12.0,
+      "cwnd_mss": 34.0,
+      "cwnd_bytes": 49640,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 34.0 MSS."
+    },
+    {
+      "time": 12.044,
+      "cwnd_mss": 35.0,
+      "cwnd_bytes": 51100,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 35.0 MSS."
+    },
+    {
+      "time": 12.088,
+      "cwnd_mss": 36.0,
+      "cwnd_bytes": 52560,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 36.0 MSS."
+    },
+    {
+      "time": 12.132,
+      "cwnd_mss": 37.0,
+      "cwnd_bytes": 54020,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 37.0 MSS."
+    },
+    {
+      "time": 12.176,
+      "cwnd_mss": 38.0,
+      "cwnd_bytes": 55480,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 38.0 MSS."
+    },
+    {
+      "time": 12.22,
+      "cwnd_mss": 39.0,
+      "cwnd_bytes": 56940,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 39.0 MSS."
+    },
+    {
+      "time": 12.264,
+      "cwnd_mss": 40.0,
+      "cwnd_bytes": 58400,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 40.0 MSS."
+    },
+    {
+      "time": 12.308,
+      "cwnd_mss": 41.0,
+      "cwnd_bytes": 59860,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 41.0 MSS."
+    },
+    {
+      "time": 12.352,
+      "cwnd_mss": 42.0,
+      "cwnd_bytes": 61320,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 42.0 MSS."
+    },
+    {
+      "time": 12.396,
+      "cwnd_mss": 43.0,
+      "cwnd_bytes": 62780,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 43.0 MSS."
+    },
+    {
+      "time": 12.44,
+      "cwnd_mss": 44.0,
+      "cwnd_bytes": 64240,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 44.0 MSS."
+    },
+    {
+      "time": 12.484,
+      "cwnd_mss": 45.0,
+      "cwnd_bytes": 65700,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 45.0 MSS."
+    },
+    {
+      "time": 12.528,
+      "cwnd_mss": 46.0,
+      "cwnd_bytes": 67160,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 46.0 MSS."
+    },
+    {
+      "time": 12.572,
+      "cwnd_mss": 47.0,
+      "cwnd_bytes": 68620,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 47.0 MSS."
+    },
+    {
+      "time": 12.616,
+      "cwnd_mss": 48.0,
+      "cwnd_bytes": 70080,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 48.0 MSS."
+    },
+    {
+      "time": 12.66,
+      "cwnd_mss": 49.0,
+      "cwnd_bytes": 71540,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 49.0 MSS."
+    },
+    {
+      "time": 12.704,
+      "cwnd_mss": 50.0,
+      "cwnd_bytes": 73000,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 50.0 MSS."
+    },
+    {
+      "time": 12.748,
+      "cwnd_mss": 51.0,
+      "cwnd_bytes": 74460,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 51.0 MSS."
+    },
+    {
+      "time": 12.792,
+      "cwnd_mss": 52.0,
+      "cwnd_bytes": 75920,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 52.0 MSS."
+    },
+    {
+      "time": 12.836,
+      "cwnd_mss": 53.0,
+      "cwnd_bytes": 77380,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 53.0 MSS."
+    },
+    {
+      "time": 12.88,
+      "cwnd_mss": 54.0,
+      "cwnd_bytes": 78840,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 54.0 MSS."
+    },
+    {
+      "time": 12.924,
+      "cwnd_mss": 55.0,
+      "cwnd_bytes": 80300,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 55.0 MSS."
+    },
+    {
+      "time": 12.968,
+      "cwnd_mss": 56.0,
+      "cwnd_bytes": 81760,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 56.0 MSS."
+    },
+    {
+      "time": 13.012,
+      "cwnd_mss": 1.0,
+      "cwnd_bytes": 1460,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Tahoe detected loss. Reset cwnd to 1 MSS, ssthresh set to 28 MSS."
+    },
+    {
+      "time": 13.056,
+      "cwnd_mss": 2.0,
+      "cwnd_bytes": 2920,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 2.0 MSS (ssthresh: 28.0)."
+    },
+    {
+      "time": 13.1,
+      "cwnd_mss": 4.0,
+      "cwnd_bytes": 5840,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 4.0 MSS (ssthresh: 28.0)."
+    },
+    {
+      "time": 13.144,
+      "cwnd_mss": 8.0,
+      "cwnd_bytes": 11680,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 8.0 MSS (ssthresh: 28.0)."
+    },
+    {
+      "time": 13.188,
+      "cwnd_mss": 16.0,
+      "cwnd_bytes": 23360,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 16.0 MSS (ssthresh: 28.0)."
+    },
+    {
+      "time": 13.232,
+      "cwnd_mss": 28,
+      "cwnd_bytes": 40880,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 28.0 MSS (ssthresh: 28.0)."
+    },
+    {
+      "time": 13.276,
+      "cwnd_mss": 29.0,
+      "cwnd_bytes": 42340,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 29.0 MSS."
+    },
+    {
+      "time": 13.32,
+      "cwnd_mss": 30.0,
+      "cwnd_bytes": 43800,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 30.0 MSS."
+    },
+    {
+      "time": 13.364,
+      "cwnd_mss": 31.0,
+      "cwnd_bytes": 45260,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 31.0 MSS."
+    },
+    {
+      "time": 13.408,
+      "cwnd_mss": 32.0,
+      "cwnd_bytes": 46720,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 32.0 MSS."
+    },
+    {
+      "time": 13.452,
+      "cwnd_mss": 33.0,
+      "cwnd_bytes": 48180,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 33.0 MSS."
+    },
+    {
+      "time": 13.496,
+      "cwnd_mss": 34.0,
+      "cwnd_bytes": 49640,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 34.0 MSS."
+    },
+    {
+      "time": 13.54,
+      "cwnd_mss": 35.0,
+      "cwnd_bytes": 51100,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 35.0 MSS."
+    },
+    {
+      "time": 13.584,
+      "cwnd_mss": 36.0,
+      "cwnd_bytes": 52560,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 36.0 MSS."
+    },
+    {
+      "time": 13.628,
+      "cwnd_mss": 37.0,
+      "cwnd_bytes": 54020,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 37.0 MSS."
+    },
+    {
+      "time": 13.672,
+      "cwnd_mss": 38.0,
+      "cwnd_bytes": 55480,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 38.0 MSS."
+    },
+    {
+      "time": 13.716,
+      "cwnd_mss": 39.0,
+      "cwnd_bytes": 56940,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 39.0 MSS."
+    },
+    {
+      "time": 13.76,
+      "cwnd_mss": 40.0,
+      "cwnd_bytes": 58400,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 40.0 MSS."
+    },
+    {
+      "time": 13.804,
+      "cwnd_mss": 41.0,
+      "cwnd_bytes": 59860,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 41.0 MSS."
+    },
+    {
+      "time": 13.848,
+      "cwnd_mss": 42.0,
+      "cwnd_bytes": 61320,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 42.0 MSS."
+    },
+    {
+      "time": 13.892,
+      "cwnd_mss": 43.0,
+      "cwnd_bytes": 62780,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 43.0 MSS."
+    },
+    {
+      "time": 13.936,
+      "cwnd_mss": 44.0,
+      "cwnd_bytes": 64240,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 44.0 MSS."
+    },
+    {
+      "time": 13.98,
+      "cwnd_mss": 45.0,
+      "cwnd_bytes": 65700,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 45.0 MSS."
+    },
+    {
+      "time": 14.024,
+      "cwnd_mss": 46.0,
+      "cwnd_bytes": 67160,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 46.0 MSS."
+    },
+    {
+      "time": 14.068,
+      "cwnd_mss": 47.0,
+      "cwnd_bytes": 68620,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 47.0 MSS."
+    },
+    {
+      "time": 14.112,
+      "cwnd_mss": 48.0,
+      "cwnd_bytes": 70080,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 48.0 MSS."
+    },
+    {
+      "time": 14.156,
+      "cwnd_mss": 49.0,
+      "cwnd_bytes": 71540,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 49.0 MSS."
+    },
+    {
+      "time": 14.2,
+      "cwnd_mss": 50.0,
+      "cwnd_bytes": 73000,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 50.0 MSS."
+    },
+    {
+      "time": 14.244,
+      "cwnd_mss": 51.0,
+      "cwnd_bytes": 74460,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 51.0 MSS."
+    },
+    {
+      "time": 14.288,
+      "cwnd_mss": 52.0,
+      "cwnd_bytes": 75920,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 52.0 MSS."
+    },
+    {
+      "time": 14.332,
+      "cwnd_mss": 53.0,
+      "cwnd_bytes": 77380,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 53.0 MSS."
+    },
+    {
+      "time": 14.376,
+      "cwnd_mss": 54.0,
+      "cwnd_bytes": 78840,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 54.0 MSS."
+    },
+    {
+      "time": 14.42,
+      "cwnd_mss": 55.0,
+      "cwnd_bytes": 80300,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 55.0 MSS."
+    },
+    {
+      "time": 14.464,
+      "cwnd_mss": 56.0,
+      "cwnd_bytes": 81760,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 56.0 MSS."
+    },
+    {
+      "time": 14.508,
+      "cwnd_mss": 1.0,
+      "cwnd_bytes": 1460,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Tahoe detected loss. Reset cwnd to 1 MSS, ssthresh set to 28 MSS."
+    },
+    {
+      "time": 14.552,
+      "cwnd_mss": 2.0,
+      "cwnd_bytes": 2920,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 2.0 MSS (ssthresh: 28.0)."
+    },
+    {
+      "time": 14.596,
+      "cwnd_mss": 4.0,
+      "cwnd_bytes": 5840,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 4.0 MSS (ssthresh: 28.0)."
+    },
+    {
+      "time": 14.64,
+      "cwnd_mss": 8.0,
+      "cwnd_bytes": 11680,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 8.0 MSS (ssthresh: 28.0)."
+    },
+    {
+      "time": 14.684,
+      "cwnd_mss": 16.0,
+      "cwnd_bytes": 23360,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 16.0 MSS (ssthresh: 28.0)."
+    },
+    {
+      "time": 14.728,
+      "cwnd_mss": 28,
+      "cwnd_bytes": 40880,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 28.0 MSS (ssthresh: 28.0)."
+    },
+    {
+      "time": 14.772,
+      "cwnd_mss": 29.0,
+      "cwnd_bytes": 42340,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 29.0 MSS."
+    },
+    {
+      "time": 14.816,
+      "cwnd_mss": 30.0,
+      "cwnd_bytes": 43800,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 30.0 MSS."
+    },
+    {
+      "time": 14.86,
+      "cwnd_mss": 31.0,
+      "cwnd_bytes": 45260,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 31.0 MSS."
+    },
+    {
+      "time": 14.904,
+      "cwnd_mss": 32.0,
+      "cwnd_bytes": 46720,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 32.0 MSS."
+    },
+    {
+      "time": 14.948,
+      "cwnd_mss": 33.0,
+      "cwnd_bytes": 48180,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 33.0 MSS."
+    },
+    {
+      "time": 14.992,
+      "cwnd_mss": 34.0,
+      "cwnd_bytes": 49640,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 34.0 MSS."
+    },
+    {
+      "time": 15.036,
+      "cwnd_mss": 35.0,
+      "cwnd_bytes": 51100,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 35.0 MSS."
+    },
+    {
+      "time": 15.08,
+      "cwnd_mss": 36.0,
+      "cwnd_bytes": 52560,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 36.0 MSS."
+    },
+    {
+      "time": 15.124,
+      "cwnd_mss": 37.0,
+      "cwnd_bytes": 54020,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 37.0 MSS."
+    },
+    {
+      "time": 15.168,
+      "cwnd_mss": 38.0,
+      "cwnd_bytes": 55480,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 38.0 MSS."
+    },
+    {
+      "time": 15.212,
+      "cwnd_mss": 39.0,
+      "cwnd_bytes": 56940,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 39.0 MSS."
+    },
+    {
+      "time": 15.256,
+      "cwnd_mss": 40.0,
+      "cwnd_bytes": 58400,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 40.0 MSS."
+    },
+    {
+      "time": 15.3,
+      "cwnd_mss": 41.0,
+      "cwnd_bytes": 59860,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 41.0 MSS."
+    },
+    {
+      "time": 15.344,
+      "cwnd_mss": 42.0,
+      "cwnd_bytes": 61320,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 42.0 MSS."
+    },
+    {
+      "time": 15.388,
+      "cwnd_mss": 43.0,
+      "cwnd_bytes": 62780,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 43.0 MSS."
+    },
+    {
+      "time": 15.432,
+      "cwnd_mss": 44.0,
+      "cwnd_bytes": 64240,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 44.0 MSS."
+    },
+    {
+      "time": 15.476,
+      "cwnd_mss": 45.0,
+      "cwnd_bytes": 65700,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 45.0 MSS."
+    },
+    {
+      "time": 15.52,
+      "cwnd_mss": 46.0,
+      "cwnd_bytes": 67160,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 46.0 MSS."
+    },
+    {
+      "time": 15.564,
+      "cwnd_mss": 47.0,
+      "cwnd_bytes": 68620,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 47.0 MSS."
+    },
+    {
+      "time": 15.608,
+      "cwnd_mss": 48.0,
+      "cwnd_bytes": 70080,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 48.0 MSS."
+    },
+    {
+      "time": 15.652,
+      "cwnd_mss": 49.0,
+      "cwnd_bytes": 71540,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 49.0 MSS."
+    },
+    {
+      "time": 15.696,
+      "cwnd_mss": 50.0,
+      "cwnd_bytes": 73000,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 50.0 MSS."
+    },
+    {
+      "time": 15.74,
+      "cwnd_mss": 51.0,
+      "cwnd_bytes": 74460,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 51.0 MSS."
+    },
+    {
+      "time": 15.784,
+      "cwnd_mss": 52.0,
+      "cwnd_bytes": 75920,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 52.0 MSS."
+    },
+    {
+      "time": 15.828,
+      "cwnd_mss": 53.0,
+      "cwnd_bytes": 77380,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 53.0 MSS."
+    },
+    {
+      "time": 15.872,
+      "cwnd_mss": 54.0,
+      "cwnd_bytes": 78840,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 54.0 MSS."
+    },
+    {
+      "time": 15.916,
+      "cwnd_mss": 55.0,
+      "cwnd_bytes": 80300,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 55.0 MSS."
+    },
+    {
+      "time": 15.96,
+      "cwnd_mss": 56.0,
+      "cwnd_bytes": 81760,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 56.0 MSS."
+    },
+    {
+      "time": 16.004,
+      "cwnd_mss": 1.0,
+      "cwnd_bytes": 1460,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Tahoe detected loss. Reset cwnd to 1 MSS, ssthresh set to 28 MSS."
+    },
+    {
+      "time": 16.048,
+      "cwnd_mss": 2.0,
+      "cwnd_bytes": 2920,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 2.0 MSS (ssthresh: 28.0)."
+    },
+    {
+      "time": 16.092,
+      "cwnd_mss": 4.0,
+      "cwnd_bytes": 5840,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 4.0 MSS (ssthresh: 28.0)."
+    },
+    {
+      "time": 16.136,
+      "cwnd_mss": 8.0,
+      "cwnd_bytes": 11680,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 8.0 MSS (ssthresh: 28.0)."
+    },
+    {
+      "time": 16.18,
+      "cwnd_mss": 16.0,
+      "cwnd_bytes": 23360,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 16.0 MSS (ssthresh: 28.0)."
+    },
+    {
+      "time": 16.224,
+      "cwnd_mss": 28,
+      "cwnd_bytes": 40880,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 28.0 MSS (ssthresh: 28.0)."
+    },
+    {
+      "time": 16.268,
+      "cwnd_mss": 29.0,
+      "cwnd_bytes": 42340,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 29.0 MSS."
+    },
+    {
+      "time": 16.312,
+      "cwnd_mss": 30.0,
+      "cwnd_bytes": 43800,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 30.0 MSS."
+    },
+    {
+      "time": 16.356,
+      "cwnd_mss": 31.0,
+      "cwnd_bytes": 45260,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 31.0 MSS."
+    },
+    {
+      "time": 16.4,
+      "cwnd_mss": 32.0,
+      "cwnd_bytes": 46720,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 32.0 MSS."
+    },
+    {
+      "time": 16.444,
+      "cwnd_mss": 33.0,
+      "cwnd_bytes": 48180,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 33.0 MSS."
+    },
+    {
+      "time": 16.488,
+      "cwnd_mss": 34.0,
+      "cwnd_bytes": 49640,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 34.0 MSS."
+    },
+    {
+      "time": 16.532,
+      "cwnd_mss": 35.0,
+      "cwnd_bytes": 51100,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 35.0 MSS."
+    },
+    {
+      "time": 16.576,
+      "cwnd_mss": 36.0,
+      "cwnd_bytes": 52560,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 36.0 MSS."
+    },
+    {
+      "time": 16.62,
+      "cwnd_mss": 37.0,
+      "cwnd_bytes": 54020,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 37.0 MSS."
+    },
+    {
+      "time": 16.664,
+      "cwnd_mss": 38.0,
+      "cwnd_bytes": 55480,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 38.0 MSS."
+    },
+    {
+      "time": 16.708,
+      "cwnd_mss": 39.0,
+      "cwnd_bytes": 56940,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 39.0 MSS."
+    },
+    {
+      "time": 16.752,
+      "cwnd_mss": 40.0,
+      "cwnd_bytes": 58400,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 40.0 MSS."
+    },
+    {
+      "time": 16.796,
+      "cwnd_mss": 41.0,
+      "cwnd_bytes": 59860,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 41.0 MSS."
+    },
+    {
+      "time": 16.84,
+      "cwnd_mss": 42.0,
+      "cwnd_bytes": 61320,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 42.0 MSS."
+    },
+    {
+      "time": 16.884,
+      "cwnd_mss": 43.0,
+      "cwnd_bytes": 62780,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 43.0 MSS."
+    },
+    {
+      "time": 16.928,
+      "cwnd_mss": 44.0,
+      "cwnd_bytes": 64240,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 44.0 MSS."
+    },
+    {
+      "time": 16.972,
+      "cwnd_mss": 45.0,
+      "cwnd_bytes": 65700,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 45.0 MSS."
+    },
+    {
+      "time": 17.016,
+      "cwnd_mss": 46.0,
+      "cwnd_bytes": 67160,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 46.0 MSS."
+    },
+    {
+      "time": 17.06,
+      "cwnd_mss": 47.0,
+      "cwnd_bytes": 68620,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 47.0 MSS."
+    },
+    {
+      "time": 17.104,
+      "cwnd_mss": 48.0,
+      "cwnd_bytes": 70080,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 48.0 MSS."
+    },
+    {
+      "time": 17.148,
+      "cwnd_mss": 49.0,
+      "cwnd_bytes": 71540,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 49.0 MSS."
+    },
+    {
+      "time": 17.192,
+      "cwnd_mss": 50.0,
+      "cwnd_bytes": 73000,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 50.0 MSS."
+    },
+    {
+      "time": 17.236,
+      "cwnd_mss": 51.0,
+      "cwnd_bytes": 74460,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 51.0 MSS."
+    },
+    {
+      "time": 17.28,
+      "cwnd_mss": 52.0,
+      "cwnd_bytes": 75920,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 52.0 MSS."
+    },
+    {
+      "time": 17.324,
+      "cwnd_mss": 53.0,
+      "cwnd_bytes": 77380,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 53.0 MSS."
+    },
+    {
+      "time": 17.368,
+      "cwnd_mss": 54.0,
+      "cwnd_bytes": 78840,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 54.0 MSS."
+    },
+    {
+      "time": 17.412,
+      "cwnd_mss": 55.0,
+      "cwnd_bytes": 80300,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 55.0 MSS."
+    },
+    {
+      "time": 17.456,
+      "cwnd_mss": 56.0,
+      "cwnd_bytes": 81760,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 56.0 MSS."
+    },
+    {
+      "time": 17.5,
+      "cwnd_mss": 1.0,
+      "cwnd_bytes": 1460,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Tahoe detected loss. Reset cwnd to 1 MSS, ssthresh set to 28 MSS."
+    },
+    {
+      "time": 17.544,
+      "cwnd_mss": 2.0,
+      "cwnd_bytes": 2920,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 2.0 MSS (ssthresh: 28.0)."
+    },
+    {
+      "time": 17.588,
+      "cwnd_mss": 4.0,
+      "cwnd_bytes": 5840,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 4.0 MSS (ssthresh: 28.0)."
+    },
+    {
+      "time": 17.632,
+      "cwnd_mss": 8.0,
+      "cwnd_bytes": 11680,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 8.0 MSS (ssthresh: 28.0)."
+    },
+    {
+      "time": 17.676,
+      "cwnd_mss": 16.0,
+      "cwnd_bytes": 23360,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 16.0 MSS (ssthresh: 28.0)."
+    },
+    {
+      "time": 17.72,
+      "cwnd_mss": 28,
+      "cwnd_bytes": 40880,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 28.0 MSS (ssthresh: 28.0)."
+    },
+    {
+      "time": 17.764,
+      "cwnd_mss": 29.0,
+      "cwnd_bytes": 42340,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 29.0 MSS."
+    },
+    {
+      "time": 17.808,
+      "cwnd_mss": 30.0,
+      "cwnd_bytes": 43800,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 30.0 MSS."
+    },
+    {
+      "time": 17.852,
+      "cwnd_mss": 31.0,
+      "cwnd_bytes": 45260,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 31.0 MSS."
+    },
+    {
+      "time": 17.896,
+      "cwnd_mss": 32.0,
+      "cwnd_bytes": 46720,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 32.0 MSS."
+    },
+    {
+      "time": 17.94,
+      "cwnd_mss": 33.0,
+      "cwnd_bytes": 48180,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 33.0 MSS."
+    },
+    {
+      "time": 17.984,
+      "cwnd_mss": 34.0,
+      "cwnd_bytes": 49640,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 34.0 MSS."
+    },
+    {
+      "time": 18.028,
+      "cwnd_mss": 35.0,
+      "cwnd_bytes": 51100,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 35.0 MSS."
+    },
+    {
+      "time": 18.072,
+      "cwnd_mss": 36.0,
+      "cwnd_bytes": 52560,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 36.0 MSS."
+    },
+    {
+      "time": 18.116,
+      "cwnd_mss": 37.0,
+      "cwnd_bytes": 54020,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 37.0 MSS."
+    },
+    {
+      "time": 18.16,
+      "cwnd_mss": 38.0,
+      "cwnd_bytes": 55480,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 38.0 MSS."
+    },
+    {
+      "time": 18.204,
+      "cwnd_mss": 39.0,
+      "cwnd_bytes": 56940,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 39.0 MSS."
+    },
+    {
+      "time": 18.248,
+      "cwnd_mss": 40.0,
+      "cwnd_bytes": 58400,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 40.0 MSS."
+    },
+    {
+      "time": 18.292,
+      "cwnd_mss": 41.0,
+      "cwnd_bytes": 59860,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 41.0 MSS."
+    },
+    {
+      "time": 18.336,
+      "cwnd_mss": 42.0,
+      "cwnd_bytes": 61320,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 42.0 MSS."
+    },
+    {
+      "time": 18.38,
+      "cwnd_mss": 43.0,
+      "cwnd_bytes": 62780,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 43.0 MSS."
+    },
+    {
+      "time": 18.424,
+      "cwnd_mss": 44.0,
+      "cwnd_bytes": 64240,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 44.0 MSS."
+    },
+    {
+      "time": 18.468,
+      "cwnd_mss": 45.0,
+      "cwnd_bytes": 65700,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 45.0 MSS."
+    },
+    {
+      "time": 18.512,
+      "cwnd_mss": 46.0,
+      "cwnd_bytes": 67160,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 46.0 MSS."
+    },
+    {
+      "time": 18.556,
+      "cwnd_mss": 47.0,
+      "cwnd_bytes": 68620,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 47.0 MSS."
+    },
+    {
+      "time": 18.6,
+      "cwnd_mss": 48.0,
+      "cwnd_bytes": 70080,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 48.0 MSS."
+    },
+    {
+      "time": 18.644,
+      "cwnd_mss": 49.0,
+      "cwnd_bytes": 71540,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 49.0 MSS."
+    },
+    {
+      "time": 18.688,
+      "cwnd_mss": 50.0,
+      "cwnd_bytes": 73000,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 50.0 MSS."
+    },
+    {
+      "time": 18.732,
+      "cwnd_mss": 51.0,
+      "cwnd_bytes": 74460,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 51.0 MSS."
+    },
+    {
+      "time": 18.776,
+      "cwnd_mss": 52.0,
+      "cwnd_bytes": 75920,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 52.0 MSS."
+    },
+    {
+      "time": 18.82,
+      "cwnd_mss": 53.0,
+      "cwnd_bytes": 77380,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 53.0 MSS."
+    },
+    {
+      "time": 18.864,
+      "cwnd_mss": 54.0,
+      "cwnd_bytes": 78840,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 54.0 MSS."
+    },
+    {
+      "time": 18.908,
+      "cwnd_mss": 55.0,
+      "cwnd_bytes": 80300,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 55.0 MSS."
+    },
+    {
+      "time": 18.952,
+      "cwnd_mss": 56.0,
+      "cwnd_bytes": 81760,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 56.0 MSS."
+    },
+    {
+      "time": 18.996,
+      "cwnd_mss": 1.0,
+      "cwnd_bytes": 1460,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Tahoe detected loss. Reset cwnd to 1 MSS, ssthresh set to 28 MSS."
+    },
+    {
+      "time": 19.04,
+      "cwnd_mss": 2.0,
+      "cwnd_bytes": 2920,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 2.0 MSS (ssthresh: 28.0)."
+    },
+    {
+      "time": 19.084,
+      "cwnd_mss": 4.0,
+      "cwnd_bytes": 5840,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 4.0 MSS (ssthresh: 28.0)."
+    },
+    {
+      "time": 19.128,
+      "cwnd_mss": 8.0,
+      "cwnd_bytes": 11680,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 8.0 MSS (ssthresh: 28.0)."
+    },
+    {
+      "time": 19.172,
+      "cwnd_mss": 16.0,
+      "cwnd_bytes": 23360,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 16.0 MSS (ssthresh: 28.0)."
+    },
+    {
+      "time": 19.216,
+      "cwnd_mss": 28,
+      "cwnd_bytes": 40880,
+      "ssthresh_mss": 28,
+      "state": "SLOW_START",
+      "explanation": "Slow Start: Exponential growth. cwnd doubled to 28.0 MSS (ssthresh: 28.0)."
+    },
+    {
+      "time": 19.26,
+      "cwnd_mss": 29.0,
+      "cwnd_bytes": 42340,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 29.0 MSS."
+    },
+    {
+      "time": 19.304,
+      "cwnd_mss": 30.0,
+      "cwnd_bytes": 43800,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 30.0 MSS."
+    },
+    {
+      "time": 19.348,
+      "cwnd_mss": 31.0,
+      "cwnd_bytes": 45260,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 31.0 MSS."
+    },
+    {
+      "time": 19.392,
+      "cwnd_mss": 32.0,
+      "cwnd_bytes": 46720,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 32.0 MSS."
+    },
+    {
+      "time": 19.436,
+      "cwnd_mss": 33.0,
+      "cwnd_bytes": 48180,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 33.0 MSS."
+    },
+    {
+      "time": 19.48,
+      "cwnd_mss": 34.0,
+      "cwnd_bytes": 49640,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 34.0 MSS."
+    },
+    {
+      "time": 19.524,
+      "cwnd_mss": 35.0,
+      "cwnd_bytes": 51100,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 35.0 MSS."
+    },
+    {
+      "time": 19.568,
+      "cwnd_mss": 36.0,
+      "cwnd_bytes": 52560,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 36.0 MSS."
+    },
+    {
+      "time": 19.612,
+      "cwnd_mss": 37.0,
+      "cwnd_bytes": 54020,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 37.0 MSS."
+    },
+    {
+      "time": 19.656,
+      "cwnd_mss": 38.0,
+      "cwnd_bytes": 55480,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 38.0 MSS."
+    },
+    {
+      "time": 19.7,
+      "cwnd_mss": 39.0,
+      "cwnd_bytes": 56940,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 39.0 MSS."
+    },
+    {
+      "time": 19.744,
+      "cwnd_mss": 40.0,
+      "cwnd_bytes": 58400,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 40.0 MSS."
+    },
+    {
+      "time": 19.788,
+      "cwnd_mss": 41.0,
+      "cwnd_bytes": 59860,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 41.0 MSS."
+    },
+    {
+      "time": 19.832,
+      "cwnd_mss": 42.0,
+      "cwnd_bytes": 61320,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 42.0 MSS."
+    },
+    {
+      "time": 19.876,
+      "cwnd_mss": 43.0,
+      "cwnd_bytes": 62780,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 43.0 MSS."
+    },
+    {
+      "time": 19.92,
+      "cwnd_mss": 44.0,
+      "cwnd_bytes": 64240,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 44.0 MSS."
+    },
+    {
+      "time": 19.964,
+      "cwnd_mss": 45.0,
+      "cwnd_bytes": 65700,
+      "ssthresh_mss": 28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "AIMD Additive Increase: cwnd increased by 1 MSS to 45.0 MSS."
+    }
+  ],
+  "queue": [
+    {
+      "time": 1.0,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 1.044,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 1.088,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 1.132,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 1.176,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 1.22,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 1.264,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 1.308,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 1.352,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 1.396,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 1.44,
+      "queue_pkts": 0.3,
+      "max_queue": 50
+    },
+    {
+      "time": 1.484,
+      "queue_pkts": 1.3,
+      "max_queue": 50
+    },
+    {
+      "time": 1.528,
+      "queue_pkts": 2.3,
+      "max_queue": 50
+    },
+    {
+      "time": 1.572,
+      "queue_pkts": 3.3,
+      "max_queue": 50
+    },
+    {
+      "time": 1.616,
+      "queue_pkts": 4.3,
+      "max_queue": 50
+    },
+    {
+      "time": 1.66,
+      "queue_pkts": 5.3,
+      "max_queue": 50
+    },
+    {
+      "time": 1.704,
+      "queue_pkts": 6.3,
+      "max_queue": 50
+    },
+    {
+      "time": 1.748,
+      "queue_pkts": 7.3,
+      "max_queue": 50
+    },
+    {
+      "time": 1.792,
+      "queue_pkts": 8.3,
+      "max_queue": 50
+    },
+    {
+      "time": 1.836,
+      "queue_pkts": 9.3,
+      "max_queue": 50
+    },
+    {
+      "time": 1.88,
+      "queue_pkts": 10.3,
+      "max_queue": 50
+    },
+    {
+      "time": 1.924,
+      "queue_pkts": 11.3,
+      "max_queue": 50
+    },
+    {
+      "time": 1.968,
+      "queue_pkts": 12.3,
+      "max_queue": 50
+    },
+    {
+      "time": 2.012,
+      "queue_pkts": 13.3,
+      "max_queue": 50
+    },
+    {
+      "time": 2.056,
+      "queue_pkts": 14.3,
+      "max_queue": 50
+    },
+    {
+      "time": 2.1,
+      "queue_pkts": 15.3,
+      "max_queue": 50
+    },
+    {
+      "time": 2.144,
+      "queue_pkts": 16.3,
+      "max_queue": 50
+    },
+    {
+      "time": 2.188,
+      "queue_pkts": 17.3,
+      "max_queue": 50
+    },
+    {
+      "time": 2.232,
+      "queue_pkts": 18.3,
+      "max_queue": 50
+    },
+    {
+      "time": 2.276,
+      "queue_pkts": 19.3,
+      "max_queue": 50
+    },
+    {
+      "time": 2.32,
+      "queue_pkts": 20.3,
+      "max_queue": 50
+    },
+    {
+      "time": 2.364,
+      "queue_pkts": 21.3,
+      "max_queue": 50
+    },
+    {
+      "time": 2.408,
+      "queue_pkts": 22.3,
+      "max_queue": 50
+    },
+    {
+      "time": 2.452,
+      "queue_pkts": 23.3,
+      "max_queue": 50
+    },
+    {
+      "time": 2.496,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 2.54,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 2.584,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 2.628,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 2.672,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 2.716,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 2.76,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 2.804,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 2.848,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 2.892,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 2.936,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 2.98,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 3.024,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 3.068,
+      "queue_pkts": 0.3,
+      "max_queue": 50
+    },
+    {
+      "time": 3.112,
+      "queue_pkts": 1.3,
+      "max_queue": 50
+    },
+    {
+      "time": 3.156,
+      "queue_pkts": 2.3,
+      "max_queue": 50
+    },
+    {
+      "time": 3.2,
+      "queue_pkts": 3.3,
+      "max_queue": 50
+    },
+    {
+      "time": 3.244,
+      "queue_pkts": 4.3,
+      "max_queue": 50
+    },
+    {
+      "time": 3.288,
+      "queue_pkts": 5.3,
+      "max_queue": 50
+    },
+    {
+      "time": 3.332,
+      "queue_pkts": 6.3,
+      "max_queue": 50
+    },
+    {
+      "time": 3.376,
+      "queue_pkts": 7.3,
+      "max_queue": 50
+    },
+    {
+      "time": 3.42,
+      "queue_pkts": 8.3,
+      "max_queue": 50
+    },
+    {
+      "time": 3.464,
+      "queue_pkts": 9.3,
+      "max_queue": 50
+    },
+    {
+      "time": 3.508,
+      "queue_pkts": 10.3,
+      "max_queue": 50
+    },
+    {
+      "time": 3.552,
+      "queue_pkts": 11.3,
+      "max_queue": 50
+    },
+    {
+      "time": 3.596,
+      "queue_pkts": 12.3,
+      "max_queue": 50
+    },
+    {
+      "time": 3.64,
+      "queue_pkts": 13.3,
+      "max_queue": 50
+    },
+    {
+      "time": 3.684,
+      "queue_pkts": 14.3,
+      "max_queue": 50
+    },
+    {
+      "time": 3.728,
+      "queue_pkts": 15.3,
+      "max_queue": 50
+    },
+    {
+      "time": 3.772,
+      "queue_pkts": 16.3,
+      "max_queue": 50
+    },
+    {
+      "time": 3.816,
+      "queue_pkts": 17.3,
+      "max_queue": 50
+    },
+    {
+      "time": 3.86,
+      "queue_pkts": 18.3,
+      "max_queue": 50
+    },
+    {
+      "time": 3.904,
+      "queue_pkts": 19.3,
+      "max_queue": 50
+    },
+    {
+      "time": 3.948,
+      "queue_pkts": 20.3,
+      "max_queue": 50
+    },
+    {
+      "time": 3.992,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 4.036,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 4.08,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 4.124,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 4.168,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 4.212,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 4.256,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 4.3,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 4.344,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 4.388,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 4.432,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 4.476,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 4.52,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 4.564,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 4.608,
+      "queue_pkts": 0.3,
+      "max_queue": 50
+    },
+    {
+      "time": 4.652,
+      "queue_pkts": 1.3,
+      "max_queue": 50
+    },
+    {
+      "time": 4.696,
+      "queue_pkts": 2.3,
+      "max_queue": 50
+    },
+    {
+      "time": 4.74,
+      "queue_pkts": 3.3,
+      "max_queue": 50
+    },
+    {
+      "time": 4.784,
+      "queue_pkts": 4.3,
+      "max_queue": 50
+    },
+    {
+      "time": 4.828,
+      "queue_pkts": 5.3,
+      "max_queue": 50
+    },
+    {
+      "time": 4.872,
+      "queue_pkts": 6.3,
+      "max_queue": 50
+    },
+    {
+      "time": 4.916,
+      "queue_pkts": 7.3,
+      "max_queue": 50
+    },
+    {
+      "time": 4.96,
+      "queue_pkts": 8.3,
+      "max_queue": 50
+    },
+    {
+      "time": 5.004,
+      "queue_pkts": 9.3,
+      "max_queue": 50
+    },
+    {
+      "time": 5.048,
+      "queue_pkts": 10.3,
+      "max_queue": 50
+    },
+    {
+      "time": 5.092,
+      "queue_pkts": 11.3,
+      "max_queue": 50
+    },
+    {
+      "time": 5.136,
+      "queue_pkts": 12.3,
+      "max_queue": 50
+    },
+    {
+      "time": 5.18,
+      "queue_pkts": 13.3,
+      "max_queue": 50
+    },
+    {
+      "time": 5.224,
+      "queue_pkts": 14.3,
+      "max_queue": 50
+    },
+    {
+      "time": 5.268,
+      "queue_pkts": 15.3,
+      "max_queue": 50
+    },
+    {
+      "time": 5.312,
+      "queue_pkts": 16.3,
+      "max_queue": 50
+    },
+    {
+      "time": 5.356,
+      "queue_pkts": 17.3,
+      "max_queue": 50
+    },
+    {
+      "time": 5.4,
+      "queue_pkts": 18.3,
+      "max_queue": 50
+    },
+    {
+      "time": 5.444,
+      "queue_pkts": 19.3,
+      "max_queue": 50
+    },
+    {
+      "time": 5.488,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 5.532,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 5.576,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 5.62,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 5.664,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 5.708,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 5.752,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 5.796,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 5.84,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 5.884,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 5.928,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 5.972,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 6.016,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 6.06,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 6.104,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 6.148,
+      "queue_pkts": 0.3,
+      "max_queue": 50
+    },
+    {
+      "time": 6.192,
+      "queue_pkts": 1.3,
+      "max_queue": 50
+    },
+    {
+      "time": 6.236,
+      "queue_pkts": 2.3,
+      "max_queue": 50
+    },
+    {
+      "time": 6.28,
+      "queue_pkts": 3.3,
+      "max_queue": 50
+    },
+    {
+      "time": 6.324,
+      "queue_pkts": 4.3,
+      "max_queue": 50
+    },
+    {
+      "time": 6.368,
+      "queue_pkts": 5.3,
+      "max_queue": 50
+    },
+    {
+      "time": 6.412,
+      "queue_pkts": 6.3,
+      "max_queue": 50
+    },
+    {
+      "time": 6.456,
+      "queue_pkts": 7.3,
+      "max_queue": 50
+    },
+    {
+      "time": 6.5,
+      "queue_pkts": 8.3,
+      "max_queue": 50
+    },
+    {
+      "time": 6.544,
+      "queue_pkts": 9.3,
+      "max_queue": 50
+    },
+    {
+      "time": 6.588,
+      "queue_pkts": 10.3,
+      "max_queue": 50
+    },
+    {
+      "time": 6.632,
+      "queue_pkts": 11.3,
+      "max_queue": 50
+    },
+    {
+      "time": 6.676,
+      "queue_pkts": 12.3,
+      "max_queue": 50
+    },
+    {
+      "time": 6.72,
+      "queue_pkts": 13.3,
+      "max_queue": 50
+    },
+    {
+      "time": 6.764,
+      "queue_pkts": 14.3,
+      "max_queue": 50
+    },
+    {
+      "time": 6.808,
+      "queue_pkts": 15.3,
+      "max_queue": 50
+    },
+    {
+      "time": 6.852,
+      "queue_pkts": 16.3,
+      "max_queue": 50
+    },
+    {
+      "time": 6.896,
+      "queue_pkts": 17.3,
+      "max_queue": 50
+    },
+    {
+      "time": 6.94,
+      "queue_pkts": 18.3,
+      "max_queue": 50
+    },
+    {
+      "time": 6.984,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 7.028,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 7.072,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 7.116,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 7.16,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 7.204,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 7.248,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 7.292,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 7.336,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 7.38,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 7.424,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 7.468,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 7.512,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 7.556,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 7.6,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 7.644,
+      "queue_pkts": 0.3,
+      "max_queue": 50
+    },
+    {
+      "time": 7.688,
+      "queue_pkts": 1.3,
+      "max_queue": 50
+    },
+    {
+      "time": 7.732,
+      "queue_pkts": 2.3,
+      "max_queue": 50
+    },
+    {
+      "time": 7.776,
+      "queue_pkts": 3.3,
+      "max_queue": 50
+    },
+    {
+      "time": 7.82,
+      "queue_pkts": 4.3,
+      "max_queue": 50
+    },
+    {
+      "time": 7.864,
+      "queue_pkts": 5.3,
+      "max_queue": 50
+    },
+    {
+      "time": 7.908,
+      "queue_pkts": 6.3,
+      "max_queue": 50
+    },
+    {
+      "time": 7.952,
+      "queue_pkts": 7.3,
+      "max_queue": 50
+    },
+    {
+      "time": 7.996,
+      "queue_pkts": 8.3,
+      "max_queue": 50
+    },
+    {
+      "time": 8.04,
+      "queue_pkts": 9.3,
+      "max_queue": 50
+    },
+    {
+      "time": 8.084,
+      "queue_pkts": 10.3,
+      "max_queue": 50
+    },
+    {
+      "time": 8.128,
+      "queue_pkts": 11.3,
+      "max_queue": 50
+    },
+    {
+      "time": 8.172,
+      "queue_pkts": 12.3,
+      "max_queue": 50
+    },
+    {
+      "time": 8.216,
+      "queue_pkts": 13.3,
+      "max_queue": 50
+    },
+    {
+      "time": 8.26,
+      "queue_pkts": 14.3,
+      "max_queue": 50
+    },
+    {
+      "time": 8.304,
+      "queue_pkts": 15.3,
+      "max_queue": 50
+    },
+    {
+      "time": 8.348,
+      "queue_pkts": 16.3,
+      "max_queue": 50
+    },
+    {
+      "time": 8.392,
+      "queue_pkts": 17.3,
+      "max_queue": 50
+    },
+    {
+      "time": 8.436,
+      "queue_pkts": 18.3,
+      "max_queue": 50
+    },
+    {
+      "time": 8.48,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 8.524,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 8.568,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 8.612,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 8.656,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 8.7,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 8.744,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 8.788,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 8.832,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 8.876,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 8.92,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 8.964,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 9.008,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 9.052,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 9.096,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 9.14,
+      "queue_pkts": 0.3,
+      "max_queue": 50
+    },
+    {
+      "time": 9.184,
+      "queue_pkts": 1.3,
+      "max_queue": 50
+    },
+    {
+      "time": 9.228,
+      "queue_pkts": 2.3,
+      "max_queue": 50
+    },
+    {
+      "time": 9.272,
+      "queue_pkts": 3.3,
+      "max_queue": 50
+    },
+    {
+      "time": 9.316,
+      "queue_pkts": 4.3,
+      "max_queue": 50
+    },
+    {
+      "time": 9.36,
+      "queue_pkts": 5.3,
+      "max_queue": 50
+    },
+    {
+      "time": 9.404,
+      "queue_pkts": 6.3,
+      "max_queue": 50
+    },
+    {
+      "time": 9.448,
+      "queue_pkts": 7.3,
+      "max_queue": 50
+    },
+    {
+      "time": 9.492,
+      "queue_pkts": 8.3,
+      "max_queue": 50
+    },
+    {
+      "time": 9.536,
+      "queue_pkts": 9.3,
+      "max_queue": 50
+    },
+    {
+      "time": 9.58,
+      "queue_pkts": 10.3,
+      "max_queue": 50
+    },
+    {
+      "time": 9.624,
+      "queue_pkts": 11.3,
+      "max_queue": 50
+    },
+    {
+      "time": 9.668,
+      "queue_pkts": 12.3,
+      "max_queue": 50
+    },
+    {
+      "time": 9.712,
+      "queue_pkts": 13.3,
+      "max_queue": 50
+    },
+    {
+      "time": 9.756,
+      "queue_pkts": 14.3,
+      "max_queue": 50
+    },
+    {
+      "time": 9.8,
+      "queue_pkts": 15.3,
+      "max_queue": 50
+    },
+    {
+      "time": 9.844,
+      "queue_pkts": 16.3,
+      "max_queue": 50
+    },
+    {
+      "time": 9.888,
+      "queue_pkts": 17.3,
+      "max_queue": 50
+    },
+    {
+      "time": 9.932,
+      "queue_pkts": 18.3,
+      "max_queue": 50
+    },
+    {
+      "time": 9.976,
+      "queue_pkts": 19.3,
+      "max_queue": 50
+    },
+    {
+      "time": 10.02,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 10.064,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 10.108,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 10.152,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 10.196,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 10.24,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 10.284,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 10.328,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 10.372,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 10.416,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 10.46,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 10.504,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 10.548,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 10.592,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 10.636,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 10.68,
+      "queue_pkts": 0.3,
+      "max_queue": 50
+    },
+    {
+      "time": 10.724,
+      "queue_pkts": 1.3,
+      "max_queue": 50
+    },
+    {
+      "time": 10.768,
+      "queue_pkts": 2.3,
+      "max_queue": 50
+    },
+    {
+      "time": 10.812,
+      "queue_pkts": 3.3,
+      "max_queue": 50
+    },
+    {
+      "time": 10.856,
+      "queue_pkts": 4.3,
+      "max_queue": 50
+    },
+    {
+      "time": 10.9,
+      "queue_pkts": 5.3,
+      "max_queue": 50
+    },
+    {
+      "time": 10.944,
+      "queue_pkts": 6.3,
+      "max_queue": 50
+    },
+    {
+      "time": 10.988,
+      "queue_pkts": 7.3,
+      "max_queue": 50
+    },
+    {
+      "time": 11.032,
+      "queue_pkts": 8.3,
+      "max_queue": 50
+    },
+    {
+      "time": 11.076,
+      "queue_pkts": 9.3,
+      "max_queue": 50
+    },
+    {
+      "time": 11.12,
+      "queue_pkts": 10.3,
+      "max_queue": 50
+    },
+    {
+      "time": 11.164,
+      "queue_pkts": 11.3,
+      "max_queue": 50
+    },
+    {
+      "time": 11.208,
+      "queue_pkts": 12.3,
+      "max_queue": 50
+    },
+    {
+      "time": 11.252,
+      "queue_pkts": 13.3,
+      "max_queue": 50
+    },
+    {
+      "time": 11.296,
+      "queue_pkts": 14.3,
+      "max_queue": 50
+    },
+    {
+      "time": 11.34,
+      "queue_pkts": 15.3,
+      "max_queue": 50
+    },
+    {
+      "time": 11.384,
+      "queue_pkts": 16.3,
+      "max_queue": 50
+    },
+    {
+      "time": 11.428,
+      "queue_pkts": 17.3,
+      "max_queue": 50
+    },
+    {
+      "time": 11.472,
+      "queue_pkts": 18.3,
+      "max_queue": 50
+    },
+    {
+      "time": 11.516,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 11.56,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 11.604,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 11.648,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 11.692,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 11.736,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 11.78,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 11.824,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 11.868,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 11.912,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 11.956,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 12.0,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 12.044,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 12.088,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 12.132,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 12.176,
+      "queue_pkts": 0.3,
+      "max_queue": 50
+    },
+    {
+      "time": 12.22,
+      "queue_pkts": 1.3,
+      "max_queue": 50
+    },
+    {
+      "time": 12.264,
+      "queue_pkts": 2.3,
+      "max_queue": 50
+    },
+    {
+      "time": 12.308,
+      "queue_pkts": 3.3,
+      "max_queue": 50
+    },
+    {
+      "time": 12.352,
+      "queue_pkts": 4.3,
+      "max_queue": 50
+    },
+    {
+      "time": 12.396,
+      "queue_pkts": 5.3,
+      "max_queue": 50
+    },
+    {
+      "time": 12.44,
+      "queue_pkts": 6.3,
+      "max_queue": 50
+    },
+    {
+      "time": 12.484,
+      "queue_pkts": 7.3,
+      "max_queue": 50
+    },
+    {
+      "time": 12.528,
+      "queue_pkts": 8.3,
+      "max_queue": 50
+    },
+    {
+      "time": 12.572,
+      "queue_pkts": 9.3,
+      "max_queue": 50
+    },
+    {
+      "time": 12.616,
+      "queue_pkts": 10.3,
+      "max_queue": 50
+    },
+    {
+      "time": 12.66,
+      "queue_pkts": 11.3,
+      "max_queue": 50
+    },
+    {
+      "time": 12.704,
+      "queue_pkts": 12.3,
+      "max_queue": 50
+    },
+    {
+      "time": 12.748,
+      "queue_pkts": 13.3,
+      "max_queue": 50
+    },
+    {
+      "time": 12.792,
+      "queue_pkts": 14.3,
+      "max_queue": 50
+    },
+    {
+      "time": 12.836,
+      "queue_pkts": 15.3,
+      "max_queue": 50
+    },
+    {
+      "time": 12.88,
+      "queue_pkts": 16.3,
+      "max_queue": 50
+    },
+    {
+      "time": 12.924,
+      "queue_pkts": 17.3,
+      "max_queue": 50
+    },
+    {
+      "time": 12.968,
+      "queue_pkts": 18.3,
+      "max_queue": 50
+    },
+    {
+      "time": 13.012,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 13.056,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 13.1,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 13.144,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 13.188,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 13.232,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 13.276,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 13.32,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 13.364,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 13.408,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 13.452,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 13.496,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 13.54,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 13.584,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 13.628,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 13.672,
+      "queue_pkts": 0.3,
+      "max_queue": 50
+    },
+    {
+      "time": 13.716,
+      "queue_pkts": 1.3,
+      "max_queue": 50
+    },
+    {
+      "time": 13.76,
+      "queue_pkts": 2.3,
+      "max_queue": 50
+    },
+    {
+      "time": 13.804,
+      "queue_pkts": 3.3,
+      "max_queue": 50
+    },
+    {
+      "time": 13.848,
+      "queue_pkts": 4.3,
+      "max_queue": 50
+    },
+    {
+      "time": 13.892,
+      "queue_pkts": 5.3,
+      "max_queue": 50
+    },
+    {
+      "time": 13.936,
+      "queue_pkts": 6.3,
+      "max_queue": 50
+    },
+    {
+      "time": 13.98,
+      "queue_pkts": 7.3,
+      "max_queue": 50
+    },
+    {
+      "time": 14.024,
+      "queue_pkts": 8.3,
+      "max_queue": 50
+    },
+    {
+      "time": 14.068,
+      "queue_pkts": 9.3,
+      "max_queue": 50
+    },
+    {
+      "time": 14.112,
+      "queue_pkts": 10.3,
+      "max_queue": 50
+    },
+    {
+      "time": 14.156,
+      "queue_pkts": 11.3,
+      "max_queue": 50
+    },
+    {
+      "time": 14.2,
+      "queue_pkts": 12.3,
+      "max_queue": 50
+    },
+    {
+      "time": 14.244,
+      "queue_pkts": 13.3,
+      "max_queue": 50
+    },
+    {
+      "time": 14.288,
+      "queue_pkts": 14.3,
+      "max_queue": 50
+    },
+    {
+      "time": 14.332,
+      "queue_pkts": 15.3,
+      "max_queue": 50
+    },
+    {
+      "time": 14.376,
+      "queue_pkts": 16.3,
+      "max_queue": 50
+    },
+    {
+      "time": 14.42,
+      "queue_pkts": 17.3,
+      "max_queue": 50
+    },
+    {
+      "time": 14.464,
+      "queue_pkts": 18.3,
+      "max_queue": 50
+    },
+    {
+      "time": 14.508,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 14.552,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 14.596,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 14.64,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 14.684,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 14.728,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 14.772,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 14.816,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 14.86,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 14.904,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 14.948,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 14.992,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 15.036,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 15.08,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 15.124,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 15.168,
+      "queue_pkts": 0.3,
+      "max_queue": 50
+    },
+    {
+      "time": 15.212,
+      "queue_pkts": 1.3,
+      "max_queue": 50
+    },
+    {
+      "time": 15.256,
+      "queue_pkts": 2.3,
+      "max_queue": 50
+    },
+    {
+      "time": 15.3,
+      "queue_pkts": 3.3,
+      "max_queue": 50
+    },
+    {
+      "time": 15.344,
+      "queue_pkts": 4.3,
+      "max_queue": 50
+    },
+    {
+      "time": 15.388,
+      "queue_pkts": 5.3,
+      "max_queue": 50
+    },
+    {
+      "time": 15.432,
+      "queue_pkts": 6.3,
+      "max_queue": 50
+    },
+    {
+      "time": 15.476,
+      "queue_pkts": 7.3,
+      "max_queue": 50
+    },
+    {
+      "time": 15.52,
+      "queue_pkts": 8.3,
+      "max_queue": 50
+    },
+    {
+      "time": 15.564,
+      "queue_pkts": 9.3,
+      "max_queue": 50
+    },
+    {
+      "time": 15.608,
+      "queue_pkts": 10.3,
+      "max_queue": 50
+    },
+    {
+      "time": 15.652,
+      "queue_pkts": 11.3,
+      "max_queue": 50
+    },
+    {
+      "time": 15.696,
+      "queue_pkts": 12.3,
+      "max_queue": 50
+    },
+    {
+      "time": 15.74,
+      "queue_pkts": 13.3,
+      "max_queue": 50
+    },
+    {
+      "time": 15.784,
+      "queue_pkts": 14.3,
+      "max_queue": 50
+    },
+    {
+      "time": 15.828,
+      "queue_pkts": 15.3,
+      "max_queue": 50
+    },
+    {
+      "time": 15.872,
+      "queue_pkts": 16.3,
+      "max_queue": 50
+    },
+    {
+      "time": 15.916,
+      "queue_pkts": 17.3,
+      "max_queue": 50
+    },
+    {
+      "time": 15.96,
+      "queue_pkts": 18.3,
+      "max_queue": 50
+    },
+    {
+      "time": 16.004,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 16.048,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 16.092,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 16.136,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 16.18,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 16.224,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 16.268,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 16.312,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 16.356,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 16.4,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 16.444,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 16.488,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 16.532,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 16.576,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 16.62,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 16.664,
+      "queue_pkts": 0.3,
+      "max_queue": 50
+    },
+    {
+      "time": 16.708,
+      "queue_pkts": 1.3,
+      "max_queue": 50
+    },
+    {
+      "time": 16.752,
+      "queue_pkts": 2.3,
+      "max_queue": 50
+    },
+    {
+      "time": 16.796,
+      "queue_pkts": 3.3,
+      "max_queue": 50
+    },
+    {
+      "time": 16.84,
+      "queue_pkts": 4.3,
+      "max_queue": 50
+    },
+    {
+      "time": 16.884,
+      "queue_pkts": 5.3,
+      "max_queue": 50
+    },
+    {
+      "time": 16.928,
+      "queue_pkts": 6.3,
+      "max_queue": 50
+    },
+    {
+      "time": 16.972,
+      "queue_pkts": 7.3,
+      "max_queue": 50
+    },
+    {
+      "time": 17.016,
+      "queue_pkts": 8.3,
+      "max_queue": 50
+    },
+    {
+      "time": 17.06,
+      "queue_pkts": 9.3,
+      "max_queue": 50
+    },
+    {
+      "time": 17.104,
+      "queue_pkts": 10.3,
+      "max_queue": 50
+    },
+    {
+      "time": 17.148,
+      "queue_pkts": 11.3,
+      "max_queue": 50
+    },
+    {
+      "time": 17.192,
+      "queue_pkts": 12.3,
+      "max_queue": 50
+    },
+    {
+      "time": 17.236,
+      "queue_pkts": 13.3,
+      "max_queue": 50
+    },
+    {
+      "time": 17.28,
+      "queue_pkts": 14.3,
+      "max_queue": 50
+    },
+    {
+      "time": 17.324,
+      "queue_pkts": 15.3,
+      "max_queue": 50
+    },
+    {
+      "time": 17.368,
+      "queue_pkts": 16.3,
+      "max_queue": 50
+    },
+    {
+      "time": 17.412,
+      "queue_pkts": 17.3,
+      "max_queue": 50
+    },
+    {
+      "time": 17.456,
+      "queue_pkts": 18.3,
+      "max_queue": 50
+    },
+    {
+      "time": 17.5,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 17.544,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 17.588,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 17.632,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 17.676,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 17.72,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 17.764,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 17.808,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 17.852,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 17.896,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 17.94,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 17.984,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 18.028,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 18.072,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 18.116,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 18.16,
+      "queue_pkts": 0.3,
+      "max_queue": 50
+    },
+    {
+      "time": 18.204,
+      "queue_pkts": 1.3,
+      "max_queue": 50
+    },
+    {
+      "time": 18.248,
+      "queue_pkts": 2.3,
+      "max_queue": 50
+    },
+    {
+      "time": 18.292,
+      "queue_pkts": 3.3,
+      "max_queue": 50
+    },
+    {
+      "time": 18.336,
+      "queue_pkts": 4.3,
+      "max_queue": 50
+    },
+    {
+      "time": 18.38,
+      "queue_pkts": 5.3,
+      "max_queue": 50
+    },
+    {
+      "time": 18.424,
+      "queue_pkts": 6.3,
+      "max_queue": 50
+    },
+    {
+      "time": 18.468,
+      "queue_pkts": 7.3,
+      "max_queue": 50
+    },
+    {
+      "time": 18.512,
+      "queue_pkts": 8.3,
+      "max_queue": 50
+    },
+    {
+      "time": 18.556,
+      "queue_pkts": 9.3,
+      "max_queue": 50
+    },
+    {
+      "time": 18.6,
+      "queue_pkts": 10.3,
+      "max_queue": 50
+    },
+    {
+      "time": 18.644,
+      "queue_pkts": 11.3,
+      "max_queue": 50
+    },
+    {
+      "time": 18.688,
+      "queue_pkts": 12.3,
+      "max_queue": 50
+    },
+    {
+      "time": 18.732,
+      "queue_pkts": 13.3,
+      "max_queue": 50
+    },
+    {
+      "time": 18.776,
+      "queue_pkts": 14.3,
+      "max_queue": 50
+    },
+    {
+      "time": 18.82,
+      "queue_pkts": 15.3,
+      "max_queue": 50
+    },
+    {
+      "time": 18.864,
+      "queue_pkts": 16.3,
+      "max_queue": 50
+    },
+    {
+      "time": 18.908,
+      "queue_pkts": 17.3,
+      "max_queue": 50
+    },
+    {
+      "time": 18.952,
+      "queue_pkts": 18.3,
+      "max_queue": 50
+    },
+    {
+      "time": 18.996,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 19.04,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 19.084,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 19.128,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 19.172,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 19.216,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 19.26,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 19.304,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 19.348,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 19.392,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 19.436,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 19.48,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 19.524,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 19.568,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 19.612,
+      "queue_pkts": 0.0,
+      "max_queue": 50
+    },
+    {
+      "time": 19.656,
+      "queue_pkts": 0.3,
+      "max_queue": 50
+    },
+    {
+      "time": 19.7,
+      "queue_pkts": 1.3,
+      "max_queue": 50
+    },
+    {
+      "time": 19.744,
+      "queue_pkts": 2.3,
+      "max_queue": 50
+    },
+    {
+      "time": 19.788,
+      "queue_pkts": 3.3,
+      "max_queue": 50
+    },
+    {
+      "time": 19.832,
+      "queue_pkts": 4.3,
+      "max_queue": 50
+    },
+    {
+      "time": 19.876,
+      "queue_pkts": 5.3,
+      "max_queue": 50
+    },
+    {
+      "time": 19.92,
+      "queue_pkts": 6.3,
+      "max_queue": 50
+    },
+    {
+      "time": 19.964,
+      "queue_pkts": 7.3,
+      "max_queue": 50
+    }
+  ],
+  "throughput": [
+    {
+      "time": 1.0,
+      "throughput_mbps": 0.531
+    },
+    {
+      "time": 1.044,
+      "throughput_mbps": 1.062
+    },
+    {
+      "time": 1.088,
+      "throughput_mbps": 2.124
+    },
+    {
+      "time": 1.132,
+      "throughput_mbps": 4.247
+    },
+    {
+      "time": 1.176,
+      "throughput_mbps": 8.495
+    },
+    {
+      "time": 1.22,
+      "throughput_mbps": 8.76
+    },
+    {
+      "time": 1.264,
+      "throughput_mbps": 9.025
+    },
+    {
+      "time": 1.308,
+      "throughput_mbps": 9.291
+    },
+    {
+      "time": 1.352,
+      "throughput_mbps": 9.556
+    },
+    {
+      "time": 1.396,
+      "throughput_mbps": 9.822
+    },
+    {
+      "time": 1.44,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 1.484,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 1.528,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 1.572,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 1.616,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 1.66,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 1.704,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 1.748,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 1.792,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 1.836,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 1.88,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 1.924,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 1.968,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 2.012,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 2.056,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 2.1,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 2.144,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 2.188,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 2.232,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 2.276,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 2.32,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 2.364,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 2.408,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 2.452,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 2.496,
+      "throughput_mbps": 0.265
+    },
+    {
+      "time": 2.54,
+      "throughput_mbps": 0.531
+    },
+    {
+      "time": 2.584,
+      "throughput_mbps": 1.062
+    },
+    {
+      "time": 2.628,
+      "throughput_mbps": 2.124
+    },
+    {
+      "time": 2.672,
+      "throughput_mbps": 4.247
+    },
+    {
+      "time": 2.716,
+      "throughput_mbps": 7.964
+    },
+    {
+      "time": 2.76,
+      "throughput_mbps": 8.229
+    },
+    {
+      "time": 2.804,
+      "throughput_mbps": 8.495
+    },
+    {
+      "time": 2.848,
+      "throughput_mbps": 8.76
+    },
+    {
+      "time": 2.892,
+      "throughput_mbps": 9.025
+    },
+    {
+      "time": 2.936,
+      "throughput_mbps": 9.291
+    },
+    {
+      "time": 2.98,
+      "throughput_mbps": 9.556
+    },
+    {
+      "time": 3.024,
+      "throughput_mbps": 9.822
+    },
+    {
+      "time": 3.068,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 3.112,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 3.156,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 3.2,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 3.244,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 3.288,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 3.332,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 3.376,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 3.42,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 3.464,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 3.508,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 3.552,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 3.596,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 3.64,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 3.684,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 3.728,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 3.772,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 3.816,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 3.86,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 3.904,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 3.948,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 3.992,
+      "throughput_mbps": 0.265
+    },
+    {
+      "time": 4.036,
+      "throughput_mbps": 0.531
+    },
+    {
+      "time": 4.08,
+      "throughput_mbps": 1.062
+    },
+    {
+      "time": 4.124,
+      "throughput_mbps": 2.124
+    },
+    {
+      "time": 4.168,
+      "throughput_mbps": 4.247
+    },
+    {
+      "time": 4.212,
+      "throughput_mbps": 7.698
+    },
+    {
+      "time": 4.256,
+      "throughput_mbps": 7.964
+    },
+    {
+      "time": 4.3,
+      "throughput_mbps": 8.229
+    },
+    {
+      "time": 4.344,
+      "throughput_mbps": 8.495
+    },
+    {
+      "time": 4.388,
+      "throughput_mbps": 8.76
+    },
+    {
+      "time": 4.432,
+      "throughput_mbps": 9.025
+    },
+    {
+      "time": 4.476,
+      "throughput_mbps": 9.291
+    },
+    {
+      "time": 4.52,
+      "throughput_mbps": 9.556
+    },
+    {
+      "time": 4.564,
+      "throughput_mbps": 9.822
+    },
+    {
+      "time": 4.608,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 4.652,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 4.696,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 4.74,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 4.784,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 4.828,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 4.872,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 4.916,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 4.96,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 5.004,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 5.048,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 5.092,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 5.136,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 5.18,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 5.224,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 5.268,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 5.312,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 5.356,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 5.4,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 5.444,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 5.488,
+      "throughput_mbps": 0.265
+    },
+    {
+      "time": 5.532,
+      "throughput_mbps": 0.531
+    },
+    {
+      "time": 5.576,
+      "throughput_mbps": 1.062
+    },
+    {
+      "time": 5.62,
+      "throughput_mbps": 2.124
+    },
+    {
+      "time": 5.664,
+      "throughput_mbps": 4.247
+    },
+    {
+      "time": 5.708,
+      "throughput_mbps": 7.433
+    },
+    {
+      "time": 5.752,
+      "throughput_mbps": 7.698
+    },
+    {
+      "time": 5.796,
+      "throughput_mbps": 7.964
+    },
+    {
+      "time": 5.84,
+      "throughput_mbps": 8.229
+    },
+    {
+      "time": 5.884,
+      "throughput_mbps": 8.495
+    },
+    {
+      "time": 5.928,
+      "throughput_mbps": 8.76
+    },
+    {
+      "time": 5.972,
+      "throughput_mbps": 9.025
+    },
+    {
+      "time": 6.016,
+      "throughput_mbps": 9.291
+    },
+    {
+      "time": 6.06,
+      "throughput_mbps": 9.556
+    },
+    {
+      "time": 6.104,
+      "throughput_mbps": 9.822
+    },
+    {
+      "time": 6.148,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 6.192,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 6.236,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 6.28,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 6.324,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 6.368,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 6.412,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 6.456,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 6.5,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 6.544,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 6.588,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 6.632,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 6.676,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 6.72,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 6.764,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 6.808,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 6.852,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 6.896,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 6.94,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 6.984,
+      "throughput_mbps": 0.265
+    },
+    {
+      "time": 7.028,
+      "throughput_mbps": 0.531
+    },
+    {
+      "time": 7.072,
+      "throughput_mbps": 1.062
+    },
+    {
+      "time": 7.116,
+      "throughput_mbps": 2.124
+    },
+    {
+      "time": 7.16,
+      "throughput_mbps": 4.247
+    },
+    {
+      "time": 7.204,
+      "throughput_mbps": 7.433
+    },
+    {
+      "time": 7.248,
+      "throughput_mbps": 7.698
+    },
+    {
+      "time": 7.292,
+      "throughput_mbps": 7.964
+    },
+    {
+      "time": 7.336,
+      "throughput_mbps": 8.229
+    },
+    {
+      "time": 7.38,
+      "throughput_mbps": 8.495
+    },
+    {
+      "time": 7.424,
+      "throughput_mbps": 8.76
+    },
+    {
+      "time": 7.468,
+      "throughput_mbps": 9.025
+    },
+    {
+      "time": 7.512,
+      "throughput_mbps": 9.291
+    },
+    {
+      "time": 7.556,
+      "throughput_mbps": 9.556
+    },
+    {
+      "time": 7.6,
+      "throughput_mbps": 9.822
+    },
+    {
+      "time": 7.644,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 7.688,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 7.732,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 7.776,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 7.82,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 7.864,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 7.908,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 7.952,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 7.996,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 8.04,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 8.084,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 8.128,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 8.172,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 8.216,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 8.26,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 8.304,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 8.348,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 8.392,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 8.436,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 8.48,
+      "throughput_mbps": 0.265
+    },
+    {
+      "time": 8.524,
+      "throughput_mbps": 0.531
+    },
+    {
+      "time": 8.568,
+      "throughput_mbps": 1.062
+    },
+    {
+      "time": 8.612,
+      "throughput_mbps": 2.124
+    },
+    {
+      "time": 8.656,
+      "throughput_mbps": 4.247
+    },
+    {
+      "time": 8.7,
+      "throughput_mbps": 7.433
+    },
+    {
+      "time": 8.744,
+      "throughput_mbps": 7.698
+    },
+    {
+      "time": 8.788,
+      "throughput_mbps": 7.964
+    },
+    {
+      "time": 8.832,
+      "throughput_mbps": 8.229
+    },
+    {
+      "time": 8.876,
+      "throughput_mbps": 8.495
+    },
+    {
+      "time": 8.92,
+      "throughput_mbps": 8.76
+    },
+    {
+      "time": 8.964,
+      "throughput_mbps": 9.025
+    },
+    {
+      "time": 9.008,
+      "throughput_mbps": 9.291
+    },
+    {
+      "time": 9.052,
+      "throughput_mbps": 9.556
+    },
+    {
+      "time": 9.096,
+      "throughput_mbps": 9.822
+    },
+    {
+      "time": 9.14,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 9.184,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 9.228,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 9.272,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 9.316,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 9.36,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 9.404,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 9.448,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 9.492,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 9.536,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 9.58,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 9.624,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 9.668,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 9.712,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 9.756,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 9.8,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 9.844,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 9.888,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 9.932,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 9.976,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 10.02,
+      "throughput_mbps": 0.265
+    },
+    {
+      "time": 10.064,
+      "throughput_mbps": 0.531
+    },
+    {
+      "time": 10.108,
+      "throughput_mbps": 1.062
+    },
+    {
+      "time": 10.152,
+      "throughput_mbps": 2.124
+    },
+    {
+      "time": 10.196,
+      "throughput_mbps": 4.247
+    },
+    {
+      "time": 10.24,
+      "throughput_mbps": 7.433
+    },
+    {
+      "time": 10.284,
+      "throughput_mbps": 7.698
+    },
+    {
+      "time": 10.328,
+      "throughput_mbps": 7.964
+    },
+    {
+      "time": 10.372,
+      "throughput_mbps": 8.229
+    },
+    {
+      "time": 10.416,
+      "throughput_mbps": 8.495
+    },
+    {
+      "time": 10.46,
+      "throughput_mbps": 8.76
+    },
+    {
+      "time": 10.504,
+      "throughput_mbps": 9.025
+    },
+    {
+      "time": 10.548,
+      "throughput_mbps": 9.291
+    },
+    {
+      "time": 10.592,
+      "throughput_mbps": 9.556
+    },
+    {
+      "time": 10.636,
+      "throughput_mbps": 9.822
+    },
+    {
+      "time": 10.68,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 10.724,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 10.768,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 10.812,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 10.856,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 10.9,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 10.944,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 10.988,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 11.032,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 11.076,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 11.12,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 11.164,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 11.208,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 11.252,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 11.296,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 11.34,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 11.384,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 11.428,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 11.472,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 11.516,
+      "throughput_mbps": 0.265
+    },
+    {
+      "time": 11.56,
+      "throughput_mbps": 0.531
+    },
+    {
+      "time": 11.604,
+      "throughput_mbps": 1.062
+    },
+    {
+      "time": 11.648,
+      "throughput_mbps": 2.124
+    },
+    {
+      "time": 11.692,
+      "throughput_mbps": 4.247
+    },
+    {
+      "time": 11.736,
+      "throughput_mbps": 7.433
+    },
+    {
+      "time": 11.78,
+      "throughput_mbps": 7.698
+    },
+    {
+      "time": 11.824,
+      "throughput_mbps": 7.964
+    },
+    {
+      "time": 11.868,
+      "throughput_mbps": 8.229
+    },
+    {
+      "time": 11.912,
+      "throughput_mbps": 8.495
+    },
+    {
+      "time": 11.956,
+      "throughput_mbps": 8.76
+    },
+    {
+      "time": 12.0,
+      "throughput_mbps": 9.025
+    },
+    {
+      "time": 12.044,
+      "throughput_mbps": 9.291
+    },
+    {
+      "time": 12.088,
+      "throughput_mbps": 9.556
+    },
+    {
+      "time": 12.132,
+      "throughput_mbps": 9.822
+    },
+    {
+      "time": 12.176,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 12.22,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 12.264,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 12.308,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 12.352,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 12.396,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 12.44,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 12.484,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 12.528,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 12.572,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 12.616,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 12.66,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 12.704,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 12.748,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 12.792,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 12.836,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 12.88,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 12.924,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 12.968,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 13.012,
+      "throughput_mbps": 0.265
+    },
+    {
+      "time": 13.056,
+      "throughput_mbps": 0.531
+    },
+    {
+      "time": 13.1,
+      "throughput_mbps": 1.062
+    },
+    {
+      "time": 13.144,
+      "throughput_mbps": 2.124
+    },
+    {
+      "time": 13.188,
+      "throughput_mbps": 4.247
+    },
+    {
+      "time": 13.232,
+      "throughput_mbps": 7.433
+    },
+    {
+      "time": 13.276,
+      "throughput_mbps": 7.698
+    },
+    {
+      "time": 13.32,
+      "throughput_mbps": 7.964
+    },
+    {
+      "time": 13.364,
+      "throughput_mbps": 8.229
+    },
+    {
+      "time": 13.408,
+      "throughput_mbps": 8.495
+    },
+    {
+      "time": 13.452,
+      "throughput_mbps": 8.76
+    },
+    {
+      "time": 13.496,
+      "throughput_mbps": 9.025
+    },
+    {
+      "time": 13.54,
+      "throughput_mbps": 9.291
+    },
+    {
+      "time": 13.584,
+      "throughput_mbps": 9.556
+    },
+    {
+      "time": 13.628,
+      "throughput_mbps": 9.822
+    },
+    {
+      "time": 13.672,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 13.716,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 13.76,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 13.804,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 13.848,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 13.892,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 13.936,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 13.98,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 14.024,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 14.068,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 14.112,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 14.156,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 14.2,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 14.244,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 14.288,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 14.332,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 14.376,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 14.42,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 14.464,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 14.508,
+      "throughput_mbps": 0.265
+    },
+    {
+      "time": 14.552,
+      "throughput_mbps": 0.531
+    },
+    {
+      "time": 14.596,
+      "throughput_mbps": 1.062
+    },
+    {
+      "time": 14.64,
+      "throughput_mbps": 2.124
+    },
+    {
+      "time": 14.684,
+      "throughput_mbps": 4.247
+    },
+    {
+      "time": 14.728,
+      "throughput_mbps": 7.433
+    },
+    {
+      "time": 14.772,
+      "throughput_mbps": 7.698
+    },
+    {
+      "time": 14.816,
+      "throughput_mbps": 7.964
+    },
+    {
+      "time": 14.86,
+      "throughput_mbps": 8.229
+    },
+    {
+      "time": 14.904,
+      "throughput_mbps": 8.495
+    },
+    {
+      "time": 14.948,
+      "throughput_mbps": 8.76
+    },
+    {
+      "time": 14.992,
+      "throughput_mbps": 9.025
+    },
+    {
+      "time": 15.036,
+      "throughput_mbps": 9.291
+    },
+    {
+      "time": 15.08,
+      "throughput_mbps": 9.556
+    },
+    {
+      "time": 15.124,
+      "throughput_mbps": 9.822
+    },
+    {
+      "time": 15.168,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 15.212,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 15.256,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 15.3,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 15.344,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 15.388,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 15.432,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 15.476,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 15.52,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 15.564,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 15.608,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 15.652,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 15.696,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 15.74,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 15.784,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 15.828,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 15.872,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 15.916,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 15.96,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 16.004,
+      "throughput_mbps": 0.265
+    },
+    {
+      "time": 16.048,
+      "throughput_mbps": 0.531
+    },
+    {
+      "time": 16.092,
+      "throughput_mbps": 1.062
+    },
+    {
+      "time": 16.136,
+      "throughput_mbps": 2.124
+    },
+    {
+      "time": 16.18,
+      "throughput_mbps": 4.247
+    },
+    {
+      "time": 16.224,
+      "throughput_mbps": 7.433
+    },
+    {
+      "time": 16.268,
+      "throughput_mbps": 7.698
+    },
+    {
+      "time": 16.312,
+      "throughput_mbps": 7.964
+    },
+    {
+      "time": 16.356,
+      "throughput_mbps": 8.229
+    },
+    {
+      "time": 16.4,
+      "throughput_mbps": 8.495
+    },
+    {
+      "time": 16.444,
+      "throughput_mbps": 8.76
+    },
+    {
+      "time": 16.488,
+      "throughput_mbps": 9.025
+    },
+    {
+      "time": 16.532,
+      "throughput_mbps": 9.291
+    },
+    {
+      "time": 16.576,
+      "throughput_mbps": 9.556
+    },
+    {
+      "time": 16.62,
+      "throughput_mbps": 9.822
+    },
+    {
+      "time": 16.664,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 16.708,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 16.752,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 16.796,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 16.84,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 16.884,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 16.928,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 16.972,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 17.016,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 17.06,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 17.104,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 17.148,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 17.192,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 17.236,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 17.28,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 17.324,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 17.368,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 17.412,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 17.456,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 17.5,
+      "throughput_mbps": 0.265
+    },
+    {
+      "time": 17.544,
+      "throughput_mbps": 0.531
+    },
+    {
+      "time": 17.588,
+      "throughput_mbps": 1.062
+    },
+    {
+      "time": 17.632,
+      "throughput_mbps": 2.124
+    },
+    {
+      "time": 17.676,
+      "throughput_mbps": 4.247
+    },
+    {
+      "time": 17.72,
+      "throughput_mbps": 7.433
+    },
+    {
+      "time": 17.764,
+      "throughput_mbps": 7.698
+    },
+    {
+      "time": 17.808,
+      "throughput_mbps": 7.964
+    },
+    {
+      "time": 17.852,
+      "throughput_mbps": 8.229
+    },
+    {
+      "time": 17.896,
+      "throughput_mbps": 8.495
+    },
+    {
+      "time": 17.94,
+      "throughput_mbps": 8.76
+    },
+    {
+      "time": 17.984,
+      "throughput_mbps": 9.025
+    },
+    {
+      "time": 18.028,
+      "throughput_mbps": 9.291
+    },
+    {
+      "time": 18.072,
+      "throughput_mbps": 9.556
+    },
+    {
+      "time": 18.116,
+      "throughput_mbps": 9.822
+    },
+    {
+      "time": 18.16,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 18.204,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 18.248,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 18.292,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 18.336,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 18.38,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 18.424,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 18.468,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 18.512,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 18.556,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 18.6,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 18.644,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 18.688,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 18.732,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 18.776,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 18.82,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 18.864,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 18.908,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 18.952,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 18.996,
+      "throughput_mbps": 0.265
+    },
+    {
+      "time": 19.04,
+      "throughput_mbps": 0.531
+    },
+    {
+      "time": 19.084,
+      "throughput_mbps": 1.062
+    },
+    {
+      "time": 19.128,
+      "throughput_mbps": 2.124
+    },
+    {
+      "time": 19.172,
+      "throughput_mbps": 4.247
+    },
+    {
+      "time": 19.216,
+      "throughput_mbps": 7.433
+    },
+    {
+      "time": 19.26,
+      "throughput_mbps": 7.698
+    },
+    {
+      "time": 19.304,
+      "throughput_mbps": 7.964
+    },
+    {
+      "time": 19.348,
+      "throughput_mbps": 8.229
+    },
+    {
+      "time": 19.392,
+      "throughput_mbps": 8.495
+    },
+    {
+      "time": 19.436,
+      "throughput_mbps": 8.76
+    },
+    {
+      "time": 19.48,
+      "throughput_mbps": 9.025
+    },
+    {
+      "time": 19.524,
+      "throughput_mbps": 9.291
+    },
+    {
+      "time": 19.568,
+      "throughput_mbps": 9.556
+    },
+    {
+      "time": 19.612,
+      "throughput_mbps": 9.822
+    },
+    {
+      "time": 19.656,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 19.7,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 19.744,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 19.788,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 19.832,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 19.876,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 19.92,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 19.964,
+      "throughput_mbps": 10.0
+    }
+  ],
+  "drops": [
+    {
+      "time": 2.496,
+      "reason": "LINK_RANDOM_ERROR",
+      "seq": 1426,
+      "packet_size": 1460
+    },
+    {
+      "time": 3.992,
+      "reason": "LINK_RANDOM_ERROR",
+      "seq": 2733,
+      "packet_size": 1460
+    },
+    {
+      "time": 5.488,
+      "reason": "LINK_RANDOM_ERROR",
+      "seq": 4011,
+      "packet_size": 1460
+    },
+    {
+      "time": 6.984,
+      "reason": "LINK_RANDOM_ERROR",
+      "seq": 5260,
+      "packet_size": 1460
+    },
+    {
+      "time": 8.48,
+      "reason": "LINK_RANDOM_ERROR",
+      "seq": 6509,
+      "packet_size": 1460
+    },
+    {
+      "time": 10.02,
+      "reason": "LINK_RANDOM_ERROR",
+      "seq": 7815,
+      "packet_size": 1460
+    },
+    {
+      "time": 11.516,
+      "reason": "LINK_RANDOM_ERROR",
+      "seq": 9064,
+      "packet_size": 1460
+    },
+    {
+      "time": 13.012,
+      "reason": "LINK_RANDOM_ERROR",
+      "seq": 10313,
+      "packet_size": 1460
+    },
+    {
+      "time": 14.508,
+      "reason": "LINK_RANDOM_ERROR",
+      "seq": 11562,
+      "packet_size": 1460
+    },
+    {
+      "time": 16.004,
+      "reason": "LINK_RANDOM_ERROR",
+      "seq": 12811,
+      "packet_size": 1460
+    },
+    {
+      "time": 17.5,
+      "reason": "LINK_RANDOM_ERROR",
+      "seq": 14060,
+      "packet_size": 1460
+    },
+    {
+      "time": 18.996,
+      "reason": "LINK_RANDOM_ERROR",
+      "seq": 15309,
+      "packet_size": 1460
+    }
+  ]
+}

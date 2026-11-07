@@ -1,0 +1,26 @@
+[
+  {
+    "variant": "TcpTahoe",
+    "avg_throughput": 8.59,
+    "pdr": 99.96,
+    "drops": 9
+  },
+  {
+    "variant": "TcpLinuxReno",
+    "avg_throughput": 9.51,
+    "pdr": 99.95,
+    "drops": 11
+  },
+  {
+    "variant": "TcpNewReno",
+    "avg_throughput": 9.51,
+    "pdr": 99.95,
+    "drops": 11
+  },
+  {
+    "variant": "TcpCubic",
+    "avg_throughput": 10.0,
+    "pdr": 99.58,
+    "drops": 140
+  }
+]

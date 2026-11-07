@@ -1,0 +1,8157 @@
+{
+  "metadata": {
+    "variant": "TcpCubic",
+    "bottleneck_bw": "10.0Mbps",
+    "bottleneck_delay": "20.0ms",
+    "packet_loss_rate": 0.0,
+    "queue_size_pkts": 50,
+    "simulation_time_sec": 20.0,
+    "avg_throughput_mbps": 10.0,
+    "pdr_percentage": 99.61,
+    "total_drops": 132
+  },
+  "cwnd": [
+    {
+      "time": 1.0,
+      "cwnd_mss": 47.73,
+      "cwnd_bytes": 69692,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=32.4 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 1.044,
+      "cwnd_mss": 48.43,
+      "cwnd_bytes": 70702,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=32.5 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 1.088,
+      "cwnd_mss": 49.12,
+      "cwnd_bytes": 71713,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=32.5 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 1.132,
+      "cwnd_mss": 49.81,
+      "cwnd_bytes": 72724,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=32.6 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 1.176,
+      "cwnd_mss": 50.5,
+      "cwnd_bytes": 73735,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=32.7 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 1.22,
+      "cwnd_mss": 51.2,
+      "cwnd_bytes": 74745,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=32.7 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 1.264,
+      "cwnd_mss": 51.89,
+      "cwnd_bytes": 75756,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=32.8 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 1.308,
+      "cwnd_mss": 52.58,
+      "cwnd_bytes": 76767,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=32.9 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 1.352,
+      "cwnd_mss": 53.27,
+      "cwnd_bytes": 77778,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=33.0 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 1.396,
+      "cwnd_mss": 53.97,
+      "cwnd_bytes": 78788,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=33.1 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 1.44,
+      "cwnd_mss": 54.66,
+      "cwnd_bytes": 79799,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=33.2 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 1.484,
+      "cwnd_mss": 55.35,
+      "cwnd_bytes": 80810,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=33.3 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 1.528,
+      "cwnd_mss": 56.04,
+      "cwnd_bytes": 81821,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=33.4 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 1.572,
+      "cwnd_mss": 56.73,
+      "cwnd_bytes": 82832,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=33.6 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 1.616,
+      "cwnd_mss": 57.43,
+      "cwnd_bytes": 83842,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=33.7 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 1.66,
+      "cwnd_mss": 58.12,
+      "cwnd_bytes": 84853,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=33.8 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 1.704,
+      "cwnd_mss": 58.81,
+      "cwnd_bytes": 85864,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=34.0 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 1.748,
+      "cwnd_mss": 59.5,
+      "cwnd_bytes": 86875,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=34.1 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 1.792,
+      "cwnd_mss": 60.2,
+      "cwnd_bytes": 87885,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=34.3 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 1.836,
+      "cwnd_mss": 60.89,
+      "cwnd_bytes": 88896,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=34.5 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 1.88,
+      "cwnd_mss": 61.58,
+      "cwnd_bytes": 89907,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=34.7 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 1.924,
+      "cwnd_mss": 62.27,
+      "cwnd_bytes": 90918,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=34.8 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 1.968,
+      "cwnd_mss": 62.97,
+      "cwnd_bytes": 91928,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=35.0 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 2.012,
+      "cwnd_mss": 63.66,
+      "cwnd_bytes": 92939,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=35.3 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 2.056,
+      "cwnd_mss": 64.35,
+      "cwnd_bytes": 93950,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=35.5 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 2.1,
+      "cwnd_mss": 65.04,
+      "cwnd_bytes": 94961,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=35.7 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 2.144,
+      "cwnd_mss": 65.73,
+      "cwnd_bytes": 95972,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=35.9 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 2.188,
+      "cwnd_mss": 66.43,
+      "cwnd_bytes": 96982,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=36.2 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 2.232,
+      "cwnd_mss": 67.12,
+      "cwnd_bytes": 97993,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=36.4 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 2.276,
+      "cwnd_mss": 67.81,
+      "cwnd_bytes": 99004,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=36.7 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 2.32,
+      "cwnd_mss": 68.5,
+      "cwnd_bytes": 100015,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=37.0 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 2.364,
+      "cwnd_mss": 69.2,
+      "cwnd_bytes": 101025,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=37.3 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 2.408,
+      "cwnd_mss": 69.89,
+      "cwnd_bytes": 102036,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=37.6 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 2.452,
+      "cwnd_mss": 70.58,
+      "cwnd_bytes": 103047,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=37.9 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 2.496,
+      "cwnd_mss": 71.27,
+      "cwnd_bytes": 104058,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=38.2 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 2.54,
+      "cwnd_mss": 71.97,
+      "cwnd_bytes": 105068,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=38.6 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 2.584,
+      "cwnd_mss": 72.66,
+      "cwnd_bytes": 106079,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=38.9 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 2.628,
+      "cwnd_mss": 73.35,
+      "cwnd_bytes": 107090,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=39.3 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 2.672,
+      "cwnd_mss": 74.04,
+      "cwnd_bytes": 108101,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=39.6 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 2.716,
+      "cwnd_mss": 74.73,
+      "cwnd_bytes": 109112,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=40.0 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 2.76,
+      "cwnd_mss": 75.43,
+      "cwnd_bytes": 110122,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=40.4 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 2.804,
+      "cwnd_mss": 76.12,
+      "cwnd_bytes": 111133,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=40.8 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 2.848,
+      "cwnd_mss": 76.81,
+      "cwnd_bytes": 112144,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=41.2 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 2.892,
+      "cwnd_mss": 77.5,
+      "cwnd_bytes": 113155,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=41.7 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 2.936,
+      "cwnd_mss": 78.2,
+      "cwnd_bytes": 114165,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=42.1 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 2.98,
+      "cwnd_mss": 78.89,
+      "cwnd_bytes": 115176,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=42.6 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 3.024,
+      "cwnd_mss": 79.58,
+      "cwnd_bytes": 116187,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=43.1 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 3.068,
+      "cwnd_mss": 80.27,
+      "cwnd_bytes": 117198,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=43.6 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 3.112,
+      "cwnd_mss": 80.97,
+      "cwnd_bytes": 118208,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=44.1 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 3.156,
+      "cwnd_mss": 81.66,
+      "cwnd_bytes": 119219,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=44.6 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 3.2,
+      "cwnd_mss": 82.35,
+      "cwnd_bytes": 120230,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=45.1 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 3.244,
+      "cwnd_mss": 83.04,
+      "cwnd_bytes": 121241,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=45.7 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 3.288,
+      "cwnd_mss": 83.73,
+      "cwnd_bytes": 122252,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=46.2 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 3.332,
+      "cwnd_mss": 84.43,
+      "cwnd_bytes": 123262,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=46.8 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 3.376,
+      "cwnd_mss": 85.12,
+      "cwnd_bytes": 124273,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=47.4 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 3.42,
+      "cwnd_mss": 85.81,
+      "cwnd_bytes": 125284,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=48.0 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 3.464,
+      "cwnd_mss": 86.5,
+      "cwnd_bytes": 126295,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=48.6 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 3.508,
+      "cwnd_mss": 87.2,
+      "cwnd_bytes": 127305,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=49.3 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 3.552,
+      "cwnd_mss": 87.89,
+      "cwnd_bytes": 128316,
+      "ssthresh_mss": 32.0,
+      "state": "CUBIC_CONVEX",
+      "explanation": "Cubic equation active (CUBIC_CONVEX): W_cubic=49.9 MSS (K=0.00s, W_max=32.0)."
+    },
+    {
+      "time": 3.596,
+      "cwnd_mss": 61.52,
+      "cwnd_bytes": 89821,
+      "ssthresh_mss": 61.52,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 87.9, ssthresh = 61.5, K = 4.04s."
+    },
+    {
+      "time": 3.64,
+      "cwnd_mss": 118.79,
+      "cwnd_bytes": 173439,
+      "ssthresh_mss": 61.52,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=87.9 MSS (K=4.04s, W_max=87.9)."
+    },
+    {
+      "time": 3.684,
+      "cwnd_mss": 83.16,
+      "cwnd_bytes": 121407,
+      "ssthresh_mss": 83.16,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 118.8, ssthresh = 83.2, K = 4.47s."
+    },
+    {
+      "time": 3.728,
+      "cwnd_mss": 141.81,
+      "cwnd_bytes": 207047,
+      "ssthresh_mss": 83.16,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=118.6 MSS (K=4.47s, W_max=118.8)."
+    },
+    {
+      "time": 3.772,
+      "cwnd_mss": 99.27,
+      "cwnd_bytes": 144933,
+      "ssthresh_mss": 99.27,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 141.8, ssthresh = 99.3, K = 4.74s."
+    },
+    {
+      "time": 3.816,
+      "cwnd_mss": 69.49,
+      "cwnd_bytes": 101453,
+      "ssthresh_mss": 69.49,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 99.3, ssthresh = 69.5, K = 4.21s."
+    },
+    {
+      "time": 3.86,
+      "cwnd_mss": 130.22,
+      "cwnd_bytes": 190125,
+      "ssthresh_mss": 69.49,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=99.3 MSS (K=4.21s, W_max=99.3)."
+    },
+    {
+      "time": 3.904,
+      "cwnd_mss": 91.16,
+      "cwnd_bytes": 133087,
+      "ssthresh_mss": 91.16,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 130.2, ssthresh = 91.2, K = 4.61s."
+    },
+    {
+      "time": 3.948,
+      "cwnd_mss": 63.81,
+      "cwnd_bytes": 93161,
+      "ssthresh_mss": 63.81,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 91.2, ssthresh = 63.8, K = 4.09s."
+    },
+    {
+      "time": 3.992,
+      "cwnd_mss": 126.62,
+      "cwnd_bytes": 184865,
+      "ssthresh_mss": 63.81,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=91.2 MSS (K=4.09s, W_max=91.2)."
+    },
+    {
+      "time": 4.036,
+      "cwnd_mss": 88.63,
+      "cwnd_bytes": 129406,
+      "ssthresh_mss": 88.63,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 126.6, ssthresh = 88.6, K = 4.56s."
+    },
+    {
+      "time": 4.08,
+      "cwnd_mss": 62.04,
+      "cwnd_bytes": 90584,
+      "ssthresh_mss": 62.04,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 88.6, ssthresh = 62.0, K = 4.05s."
+    },
+    {
+      "time": 4.124,
+      "cwnd_mss": 64.41,
+      "cwnd_bytes": 94041,
+      "ssthresh_mss": 62.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=64.4 MSS (K=4.05s, W_max=88.6)."
+    },
+    {
+      "time": 4.168,
+      "cwnd_mss": 65.22,
+      "cwnd_bytes": 95216,
+      "ssthresh_mss": 62.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=65.2 MSS (K=4.05s, W_max=88.6)."
+    },
+    {
+      "time": 4.212,
+      "cwnd_mss": 66.0,
+      "cwnd_bytes": 96365,
+      "ssthresh_mss": 62.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=66.0 MSS (K=4.05s, W_max=88.6)."
+    },
+    {
+      "time": 4.256,
+      "cwnd_mss": 66.77,
+      "cwnd_bytes": 97488,
+      "ssthresh_mss": 62.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=66.8 MSS (K=4.05s, W_max=88.6)."
+    },
+    {
+      "time": 4.3,
+      "cwnd_mss": 67.52,
+      "cwnd_bytes": 98586,
+      "ssthresh_mss": 62.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=67.5 MSS (K=4.05s, W_max=88.6)."
+    },
+    {
+      "time": 4.344,
+      "cwnd_mss": 68.26,
+      "cwnd_bytes": 99658,
+      "ssthresh_mss": 62.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=68.3 MSS (K=4.05s, W_max=88.6)."
+    },
+    {
+      "time": 4.388,
+      "cwnd_mss": 68.98,
+      "cwnd_bytes": 100705,
+      "ssthresh_mss": 62.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=69.0 MSS (K=4.05s, W_max=88.6)."
+    },
+    {
+      "time": 4.432,
+      "cwnd_mss": 69.68,
+      "cwnd_bytes": 101726,
+      "ssthresh_mss": 62.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=69.7 MSS (K=4.05s, W_max=88.6)."
+    },
+    {
+      "time": 4.476,
+      "cwnd_mss": 70.36,
+      "cwnd_bytes": 102724,
+      "ssthresh_mss": 62.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=70.4 MSS (K=4.05s, W_max=88.6)."
+    },
+    {
+      "time": 4.52,
+      "cwnd_mss": 71.03,
+      "cwnd_bytes": 103697,
+      "ssthresh_mss": 62.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=71.0 MSS (K=4.05s, W_max=88.6)."
+    },
+    {
+      "time": 4.564,
+      "cwnd_mss": 71.68,
+      "cwnd_bytes": 104646,
+      "ssthresh_mss": 62.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=71.7 MSS (K=4.05s, W_max=88.6)."
+    },
+    {
+      "time": 4.608,
+      "cwnd_mss": 72.31,
+      "cwnd_bytes": 105572,
+      "ssthresh_mss": 62.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=72.3 MSS (K=4.05s, W_max=88.6)."
+    },
+    {
+      "time": 4.652,
+      "cwnd_mss": 72.93,
+      "cwnd_bytes": 106474,
+      "ssthresh_mss": 62.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=72.9 MSS (K=4.05s, W_max=88.6)."
+    },
+    {
+      "time": 4.696,
+      "cwnd_mss": 73.53,
+      "cwnd_bytes": 107353,
+      "ssthresh_mss": 62.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=73.5 MSS (K=4.05s, W_max=88.6)."
+    },
+    {
+      "time": 4.74,
+      "cwnd_mss": 74.12,
+      "cwnd_bytes": 108209,
+      "ssthresh_mss": 62.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=74.1 MSS (K=4.05s, W_max=88.6)."
+    },
+    {
+      "time": 4.784,
+      "cwnd_mss": 74.69,
+      "cwnd_bytes": 109043,
+      "ssthresh_mss": 62.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=74.7 MSS (K=4.05s, W_max=88.6)."
+    },
+    {
+      "time": 4.828,
+      "cwnd_mss": 75.24,
+      "cwnd_bytes": 109855,
+      "ssthresh_mss": 62.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=75.2 MSS (K=4.05s, W_max=88.6)."
+    },
+    {
+      "time": 4.872,
+      "cwnd_mss": 75.78,
+      "cwnd_bytes": 110645,
+      "ssthresh_mss": 62.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=75.8 MSS (K=4.05s, W_max=88.6)."
+    },
+    {
+      "time": 4.916,
+      "cwnd_mss": 76.46,
+      "cwnd_bytes": 111626,
+      "ssthresh_mss": 62.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=76.3 MSS (K=4.05s, W_max=88.6)."
+    },
+    {
+      "time": 4.96,
+      "cwnd_mss": 77.15,
+      "cwnd_bytes": 112637,
+      "ssthresh_mss": 62.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=76.8 MSS (K=4.05s, W_max=88.6)."
+    },
+    {
+      "time": 5.004,
+      "cwnd_mss": 77.84,
+      "cwnd_bytes": 113648,
+      "ssthresh_mss": 62.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=77.3 MSS (K=4.05s, W_max=88.6)."
+    },
+    {
+      "time": 5.048,
+      "cwnd_mss": 78.53,
+      "cwnd_bytes": 114658,
+      "ssthresh_mss": 62.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=77.8 MSS (K=4.05s, W_max=88.6)."
+    },
+    {
+      "time": 5.092,
+      "cwnd_mss": 79.23,
+      "cwnd_bytes": 115669,
+      "ssthresh_mss": 62.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=78.3 MSS (K=4.05s, W_max=88.6)."
+    },
+    {
+      "time": 5.136,
+      "cwnd_mss": 79.92,
+      "cwnd_bytes": 116680,
+      "ssthresh_mss": 62.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=78.7 MSS (K=4.05s, W_max=88.6)."
+    },
+    {
+      "time": 5.18,
+      "cwnd_mss": 80.61,
+      "cwnd_bytes": 117691,
+      "ssthresh_mss": 62.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=79.2 MSS (K=4.05s, W_max=88.6)."
+    },
+    {
+      "time": 5.224,
+      "cwnd_mss": 81.3,
+      "cwnd_bytes": 118701,
+      "ssthresh_mss": 62.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=79.6 MSS (K=4.05s, W_max=88.6)."
+    },
+    {
+      "time": 5.268,
+      "cwnd_mss": 82.0,
+      "cwnd_bytes": 119712,
+      "ssthresh_mss": 62.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=80.0 MSS (K=4.05s, W_max=88.6)."
+    },
+    {
+      "time": 5.312,
+      "cwnd_mss": 82.69,
+      "cwnd_bytes": 120723,
+      "ssthresh_mss": 62.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=80.4 MSS (K=4.05s, W_max=88.6)."
+    },
+    {
+      "time": 5.356,
+      "cwnd_mss": 83.38,
+      "cwnd_bytes": 121734,
+      "ssthresh_mss": 62.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=80.8 MSS (K=4.05s, W_max=88.6)."
+    },
+    {
+      "time": 5.4,
+      "cwnd_mss": 84.07,
+      "cwnd_bytes": 122745,
+      "ssthresh_mss": 62.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=81.2 MSS (K=4.05s, W_max=88.6)."
+    },
+    {
+      "time": 5.444,
+      "cwnd_mss": 84.76,
+      "cwnd_bytes": 123755,
+      "ssthresh_mss": 62.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=81.5 MSS (K=4.05s, W_max=88.6)."
+    },
+    {
+      "time": 5.488,
+      "cwnd_mss": 85.46,
+      "cwnd_bytes": 124766,
+      "ssthresh_mss": 62.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=81.9 MSS (K=4.05s, W_max=88.6)."
+    },
+    {
+      "time": 5.532,
+      "cwnd_mss": 86.15,
+      "cwnd_bytes": 125777,
+      "ssthresh_mss": 62.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=82.2 MSS (K=4.05s, W_max=88.6)."
+    },
+    {
+      "time": 5.576,
+      "cwnd_mss": 86.84,
+      "cwnd_bytes": 126788,
+      "ssthresh_mss": 62.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=82.6 MSS (K=4.05s, W_max=88.6)."
+    },
+    {
+      "time": 5.62,
+      "cwnd_mss": 87.53,
+      "cwnd_bytes": 127798,
+      "ssthresh_mss": 62.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=82.9 MSS (K=4.05s, W_max=88.6)."
+    },
+    {
+      "time": 5.664,
+      "cwnd_mss": 88.23,
+      "cwnd_bytes": 128809,
+      "ssthresh_mss": 62.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=83.2 MSS (K=4.05s, W_max=88.6)."
+    },
+    {
+      "time": 5.708,
+      "cwnd_mss": 61.76,
+      "cwnd_bytes": 90166,
+      "ssthresh_mss": 61.76,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 88.2, ssthresh = 61.8, K = 4.04s."
+    },
+    {
+      "time": 5.752,
+      "cwnd_mss": 89.32,
+      "cwnd_bytes": 130413,
+      "ssthresh_mss": 61.76,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=83.4 MSS (K=4.04s, W_max=88.2)."
+    },
+    {
+      "time": 5.796,
+      "cwnd_mss": 62.53,
+      "cwnd_bytes": 91289,
+      "ssthresh_mss": 62.53,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 89.3, ssthresh = 62.5, K = 4.06s."
+    },
+    {
+      "time": 5.84,
+      "cwnd_mss": 91.48,
+      "cwnd_bytes": 133558,
+      "ssthresh_mss": 62.53,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=84.9 MSS (K=4.06s, W_max=89.3)."
+    },
+    {
+      "time": 5.884,
+      "cwnd_mss": 64.03,
+      "cwnd_bytes": 93490,
+      "ssthresh_mss": 64.03,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 91.5, ssthresh = 64.0, K = 4.09s."
+    },
+    {
+      "time": 5.928,
+      "cwnd_mss": 94.37,
+      "cwnd_bytes": 137780,
+      "ssthresh_mss": 64.03,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=87.4 MSS (K=4.09s, W_max=91.5)."
+    },
+    {
+      "time": 5.972,
+      "cwnd_mss": 66.06,
+      "cwnd_bytes": 96446,
+      "ssthresh_mss": 66.06,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 94.4, ssthresh = 66.1, K = 4.14s."
+    },
+    {
+      "time": 6.016,
+      "cwnd_mss": 97.78,
+      "cwnd_bytes": 142758,
+      "ssthresh_mss": 66.06,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=90.6 MSS (K=4.14s, W_max=94.4)."
+    },
+    {
+      "time": 6.06,
+      "cwnd_mss": 68.45,
+      "cwnd_bytes": 99930,
+      "ssthresh_mss": 68.45,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 97.8, ssthresh = 68.4, K = 4.19s."
+    },
+    {
+      "time": 6.104,
+      "cwnd_mss": 101.55,
+      "cwnd_bytes": 148263,
+      "ssthresh_mss": 68.45,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=94.2 MSS (K=4.19s, W_max=97.8)."
+    },
+    {
+      "time": 6.148,
+      "cwnd_mss": 71.09,
+      "cwnd_bytes": 103784,
+      "ssthresh_mss": 71.09,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 101.6, ssthresh = 71.1, K = 4.24s."
+    },
+    {
+      "time": 6.192,
+      "cwnd_mss": 105.57,
+      "cwnd_bytes": 154139,
+      "ssthresh_mss": 71.09,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=98.1 MSS (K=4.24s, W_max=101.6)."
+    },
+    {
+      "time": 6.236,
+      "cwnd_mss": 73.9,
+      "cwnd_bytes": 107897,
+      "ssthresh_mss": 73.9,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 105.6, ssthresh = 73.9, K = 4.29s."
+    },
+    {
+      "time": 6.28,
+      "cwnd_mss": 109.78,
+      "cwnd_bytes": 160273,
+      "ssthresh_mss": 73.9,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=102.3 MSS (K=4.29s, W_max=105.6)."
+    },
+    {
+      "time": 6.324,
+      "cwnd_mss": 76.84,
+      "cwnd_bytes": 112191,
+      "ssthresh_mss": 76.84,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 109.8, ssthresh = 76.8, K = 4.35s."
+    },
+    {
+      "time": 6.368,
+      "cwnd_mss": 114.1,
+      "cwnd_bytes": 166589,
+      "ssthresh_mss": 76.84,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=106.7 MSS (K=4.35s, W_max=109.8)."
+    },
+    {
+      "time": 6.412,
+      "cwnd_mss": 79.87,
+      "cwnd_bytes": 116612,
+      "ssthresh_mss": 79.87,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 114.1, ssthresh = 79.9, K = 4.41s."
+    },
+    {
+      "time": 6.456,
+      "cwnd_mss": 118.51,
+      "cwnd_bytes": 173031,
+      "ssthresh_mss": 79.87,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=111.1 MSS (K=4.41s, W_max=114.1)."
+    },
+    {
+      "time": 6.5,
+      "cwnd_mss": 82.96,
+      "cwnd_bytes": 121122,
+      "ssthresh_mss": 82.96,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 118.5, ssthresh = 83.0, K = 4.46s."
+    },
+    {
+      "time": 6.544,
+      "cwnd_mss": 122.99,
+      "cwnd_bytes": 179563,
+      "ssthresh_mss": 82.96,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=115.7 MSS (K=4.46s, W_max=118.5)."
+    },
+    {
+      "time": 6.588,
+      "cwnd_mss": 86.09,
+      "cwnd_bytes": 125694,
+      "ssthresh_mss": 86.09,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 123.0, ssthresh = 86.1, K = 4.52s."
+    },
+    {
+      "time": 6.632,
+      "cwnd_mss": 127.5,
+      "cwnd_bytes": 186156,
+      "ssthresh_mss": 86.09,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=120.3 MSS (K=4.52s, W_max=123.0)."
+    },
+    {
+      "time": 6.676,
+      "cwnd_mss": 89.25,
+      "cwnd_bytes": 130309,
+      "ssthresh_mss": 89.25,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 127.5, ssthresh = 89.3, K = 4.57s."
+    },
+    {
+      "time": 6.72,
+      "cwnd_mss": 62.48,
+      "cwnd_bytes": 91216,
+      "ssthresh_mss": 62.48,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 89.3, ssthresh = 62.5, K = 4.06s."
+    },
+    {
+      "time": 6.764,
+      "cwnd_mss": 105.97,
+      "cwnd_bytes": 154711,
+      "ssthresh_mss": 62.48,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=88.4 MSS (K=4.06s, W_max=89.3)."
+    },
+    {
+      "time": 6.808,
+      "cwnd_mss": 74.18,
+      "cwnd_bytes": 108297,
+      "ssthresh_mss": 74.18,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 106.0, ssthresh = 74.2, K = 4.30s."
+    },
+    {
+      "time": 6.852,
+      "cwnd_mss": 119.05,
+      "cwnd_bytes": 173814,
+      "ssthresh_mss": 74.18,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=104.8 MSS (K=4.30s, W_max=106.0)."
+    },
+    {
+      "time": 6.896,
+      "cwnd_mss": 83.34,
+      "cwnd_bytes": 121669,
+      "ssthresh_mss": 83.34,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 119.1, ssthresh = 83.3, K = 4.47s."
+    },
+    {
+      "time": 6.94,
+      "cwnd_mss": 129.59,
+      "cwnd_bytes": 189207,
+      "ssthresh_mss": 83.34,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=117.6 MSS (K=4.47s, W_max=119.1)."
+    },
+    {
+      "time": 6.984,
+      "cwnd_mss": 90.72,
+      "cwnd_bytes": 132445,
+      "ssthresh_mss": 90.72,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 129.6, ssthresh = 90.7, K = 4.60s."
+    },
+    {
+      "time": 7.028,
+      "cwnd_mss": 63.5,
+      "cwnd_bytes": 92711,
+      "ssthresh_mss": 63.5,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 90.7, ssthresh = 63.5, K = 4.08s."
+    },
+    {
+      "time": 7.072,
+      "cwnd_mss": 111.84,
+      "cwnd_bytes": 163281,
+      "ssthresh_mss": 63.5,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=90.3 MSS (K=4.08s, W_max=90.7)."
+    },
+    {
+      "time": 7.116,
+      "cwnd_mss": 78.29,
+      "cwnd_bytes": 114297,
+      "ssthresh_mss": 78.29,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 111.8, ssthresh = 78.3, K = 4.38s."
+    },
+    {
+      "time": 7.16,
+      "cwnd_mss": 128.01,
+      "cwnd_bytes": 186888,
+      "ssthresh_mss": 78.29,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=111.1 MSS (K=4.38s, W_max=111.8)."
+    },
+    {
+      "time": 7.204,
+      "cwnd_mss": 89.6,
+      "cwnd_bytes": 130822,
+      "ssthresh_mss": 89.6,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 128.0, ssthresh = 89.6, K = 4.58s."
+    },
+    {
+      "time": 7.248,
+      "cwnd_mss": 62.72,
+      "cwnd_bytes": 91575,
+      "ssthresh_mss": 62.72,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 89.6, ssthresh = 62.7, K = 4.07s."
+    },
+    {
+      "time": 7.292,
+      "cwnd_mss": 114.52,
+      "cwnd_bytes": 167199,
+      "ssthresh_mss": 62.72,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=89.4 MSS (K=4.07s, W_max=89.6)."
+    },
+    {
+      "time": 7.336,
+      "cwnd_mss": 80.16,
+      "cwnd_bytes": 117039,
+      "ssthresh_mss": 80.16,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 114.5, ssthresh = 80.2, K = 4.41s."
+    },
+    {
+      "time": 7.38,
+      "cwnd_mss": 133.35,
+      "cwnd_bytes": 194685,
+      "ssthresh_mss": 80.16,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=114.1 MSS (K=4.41s, W_max=114.5)."
+    },
+    {
+      "time": 7.424,
+      "cwnd_mss": 93.34,
+      "cwnd_bytes": 136279,
+      "ssthresh_mss": 93.34,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 133.3, ssthresh = 93.3, K = 4.64s."
+    },
+    {
+      "time": 7.468,
+      "cwnd_mss": 65.34,
+      "cwnd_bytes": 95395,
+      "ssthresh_mss": 65.34,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 93.3, ssthresh = 65.3, K = 4.12s."
+    },
+    {
+      "time": 7.512,
+      "cwnd_mss": 120.6,
+      "cwnd_bytes": 176073,
+      "ssthresh_mss": 65.34,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=93.3 MSS (K=4.12s, W_max=93.3)."
+    },
+    {
+      "time": 7.556,
+      "cwnd_mss": 84.42,
+      "cwnd_bytes": 123251,
+      "ssthresh_mss": 84.42,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 120.6, ssthresh = 84.4, K = 4.49s."
+    },
+    {
+      "time": 7.6,
+      "cwnd_mss": 141.06,
+      "cwnd_bytes": 205950,
+      "ssthresh_mss": 84.42,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=120.3 MSS (K=4.49s, W_max=120.6)."
+    },
+    {
+      "time": 7.644,
+      "cwnd_mss": 98.74,
+      "cwnd_bytes": 144165,
+      "ssthresh_mss": 98.74,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 141.1, ssthresh = 98.7, K = 4.73s."
+    },
+    {
+      "time": 7.688,
+      "cwnd_mss": 69.12,
+      "cwnd_bytes": 100915,
+      "ssthresh_mss": 69.12,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 98.7, ssthresh = 69.1, K = 4.20s."
+    },
+    {
+      "time": 7.732,
+      "cwnd_mss": 127.84,
+      "cwnd_bytes": 186647,
+      "ssthresh_mss": 69.12,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=98.7 MSS (K=4.20s, W_max=98.7)."
+    },
+    {
+      "time": 7.776,
+      "cwnd_mss": 89.49,
+      "cwnd_bytes": 130653,
+      "ssthresh_mss": 89.49,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 127.8, ssthresh = 89.5, K = 4.58s."
+    },
+    {
+      "time": 7.82,
+      "cwnd_mss": 62.64,
+      "cwnd_bytes": 91457,
+      "ssthresh_mss": 62.64,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 89.5, ssthresh = 62.6, K = 4.06s."
+    },
+    {
+      "time": 7.864,
+      "cwnd_mss": 123.44,
+      "cwnd_bytes": 180221,
+      "ssthresh_mss": 62.64,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=89.5 MSS (K=4.06s, W_max=89.5)."
+    },
+    {
+      "time": 7.908,
+      "cwnd_mss": 86.41,
+      "cwnd_bytes": 126154,
+      "ssthresh_mss": 86.41,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 123.4, ssthresh = 86.4, K = 4.52s."
+    },
+    {
+      "time": 7.952,
+      "cwnd_mss": 148.59,
+      "cwnd_bytes": 216940,
+      "ssthresh_mss": 86.41,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=123.4 MSS (K=4.52s, W_max=123.4)."
+    },
+    {
+      "time": 7.996,
+      "cwnd_mss": 104.01,
+      "cwnd_bytes": 151858,
+      "ssthresh_mss": 104.01,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 148.6, ssthresh = 104.0, K = 4.81s."
+    },
+    {
+      "time": 8.04,
+      "cwnd_mss": 72.81,
+      "cwnd_bytes": 106300,
+      "ssthresh_mss": 72.81,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 104.0, ssthresh = 72.8, K = 4.27s."
+    },
+    {
+      "time": 8.084,
+      "cwnd_mss": 74.61,
+      "cwnd_bytes": 108935,
+      "ssthresh_mss": 72.81,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=74.6 MSS (K=4.27s, W_max=104.0)."
+    },
+    {
+      "time": 8.128,
+      "cwnd_mss": 75.53,
+      "cwnd_bytes": 110273,
+      "ssthresh_mss": 72.81,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=75.5 MSS (K=4.27s, W_max=104.0)."
+    },
+    {
+      "time": 8.172,
+      "cwnd_mss": 76.43,
+      "cwnd_bytes": 111583,
+      "ssthresh_mss": 72.81,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=76.4 MSS (K=4.27s, W_max=104.0)."
+    },
+    {
+      "time": 8.216,
+      "cwnd_mss": 77.31,
+      "cwnd_bytes": 112866,
+      "ssthresh_mss": 72.81,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=77.3 MSS (K=4.27s, W_max=104.0)."
+    },
+    {
+      "time": 8.26,
+      "cwnd_mss": 78.17,
+      "cwnd_bytes": 114121,
+      "ssthresh_mss": 72.81,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=78.2 MSS (K=4.27s, W_max=104.0)."
+    },
+    {
+      "time": 8.304,
+      "cwnd_mss": 79.01,
+      "cwnd_bytes": 115349,
+      "ssthresh_mss": 72.81,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=79.0 MSS (K=4.27s, W_max=104.0)."
+    },
+    {
+      "time": 8.348,
+      "cwnd_mss": 79.83,
+      "cwnd_bytes": 116550,
+      "ssthresh_mss": 72.81,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=79.8 MSS (K=4.27s, W_max=104.0)."
+    },
+    {
+      "time": 8.392,
+      "cwnd_mss": 80.63,
+      "cwnd_bytes": 117724,
+      "ssthresh_mss": 72.81,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=80.6 MSS (K=4.27s, W_max=104.0)."
+    },
+    {
+      "time": 8.436,
+      "cwnd_mss": 81.42,
+      "cwnd_bytes": 118872,
+      "ssthresh_mss": 72.81,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=81.4 MSS (K=4.27s, W_max=104.0)."
+    },
+    {
+      "time": 8.48,
+      "cwnd_mss": 82.19,
+      "cwnd_bytes": 119994,
+      "ssthresh_mss": 72.81,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=82.2 MSS (K=4.27s, W_max=104.0)."
+    },
+    {
+      "time": 8.524,
+      "cwnd_mss": 82.94,
+      "cwnd_bytes": 121090,
+      "ssthresh_mss": 72.81,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=82.9 MSS (K=4.27s, W_max=104.0)."
+    },
+    {
+      "time": 8.568,
+      "cwnd_mss": 83.67,
+      "cwnd_bytes": 122160,
+      "ssthresh_mss": 72.81,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=83.7 MSS (K=4.27s, W_max=104.0)."
+    },
+    {
+      "time": 8.612,
+      "cwnd_mss": 84.39,
+      "cwnd_bytes": 123206,
+      "ssthresh_mss": 72.81,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=84.4 MSS (K=4.27s, W_max=104.0)."
+    },
+    {
+      "time": 8.656,
+      "cwnd_mss": 85.09,
+      "cwnd_bytes": 124227,
+      "ssthresh_mss": 72.81,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=85.1 MSS (K=4.27s, W_max=104.0)."
+    },
+    {
+      "time": 8.7,
+      "cwnd_mss": 85.77,
+      "cwnd_bytes": 125223,
+      "ssthresh_mss": 72.81,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=85.8 MSS (K=4.27s, W_max=104.0)."
+    },
+    {
+      "time": 8.744,
+      "cwnd_mss": 86.44,
+      "cwnd_bytes": 126195,
+      "ssthresh_mss": 72.81,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=86.4 MSS (K=4.27s, W_max=104.0)."
+    },
+    {
+      "time": 8.788,
+      "cwnd_mss": 87.08,
+      "cwnd_bytes": 127143,
+      "ssthresh_mss": 72.81,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=87.1 MSS (K=4.27s, W_max=104.0)."
+    },
+    {
+      "time": 8.832,
+      "cwnd_mss": 87.72,
+      "cwnd_bytes": 128067,
+      "ssthresh_mss": 72.81,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=87.7 MSS (K=4.27s, W_max=104.0)."
+    },
+    {
+      "time": 8.876,
+      "cwnd_mss": 61.4,
+      "cwnd_bytes": 89647,
+      "ssthresh_mss": 61.4,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 87.7, ssthresh = 61.4, K = 4.04s."
+    },
+    {
+      "time": 8.92,
+      "cwnd_mss": 75.88,
+      "cwnd_bytes": 110781,
+      "ssthresh_mss": 61.4,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=75.6 MSS (K=4.04s, W_max=87.7)."
+    },
+    {
+      "time": 8.964,
+      "cwnd_mss": 76.57,
+      "cwnd_bytes": 111792,
+      "ssthresh_mss": 61.4,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=76.1 MSS (K=4.04s, W_max=87.7)."
+    },
+    {
+      "time": 9.008,
+      "cwnd_mss": 77.26,
+      "cwnd_bytes": 112803,
+      "ssthresh_mss": 61.4,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=76.6 MSS (K=4.04s, W_max=87.7)."
+    },
+    {
+      "time": 9.052,
+      "cwnd_mss": 77.95,
+      "cwnd_bytes": 113814,
+      "ssthresh_mss": 61.4,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=77.1 MSS (K=4.04s, W_max=87.7)."
+    },
+    {
+      "time": 9.096,
+      "cwnd_mss": 78.65,
+      "cwnd_bytes": 114824,
+      "ssthresh_mss": 61.4,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=77.5 MSS (K=4.04s, W_max=87.7)."
+    },
+    {
+      "time": 9.14,
+      "cwnd_mss": 79.34,
+      "cwnd_bytes": 115835,
+      "ssthresh_mss": 61.4,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=78.0 MSS (K=4.04s, W_max=87.7)."
+    },
+    {
+      "time": 9.184,
+      "cwnd_mss": 80.03,
+      "cwnd_bytes": 116846,
+      "ssthresh_mss": 61.4,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=78.4 MSS (K=4.04s, W_max=87.7)."
+    },
+    {
+      "time": 9.228,
+      "cwnd_mss": 80.72,
+      "cwnd_bytes": 117857,
+      "ssthresh_mss": 61.4,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=78.9 MSS (K=4.04s, W_max=87.7)."
+    },
+    {
+      "time": 9.272,
+      "cwnd_mss": 81.42,
+      "cwnd_bytes": 118867,
+      "ssthresh_mss": 61.4,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=79.3 MSS (K=4.04s, W_max=87.7)."
+    },
+    {
+      "time": 9.316,
+      "cwnd_mss": 82.11,
+      "cwnd_bytes": 119878,
+      "ssthresh_mss": 61.4,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=79.7 MSS (K=4.04s, W_max=87.7)."
+    },
+    {
+      "time": 9.36,
+      "cwnd_mss": 82.8,
+      "cwnd_bytes": 120889,
+      "ssthresh_mss": 61.4,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=80.0 MSS (K=4.04s, W_max=87.7)."
+    },
+    {
+      "time": 9.404,
+      "cwnd_mss": 83.49,
+      "cwnd_bytes": 121900,
+      "ssthresh_mss": 61.4,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=80.4 MSS (K=4.04s, W_max=87.7)."
+    },
+    {
+      "time": 9.448,
+      "cwnd_mss": 84.19,
+      "cwnd_bytes": 122910,
+      "ssthresh_mss": 61.4,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=80.8 MSS (K=4.04s, W_max=87.7)."
+    },
+    {
+      "time": 9.492,
+      "cwnd_mss": 84.88,
+      "cwnd_bytes": 123921,
+      "ssthresh_mss": 61.4,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=81.1 MSS (K=4.04s, W_max=87.7)."
+    },
+    {
+      "time": 9.536,
+      "cwnd_mss": 85.57,
+      "cwnd_bytes": 124932,
+      "ssthresh_mss": 61.4,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=81.5 MSS (K=4.04s, W_max=87.7)."
+    },
+    {
+      "time": 9.58,
+      "cwnd_mss": 86.26,
+      "cwnd_bytes": 125943,
+      "ssthresh_mss": 61.4,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=81.8 MSS (K=4.04s, W_max=87.7)."
+    },
+    {
+      "time": 9.624,
+      "cwnd_mss": 86.95,
+      "cwnd_bytes": 126954,
+      "ssthresh_mss": 61.4,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=82.1 MSS (K=4.04s, W_max=87.7)."
+    },
+    {
+      "time": 9.668,
+      "cwnd_mss": 87.65,
+      "cwnd_bytes": 127964,
+      "ssthresh_mss": 61.4,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=82.4 MSS (K=4.04s, W_max=87.7)."
+    },
+    {
+      "time": 9.712,
+      "cwnd_mss": 88.34,
+      "cwnd_bytes": 128975,
+      "ssthresh_mss": 61.4,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=82.7 MSS (K=4.04s, W_max=87.7)."
+    },
+    {
+      "time": 9.756,
+      "cwnd_mss": 61.84,
+      "cwnd_bytes": 90282,
+      "ssthresh_mss": 61.84,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 88.3, ssthresh = 61.8, K = 4.05s."
+    },
+    {
+      "time": 9.8,
+      "cwnd_mss": 90.16,
+      "cwnd_bytes": 131632,
+      "ssthresh_mss": 61.84,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=83.8 MSS (K=4.05s, W_max=88.3)."
+    },
+    {
+      "time": 9.844,
+      "cwnd_mss": 63.11,
+      "cwnd_bytes": 92142,
+      "ssthresh_mss": 63.11,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 90.2, ssthresh = 63.1, K = 4.07s."
+    },
+    {
+      "time": 9.888,
+      "cwnd_mss": 92.82,
+      "cwnd_bytes": 135513,
+      "ssthresh_mss": 63.11,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=86.0 MSS (K=4.07s, W_max=90.2)."
+    },
+    {
+      "time": 9.932,
+      "cwnd_mss": 64.97,
+      "cwnd_bytes": 94859,
+      "ssthresh_mss": 64.97,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 92.8, ssthresh = 65.0, K = 4.11s."
+    },
+    {
+      "time": 9.976,
+      "cwnd_mss": 96.06,
+      "cwnd_bytes": 140252,
+      "ssthresh_mss": 64.97,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=88.9 MSS (K=4.11s, W_max=92.8)."
+    },
+    {
+      "time": 10.02,
+      "cwnd_mss": 67.24,
+      "cwnd_bytes": 98176,
+      "ssthresh_mss": 67.24,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 96.1, ssthresh = 67.2, K = 4.16s."
+    },
+    {
+      "time": 10.064,
+      "cwnd_mss": 99.72,
+      "cwnd_bytes": 145591,
+      "ssthresh_mss": 67.24,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=92.4 MSS (K=4.16s, W_max=96.1)."
+    },
+    {
+      "time": 10.108,
+      "cwnd_mss": 69.8,
+      "cwnd_bytes": 101913,
+      "ssthresh_mss": 69.8,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 99.7, ssthresh = 69.8, K = 4.21s."
+    },
+    {
+      "time": 10.152,
+      "cwnd_mss": 103.66,
+      "cwnd_bytes": 151349,
+      "ssthresh_mss": 69.8,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=96.2 MSS (K=4.21s, W_max=99.7)."
+    },
+    {
+      "time": 10.196,
+      "cwnd_mss": 72.56,
+      "cwnd_bytes": 105944,
+      "ssthresh_mss": 72.56,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 103.7, ssthresh = 72.6, K = 4.27s."
+    },
+    {
+      "time": 10.24,
+      "cwnd_mss": 107.81,
+      "cwnd_bytes": 157402,
+      "ssthresh_mss": 72.56,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=100.3 MSS (K=4.27s, W_max=103.7)."
+    },
+    {
+      "time": 10.284,
+      "cwnd_mss": 75.47,
+      "cwnd_bytes": 110181,
+      "ssthresh_mss": 75.47,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 107.8, ssthresh = 75.5, K = 4.32s."
+    },
+    {
+      "time": 10.328,
+      "cwnd_mss": 112.1,
+      "cwnd_bytes": 163660,
+      "ssthresh_mss": 75.47,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=104.6 MSS (K=4.32s, W_max=107.8)."
+    },
+    {
+      "time": 10.372,
+      "cwnd_mss": 78.47,
+      "cwnd_bytes": 114562,
+      "ssthresh_mss": 78.47,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 112.1, ssthresh = 78.5, K = 4.38s."
+    },
+    {
+      "time": 10.416,
+      "cwnd_mss": 116.48,
+      "cwnd_bytes": 170062,
+      "ssthresh_mss": 78.47,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=109.1 MSS (K=4.38s, W_max=112.1)."
+    },
+    {
+      "time": 10.46,
+      "cwnd_mss": 81.54,
+      "cwnd_bytes": 119043,
+      "ssthresh_mss": 81.54,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 116.5, ssthresh = 81.5, K = 4.44s."
+    },
+    {
+      "time": 10.504,
+      "cwnd_mss": 120.94,
+      "cwnd_bytes": 176565,
+      "ssthresh_mss": 81.54,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=113.6 MSS (K=4.44s, W_max=116.5)."
+    },
+    {
+      "time": 10.548,
+      "cwnd_mss": 84.65,
+      "cwnd_bytes": 123596,
+      "ssthresh_mss": 84.65,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 120.9, ssthresh = 84.7, K = 4.49s."
+    },
+    {
+      "time": 10.592,
+      "cwnd_mss": 125.44,
+      "cwnd_bytes": 183139,
+      "ssthresh_mss": 84.65,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=118.2 MSS (K=4.49s, W_max=120.9)."
+    },
+    {
+      "time": 10.636,
+      "cwnd_mss": 87.81,
+      "cwnd_bytes": 128197,
+      "ssthresh_mss": 87.81,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 125.4, ssthresh = 87.8, K = 4.55s."
+    },
+    {
+      "time": 10.68,
+      "cwnd_mss": 61.46,
+      "cwnd_bytes": 89738,
+      "ssthresh_mss": 61.46,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 87.8, ssthresh = 61.5, K = 4.04s."
+    },
+    {
+      "time": 10.724,
+      "cwnd_mss": 104.32,
+      "cwnd_bytes": 152314,
+      "ssthresh_mss": 61.46,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=86.9 MSS (K=4.04s, W_max=87.8)."
+    },
+    {
+      "time": 10.768,
+      "cwnd_mss": 73.03,
+      "cwnd_bytes": 106619,
+      "ssthresh_mss": 73.03,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 104.3, ssthresh = 73.0, K = 4.28s."
+    },
+    {
+      "time": 10.812,
+      "cwnd_mss": 117.27,
+      "cwnd_bytes": 171217,
+      "ssthresh_mss": 73.03,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=103.1 MSS (K=4.28s, W_max=104.3)."
+    },
+    {
+      "time": 10.856,
+      "cwnd_mss": 82.09,
+      "cwnd_bytes": 119852,
+      "ssthresh_mss": 82.09,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 117.3, ssthresh = 82.1, K = 4.45s."
+    },
+    {
+      "time": 10.9,
+      "cwnd_mss": 127.72,
+      "cwnd_bytes": 186470,
+      "ssthresh_mss": 82.09,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=115.8 MSS (K=4.45s, W_max=117.3)."
+    },
+    {
+      "time": 10.944,
+      "cwnd_mss": 89.4,
+      "cwnd_bytes": 130529,
+      "ssthresh_mss": 89.4,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 127.7, ssthresh = 89.4, K = 4.58s."
+    },
+    {
+      "time": 10.988,
+      "cwnd_mss": 62.58,
+      "cwnd_bytes": 91370,
+      "ssthresh_mss": 62.58,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 89.4, ssthresh = 62.6, K = 4.06s."
+    },
+    {
+      "time": 11.032,
+      "cwnd_mss": 110.29,
+      "cwnd_bytes": 161021,
+      "ssthresh_mss": 62.58,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=89.0 MSS (K=4.06s, W_max=89.4)."
+    },
+    {
+      "time": 11.076,
+      "cwnd_mss": 77.2,
+      "cwnd_bytes": 112715,
+      "ssthresh_mss": 77.2,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 110.3, ssthresh = 77.2, K = 4.36s."
+    },
+    {
+      "time": 11.12,
+      "cwnd_mss": 126.29,
+      "cwnd_bytes": 184388,
+      "ssthresh_mss": 77.2,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=109.5 MSS (K=4.36s, W_max=110.3)."
+    },
+    {
+      "time": 11.164,
+      "cwnd_mss": 88.41,
+      "cwnd_bytes": 129071,
+      "ssthresh_mss": 88.41,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 126.3, ssthresh = 88.4, K = 4.56s."
+    },
+    {
+      "time": 11.208,
+      "cwnd_mss": 61.88,
+      "cwnd_bytes": 90350,
+      "ssthresh_mss": 61.88,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 88.4, ssthresh = 61.9, K = 4.05s."
+    },
+    {
+      "time": 11.252,
+      "cwnd_mss": 113.05,
+      "cwnd_bytes": 165055,
+      "ssthresh_mss": 61.88,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=88.2 MSS (K=4.05s, W_max=88.4)."
+    },
+    {
+      "time": 11.296,
+      "cwnd_mss": 79.14,
+      "cwnd_bytes": 115538,
+      "ssthresh_mss": 79.14,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 113.1, ssthresh = 79.1, K = 4.39s."
+    },
+    {
+      "time": 11.34,
+      "cwnd_mss": 131.69,
+      "cwnd_bytes": 192265,
+      "ssthresh_mss": 79.14,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=112.6 MSS (K=4.39s, W_max=113.1)."
+    },
+    {
+      "time": 11.384,
+      "cwnd_mss": 92.18,
+      "cwnd_bytes": 134585,
+      "ssthresh_mss": 92.18,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 131.7, ssthresh = 92.2, K = 4.62s."
+    },
+    {
+      "time": 11.428,
+      "cwnd_mss": 64.53,
+      "cwnd_bytes": 94209,
+      "ssthresh_mss": 64.53,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 92.2, ssthresh = 64.5, K = 4.10s."
+    },
+    {
+      "time": 11.472,
+      "cwnd_mss": 119.16,
+      "cwnd_bytes": 173968,
+      "ssthresh_mss": 64.53,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=92.1 MSS (K=4.10s, W_max=92.2)."
+    },
+    {
+      "time": 11.516,
+      "cwnd_mss": 83.41,
+      "cwnd_bytes": 121778,
+      "ssthresh_mss": 83.41,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 119.2, ssthresh = 83.4, K = 4.47s."
+    },
+    {
+      "time": 11.56,
+      "cwnd_mss": 139.42,
+      "cwnd_bytes": 203558,
+      "ssthresh_mss": 83.41,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=118.9 MSS (K=4.47s, W_max=119.2)."
+    },
+    {
+      "time": 11.604,
+      "cwnd_mss": 97.6,
+      "cwnd_bytes": 142491,
+      "ssthresh_mss": 97.6,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 139.4, ssthresh = 97.6, K = 4.71s."
+    },
+    {
+      "time": 11.648,
+      "cwnd_mss": 68.32,
+      "cwnd_bytes": 99743,
+      "ssthresh_mss": 68.32,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 97.6, ssthresh = 68.3, K = 4.18s."
+    },
+    {
+      "time": 11.692,
+      "cwnd_mss": 126.41,
+      "cwnd_bytes": 184556,
+      "ssthresh_mss": 68.32,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=97.5 MSS (K=4.18s, W_max=97.6)."
+    },
+    {
+      "time": 11.736,
+      "cwnd_mss": 88.49,
+      "cwnd_bytes": 129189,
+      "ssthresh_mss": 88.49,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 126.4, ssthresh = 88.5, K = 4.56s."
+    },
+    {
+      "time": 11.78,
+      "cwnd_mss": 61.94,
+      "cwnd_bytes": 90432,
+      "ssthresh_mss": 61.94,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 88.5, ssthresh = 61.9, K = 4.05s."
+    },
+    {
+      "time": 11.824,
+      "cwnd_mss": 122.11,
+      "cwnd_bytes": 178277,
+      "ssthresh_mss": 61.94,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=88.5 MSS (K=4.05s, W_max=88.5)."
+    },
+    {
+      "time": 11.868,
+      "cwnd_mss": 85.48,
+      "cwnd_bytes": 124794,
+      "ssthresh_mss": 85.48,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 122.1, ssthresh = 85.5, K = 4.51s."
+    },
+    {
+      "time": 11.912,
+      "cwnd_mss": 147.03,
+      "cwnd_bytes": 214660,
+      "ssthresh_mss": 85.48,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=122.0 MSS (K=4.51s, W_max=122.1)."
+    },
+    {
+      "time": 11.956,
+      "cwnd_mss": 102.92,
+      "cwnd_bytes": 150262,
+      "ssthresh_mss": 102.92,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 147.0, ssthresh = 102.9, K = 4.80s."
+    },
+    {
+      "time": 12.0,
+      "cwnd_mss": 72.04,
+      "cwnd_bytes": 105183,
+      "ssthresh_mss": 72.04,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 102.9, ssthresh = 72.0, K = 4.26s."
+    },
+    {
+      "time": 12.044,
+      "cwnd_mss": 72.99,
+      "cwnd_bytes": 106567,
+      "ssthresh_mss": 72.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=73.0 MSS (K=4.26s, W_max=102.9)."
+    },
+    {
+      "time": 12.088,
+      "cwnd_mss": 73.92,
+      "cwnd_bytes": 107921,
+      "ssthresh_mss": 72.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=73.9 MSS (K=4.26s, W_max=102.9)."
+    },
+    {
+      "time": 12.132,
+      "cwnd_mss": 74.83,
+      "cwnd_bytes": 109247,
+      "ssthresh_mss": 72.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=74.8 MSS (K=4.26s, W_max=102.9)."
+    },
+    {
+      "time": 12.176,
+      "cwnd_mss": 75.72,
+      "cwnd_bytes": 110546,
+      "ssthresh_mss": 72.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=75.7 MSS (K=4.26s, W_max=102.9)."
+    },
+    {
+      "time": 12.22,
+      "cwnd_mss": 76.59,
+      "cwnd_bytes": 111816,
+      "ssthresh_mss": 72.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=76.6 MSS (K=4.26s, W_max=102.9)."
+    },
+    {
+      "time": 12.264,
+      "cwnd_mss": 77.44,
+      "cwnd_bytes": 113059,
+      "ssthresh_mss": 72.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=77.4 MSS (K=4.26s, W_max=102.9)."
+    },
+    {
+      "time": 12.308,
+      "cwnd_mss": 78.27,
+      "cwnd_bytes": 114275,
+      "ssthresh_mss": 72.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=78.3 MSS (K=4.26s, W_max=102.9)."
+    },
+    {
+      "time": 12.352,
+      "cwnd_mss": 79.09,
+      "cwnd_bytes": 115465,
+      "ssthresh_mss": 72.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=79.1 MSS (K=4.26s, W_max=102.9)."
+    },
+    {
+      "time": 12.396,
+      "cwnd_mss": 79.88,
+      "cwnd_bytes": 116628,
+      "ssthresh_mss": 72.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=79.9 MSS (K=4.26s, W_max=102.9)."
+    },
+    {
+      "time": 12.44,
+      "cwnd_mss": 80.66,
+      "cwnd_bytes": 117764,
+      "ssthresh_mss": 72.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=80.7 MSS (K=4.26s, W_max=102.9)."
+    },
+    {
+      "time": 12.484,
+      "cwnd_mss": 81.42,
+      "cwnd_bytes": 118875,
+      "ssthresh_mss": 72.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=81.4 MSS (K=4.26s, W_max=102.9)."
+    },
+    {
+      "time": 12.528,
+      "cwnd_mss": 82.16,
+      "cwnd_bytes": 119960,
+      "ssthresh_mss": 72.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=82.2 MSS (K=4.26s, W_max=102.9)."
+    },
+    {
+      "time": 12.572,
+      "cwnd_mss": 82.89,
+      "cwnd_bytes": 121020,
+      "ssthresh_mss": 72.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=82.9 MSS (K=4.26s, W_max=102.9)."
+    },
+    {
+      "time": 12.616,
+      "cwnd_mss": 83.6,
+      "cwnd_bytes": 122055,
+      "ssthresh_mss": 72.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=83.6 MSS (K=4.26s, W_max=102.9)."
+    },
+    {
+      "time": 12.66,
+      "cwnd_mss": 84.29,
+      "cwnd_bytes": 123065,
+      "ssthresh_mss": 72.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=84.3 MSS (K=4.26s, W_max=102.9)."
+    },
+    {
+      "time": 12.704,
+      "cwnd_mss": 84.97,
+      "cwnd_bytes": 124050,
+      "ssthresh_mss": 72.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=85.0 MSS (K=4.26s, W_max=102.9)."
+    },
+    {
+      "time": 12.748,
+      "cwnd_mss": 85.62,
+      "cwnd_bytes": 125012,
+      "ssthresh_mss": 72.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=85.6 MSS (K=4.26s, W_max=102.9)."
+    },
+    {
+      "time": 12.792,
+      "cwnd_mss": 86.27,
+      "cwnd_bytes": 125950,
+      "ssthresh_mss": 72.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=86.3 MSS (K=4.26s, W_max=102.9)."
+    },
+    {
+      "time": 12.836,
+      "cwnd_mss": 86.89,
+      "cwnd_bytes": 126864,
+      "ssthresh_mss": 72.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=86.9 MSS (K=4.26s, W_max=102.9)."
+    },
+    {
+      "time": 12.88,
+      "cwnd_mss": 87.5,
+      "cwnd_bytes": 127755,
+      "ssthresh_mss": 72.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=87.5 MSS (K=4.26s, W_max=102.9)."
+    },
+    {
+      "time": 12.924,
+      "cwnd_mss": 88.1,
+      "cwnd_bytes": 128623,
+      "ssthresh_mss": 72.04,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=88.1 MSS (K=4.26s, W_max=102.9)."
+    },
+    {
+      "time": 12.968,
+      "cwnd_mss": 61.67,
+      "cwnd_bytes": 90036,
+      "ssthresh_mss": 61.67,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 88.1, ssthresh = 61.7, K = 4.04s."
+    },
+    {
+      "time": 13.012,
+      "cwnd_mss": 77.59,
+      "cwnd_bytes": 113284,
+      "ssthresh_mss": 61.67,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=77.0 MSS (K=4.04s, W_max=88.1)."
+    },
+    {
+      "time": 13.056,
+      "cwnd_mss": 78.28,
+      "cwnd_bytes": 114295,
+      "ssthresh_mss": 61.67,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=77.4 MSS (K=4.04s, W_max=88.1)."
+    },
+    {
+      "time": 13.1,
+      "cwnd_mss": 78.98,
+      "cwnd_bytes": 115305,
+      "ssthresh_mss": 61.67,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=77.9 MSS (K=4.04s, W_max=88.1)."
+    },
+    {
+      "time": 13.144,
+      "cwnd_mss": 79.67,
+      "cwnd_bytes": 116316,
+      "ssthresh_mss": 61.67,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=78.4 MSS (K=4.04s, W_max=88.1)."
+    },
+    {
+      "time": 13.188,
+      "cwnd_mss": 80.36,
+      "cwnd_bytes": 117327,
+      "ssthresh_mss": 61.67,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=78.8 MSS (K=4.04s, W_max=88.1)."
+    },
+    {
+      "time": 13.232,
+      "cwnd_mss": 81.05,
+      "cwnd_bytes": 118338,
+      "ssthresh_mss": 61.67,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=79.2 MSS (K=4.04s, W_max=88.1)."
+    },
+    {
+      "time": 13.276,
+      "cwnd_mss": 81.75,
+      "cwnd_bytes": 119348,
+      "ssthresh_mss": 61.67,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=79.6 MSS (K=4.04s, W_max=88.1)."
+    },
+    {
+      "time": 13.32,
+      "cwnd_mss": 82.44,
+      "cwnd_bytes": 120359,
+      "ssthresh_mss": 61.67,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=80.0 MSS (K=4.04s, W_max=88.1)."
+    },
+    {
+      "time": 13.364,
+      "cwnd_mss": 83.13,
+      "cwnd_bytes": 121370,
+      "ssthresh_mss": 61.67,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=80.4 MSS (K=4.04s, W_max=88.1)."
+    },
+    {
+      "time": 13.408,
+      "cwnd_mss": 83.82,
+      "cwnd_bytes": 122381,
+      "ssthresh_mss": 61.67,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=80.8 MSS (K=4.04s, W_max=88.1)."
+    },
+    {
+      "time": 13.452,
+      "cwnd_mss": 84.52,
+      "cwnd_bytes": 123391,
+      "ssthresh_mss": 61.67,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=81.1 MSS (K=4.04s, W_max=88.1)."
+    },
+    {
+      "time": 13.496,
+      "cwnd_mss": 85.21,
+      "cwnd_bytes": 124402,
+      "ssthresh_mss": 61.67,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=81.5 MSS (K=4.04s, W_max=88.1)."
+    },
+    {
+      "time": 13.54,
+      "cwnd_mss": 85.9,
+      "cwnd_bytes": 125413,
+      "ssthresh_mss": 61.67,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=81.8 MSS (K=4.04s, W_max=88.1)."
+    },
+    {
+      "time": 13.584,
+      "cwnd_mss": 86.59,
+      "cwnd_bytes": 126424,
+      "ssthresh_mss": 61.67,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=82.2 MSS (K=4.04s, W_max=88.1)."
+    },
+    {
+      "time": 13.628,
+      "cwnd_mss": 87.28,
+      "cwnd_bytes": 127435,
+      "ssthresh_mss": 61.67,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=82.5 MSS (K=4.04s, W_max=88.1)."
+    },
+    {
+      "time": 13.672,
+      "cwnd_mss": 87.98,
+      "cwnd_bytes": 128445,
+      "ssthresh_mss": 61.67,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=82.8 MSS (K=4.04s, W_max=88.1)."
+    },
+    {
+      "time": 13.716,
+      "cwnd_mss": 61.58,
+      "cwnd_bytes": 89912,
+      "ssthresh_mss": 61.58,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 88.0, ssthresh = 61.6, K = 4.04s."
+    },
+    {
+      "time": 13.76,
+      "cwnd_mss": 89.28,
+      "cwnd_bytes": 130342,
+      "ssthresh_mss": 61.58,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=83.2 MSS (K=4.04s, W_max=88.0)."
+    },
+    {
+      "time": 13.804,
+      "cwnd_mss": 62.49,
+      "cwnd_bytes": 91239,
+      "ssthresh_mss": 62.49,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 89.3, ssthresh = 62.5, K = 4.06s."
+    },
+    {
+      "time": 13.848,
+      "cwnd_mss": 91.57,
+      "cwnd_bytes": 133692,
+      "ssthresh_mss": 62.49,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=84.9 MSS (K=4.06s, W_max=89.3)."
+    },
+    {
+      "time": 13.892,
+      "cwnd_mss": 64.1,
+      "cwnd_bytes": 93584,
+      "ssthresh_mss": 64.1,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 91.6, ssthresh = 64.1, K = 4.10s."
+    },
+    {
+      "time": 13.936,
+      "cwnd_mss": 94.56,
+      "cwnd_bytes": 138058,
+      "ssthresh_mss": 64.1,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=87.5 MSS (K=4.10s, W_max=91.6)."
+    },
+    {
+      "time": 13.98,
+      "cwnd_mss": 66.19,
+      "cwnd_bytes": 96640,
+      "ssthresh_mss": 66.19,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 94.6, ssthresh = 66.2, K = 4.14s."
+    },
+    {
+      "time": 14.024,
+      "cwnd_mss": 98.04,
+      "cwnd_bytes": 143136,
+      "ssthresh_mss": 66.19,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=90.8 MSS (K=4.14s, W_max=94.6)."
+    },
+    {
+      "time": 14.068,
+      "cwnd_mss": 68.63,
+      "cwnd_bytes": 100195,
+      "ssthresh_mss": 68.63,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 98.0, ssthresh = 68.6, K = 4.19s."
+    },
+    {
+      "time": 14.112,
+      "cwnd_mss": 101.86,
+      "cwnd_bytes": 148712,
+      "ssthresh_mss": 68.63,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=94.5 MSS (K=4.19s, W_max=98.0)."
+    },
+    {
+      "time": 14.156,
+      "cwnd_mss": 71.3,
+      "cwnd_bytes": 104098,
+      "ssthresh_mss": 71.3,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 101.9, ssthresh = 71.3, K = 4.24s."
+    },
+    {
+      "time": 14.2,
+      "cwnd_mss": 105.92,
+      "cwnd_bytes": 154637,
+      "ssthresh_mss": 71.3,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=98.4 MSS (K=4.24s, W_max=101.9)."
+    },
+    {
+      "time": 14.244,
+      "cwnd_mss": 74.14,
+      "cwnd_bytes": 108245,
+      "ssthresh_mss": 74.14,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 105.9, ssthresh = 74.1, K = 4.30s."
+    },
+    {
+      "time": 14.288,
+      "cwnd_mss": 110.14,
+      "cwnd_bytes": 160805,
+      "ssthresh_mss": 74.14,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=102.7 MSS (K=4.30s, W_max=105.9)."
+    },
+    {
+      "time": 14.332,
+      "cwnd_mss": 77.1,
+      "cwnd_bytes": 112564,
+      "ssthresh_mss": 77.1,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 110.1, ssthresh = 77.1, K = 4.36s."
+    },
+    {
+      "time": 14.376,
+      "cwnd_mss": 114.48,
+      "cwnd_bytes": 167145,
+      "ssthresh_mss": 77.1,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=107.0 MSS (K=4.36s, W_max=110.1)."
+    },
+    {
+      "time": 14.42,
+      "cwnd_mss": 80.14,
+      "cwnd_bytes": 117002,
+      "ssthresh_mss": 80.14,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 114.5, ssthresh = 80.1, K = 4.41s."
+    },
+    {
+      "time": 14.464,
+      "cwnd_mss": 118.91,
+      "cwnd_bytes": 173605,
+      "ssthresh_mss": 80.14,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=111.5 MSS (K=4.41s, W_max=114.5)."
+    },
+    {
+      "time": 14.508,
+      "cwnd_mss": 83.24,
+      "cwnd_bytes": 121523,
+      "ssthresh_mss": 83.24,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 118.9, ssthresh = 83.2, K = 4.47s."
+    },
+    {
+      "time": 14.552,
+      "cwnd_mss": 123.39,
+      "cwnd_bytes": 180148,
+      "ssthresh_mss": 83.24,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=116.1 MSS (K=4.47s, W_max=118.9)."
+    },
+    {
+      "time": 14.596,
+      "cwnd_mss": 86.37,
+      "cwnd_bytes": 126103,
+      "ssthresh_mss": 86.37,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 123.4, ssthresh = 86.4, K = 4.52s."
+    },
+    {
+      "time": 14.64,
+      "cwnd_mss": 127.91,
+      "cwnd_bytes": 186749,
+      "ssthresh_mss": 86.37,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=120.7 MSS (K=4.52s, W_max=123.4)."
+    },
+    {
+      "time": 14.684,
+      "cwnd_mss": 89.54,
+      "cwnd_bytes": 130724,
+      "ssthresh_mss": 89.54,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 127.9, ssthresh = 89.5, K = 4.58s."
+    },
+    {
+      "time": 14.728,
+      "cwnd_mss": 62.68,
+      "cwnd_bytes": 91507,
+      "ssthresh_mss": 62.68,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 89.5, ssthresh = 62.7, K = 4.06s."
+    },
+    {
+      "time": 14.772,
+      "cwnd_mss": 106.29,
+      "cwnd_bytes": 155185,
+      "ssthresh_mss": 62.68,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=88.7 MSS (K=4.06s, W_max=89.5)."
+    },
+    {
+      "time": 14.816,
+      "cwnd_mss": 74.4,
+      "cwnd_bytes": 108630,
+      "ssthresh_mss": 74.4,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 106.3, ssthresh = 74.4, K = 4.30s."
+    },
+    {
+      "time": 14.86,
+      "cwnd_mss": 119.4,
+      "cwnd_bytes": 174330,
+      "ssthresh_mss": 74.4,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=105.1 MSS (K=4.30s, W_max=106.3)."
+    },
+    {
+      "time": 14.904,
+      "cwnd_mss": 83.58,
+      "cwnd_bytes": 122031,
+      "ssthresh_mss": 83.58,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 119.4, ssthresh = 83.6, K = 4.47s."
+    },
+    {
+      "time": 14.948,
+      "cwnd_mss": 129.97,
+      "cwnd_bytes": 189752,
+      "ssthresh_mss": 83.58,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=118.0 MSS (K=4.47s, W_max=119.4)."
+    },
+    {
+      "time": 14.992,
+      "cwnd_mss": 90.98,
+      "cwnd_bytes": 132826,
+      "ssthresh_mss": 90.98,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 130.0, ssthresh = 91.0, K = 4.60s."
+    },
+    {
+      "time": 15.036,
+      "cwnd_mss": 63.68,
+      "cwnd_bytes": 92978,
+      "ssthresh_mss": 63.68,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 91.0, ssthresh = 63.7, K = 4.09s."
+    },
+    {
+      "time": 15.08,
+      "cwnd_mss": 112.15,
+      "cwnd_bytes": 163732,
+      "ssthresh_mss": 63.68,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=90.6 MSS (K=4.09s, W_max=91.0)."
+    },
+    {
+      "time": 15.124,
+      "cwnd_mss": 78.5,
+      "cwnd_bytes": 114612,
+      "ssthresh_mss": 78.5,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 112.1, ssthresh = 78.5, K = 4.38s."
+    },
+    {
+      "time": 15.168,
+      "cwnd_mss": 128.35,
+      "cwnd_bytes": 187388,
+      "ssthresh_mss": 78.5,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=111.4 MSS (K=4.38s, W_max=112.1)."
+    },
+    {
+      "time": 15.212,
+      "cwnd_mss": 89.84,
+      "cwnd_bytes": 131171,
+      "ssthresh_mss": 89.84,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 128.3, ssthresh = 89.8, K = 4.58s."
+    },
+    {
+      "time": 15.256,
+      "cwnd_mss": 62.89,
+      "cwnd_bytes": 91820,
+      "ssthresh_mss": 62.89,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 89.8, ssthresh = 62.9, K = 4.07s."
+    },
+    {
+      "time": 15.3,
+      "cwnd_mss": 114.81,
+      "cwnd_bytes": 167627,
+      "ssthresh_mss": 62.89,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=89.7 MSS (K=4.07s, W_max=89.8)."
+    },
+    {
+      "time": 15.344,
+      "cwnd_mss": 80.37,
+      "cwnd_bytes": 117339,
+      "ssthresh_mss": 80.37,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 114.8, ssthresh = 80.4, K = 4.42s."
+    },
+    {
+      "time": 15.388,
+      "cwnd_mss": 133.68,
+      "cwnd_bytes": 195168,
+      "ssthresh_mss": 80.37,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=114.4 MSS (K=4.42s, W_max=114.8)."
+    },
+    {
+      "time": 15.432,
+      "cwnd_mss": 93.57,
+      "cwnd_bytes": 136618,
+      "ssthresh_mss": 93.57,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 133.7, ssthresh = 93.6, K = 4.65s."
+    },
+    {
+      "time": 15.476,
+      "cwnd_mss": 65.5,
+      "cwnd_bytes": 95632,
+      "ssthresh_mss": 65.5,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 93.6, ssthresh = 65.5, K = 4.12s."
+    },
+    {
+      "time": 15.52,
+      "cwnd_mss": 120.89,
+      "cwnd_bytes": 176494,
+      "ssthresh_mss": 65.5,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=93.5 MSS (K=4.12s, W_max=93.6)."
+    },
+    {
+      "time": 15.564,
+      "cwnd_mss": 84.62,
+      "cwnd_bytes": 123545,
+      "ssthresh_mss": 84.62,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 120.9, ssthresh = 84.6, K = 4.49s."
+    },
+    {
+      "time": 15.608,
+      "cwnd_mss": 141.39,
+      "cwnd_bytes": 206429,
+      "ssthresh_mss": 84.62,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=120.6 MSS (K=4.49s, W_max=120.9)."
+    },
+    {
+      "time": 15.652,
+      "cwnd_mss": 98.97,
+      "cwnd_bytes": 144500,
+      "ssthresh_mss": 98.97,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 141.4, ssthresh = 99.0, K = 4.73s."
+    },
+    {
+      "time": 15.696,
+      "cwnd_mss": 69.28,
+      "cwnd_bytes": 101150,
+      "ssthresh_mss": 69.28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 99.0, ssthresh = 69.3, K = 4.20s."
+    },
+    {
+      "time": 15.74,
+      "cwnd_mss": 128.13,
+      "cwnd_bytes": 187065,
+      "ssthresh_mss": 69.28,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=98.9 MSS (K=4.20s, W_max=99.0)."
+    },
+    {
+      "time": 15.784,
+      "cwnd_mss": 89.69,
+      "cwnd_bytes": 130945,
+      "ssthresh_mss": 89.69,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 128.1, ssthresh = 89.7, K = 4.58s."
+    },
+    {
+      "time": 15.828,
+      "cwnd_mss": 62.78,
+      "cwnd_bytes": 91662,
+      "ssthresh_mss": 62.78,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 89.7, ssthresh = 62.8, K = 4.07s."
+    },
+    {
+      "time": 15.872,
+      "cwnd_mss": 123.71,
+      "cwnd_bytes": 180609,
+      "ssthresh_mss": 62.78,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=89.7 MSS (K=4.07s, W_max=89.7)."
+    },
+    {
+      "time": 15.916,
+      "cwnd_mss": 86.59,
+      "cwnd_bytes": 126426,
+      "ssthresh_mss": 86.59,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 123.7, ssthresh = 86.6, K = 4.53s."
+    },
+    {
+      "time": 15.96,
+      "cwnd_mss": 148.9,
+      "cwnd_bytes": 217396,
+      "ssthresh_mss": 86.59,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=123.6 MSS (K=4.53s, W_max=123.7)."
+    },
+    {
+      "time": 16.004,
+      "cwnd_mss": 104.23,
+      "cwnd_bytes": 152177,
+      "ssthresh_mss": 104.23,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 148.9, ssthresh = 104.2, K = 4.82s."
+    },
+    {
+      "time": 16.048,
+      "cwnd_mss": 72.96,
+      "cwnd_bytes": 106524,
+      "ssthresh_mss": 72.96,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 104.2, ssthresh = 73.0, K = 4.28s."
+    },
+    {
+      "time": 16.092,
+      "cwnd_mss": 74.94,
+      "cwnd_bytes": 109408,
+      "ssthresh_mss": 72.96,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=74.9 MSS (K=4.28s, W_max=104.2)."
+    },
+    {
+      "time": 16.136,
+      "cwnd_mss": 75.85,
+      "cwnd_bytes": 110743,
+      "ssthresh_mss": 72.96,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=75.9 MSS (K=4.28s, W_max=104.2)."
+    },
+    {
+      "time": 16.18,
+      "cwnd_mss": 76.75,
+      "cwnd_bytes": 112050,
+      "ssthresh_mss": 72.96,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=76.7 MSS (K=4.28s, W_max=104.2)."
+    },
+    {
+      "time": 16.224,
+      "cwnd_mss": 77.62,
+      "cwnd_bytes": 113329,
+      "ssthresh_mss": 72.96,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=77.6 MSS (K=4.28s, W_max=104.2)."
+    },
+    {
+      "time": 16.268,
+      "cwnd_mss": 78.48,
+      "cwnd_bytes": 114581,
+      "ssthresh_mss": 72.96,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=78.5 MSS (K=4.28s, W_max=104.2)."
+    },
+    {
+      "time": 16.312,
+      "cwnd_mss": 79.32,
+      "cwnd_bytes": 115806,
+      "ssthresh_mss": 72.96,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=79.3 MSS (K=4.28s, W_max=104.2)."
+    },
+    {
+      "time": 16.356,
+      "cwnd_mss": 80.14,
+      "cwnd_bytes": 117004,
+      "ssthresh_mss": 72.96,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=80.1 MSS (K=4.28s, W_max=104.2)."
+    },
+    {
+      "time": 16.4,
+      "cwnd_mss": 80.94,
+      "cwnd_bytes": 118175,
+      "ssthresh_mss": 72.96,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=80.9 MSS (K=4.28s, W_max=104.2)."
+    },
+    {
+      "time": 16.444,
+      "cwnd_mss": 81.73,
+      "cwnd_bytes": 119320,
+      "ssthresh_mss": 72.96,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=81.7 MSS (K=4.28s, W_max=104.2)."
+    },
+    {
+      "time": 16.488,
+      "cwnd_mss": 82.49,
+      "cwnd_bytes": 120439,
+      "ssthresh_mss": 72.96,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=82.5 MSS (K=4.28s, W_max=104.2)."
+    },
+    {
+      "time": 16.532,
+      "cwnd_mss": 83.24,
+      "cwnd_bytes": 121532,
+      "ssthresh_mss": 72.96,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=83.2 MSS (K=4.28s, W_max=104.2)."
+    },
+    {
+      "time": 16.576,
+      "cwnd_mss": 83.97,
+      "cwnd_bytes": 122600,
+      "ssthresh_mss": 72.96,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=84.0 MSS (K=4.28s, W_max=104.2)."
+    },
+    {
+      "time": 16.62,
+      "cwnd_mss": 84.69,
+      "cwnd_bytes": 123642,
+      "ssthresh_mss": 72.96,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=84.7 MSS (K=4.28s, W_max=104.2)."
+    },
+    {
+      "time": 16.664,
+      "cwnd_mss": 85.38,
+      "cwnd_bytes": 124660,
+      "ssthresh_mss": 72.96,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=85.4 MSS (K=4.28s, W_max=104.2)."
+    },
+    {
+      "time": 16.708,
+      "cwnd_mss": 86.06,
+      "cwnd_bytes": 125654,
+      "ssthresh_mss": 72.96,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=86.1 MSS (K=4.28s, W_max=104.2)."
+    },
+    {
+      "time": 16.752,
+      "cwnd_mss": 86.73,
+      "cwnd_bytes": 126623,
+      "ssthresh_mss": 72.96,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=86.7 MSS (K=4.28s, W_max=104.2)."
+    },
+    {
+      "time": 16.796,
+      "cwnd_mss": 87.38,
+      "cwnd_bytes": 127568,
+      "ssthresh_mss": 72.96,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=87.4 MSS (K=4.28s, W_max=104.2)."
+    },
+    {
+      "time": 16.84,
+      "cwnd_mss": 88.01,
+      "cwnd_bytes": 128490,
+      "ssthresh_mss": 72.96,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=88.0 MSS (K=4.28s, W_max=104.2)."
+    },
+    {
+      "time": 16.884,
+      "cwnd_mss": 61.61,
+      "cwnd_bytes": 89943,
+      "ssthresh_mss": 61.61,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 88.0, ssthresh = 61.6, K = 4.04s."
+    },
+    {
+      "time": 16.928,
+      "cwnd_mss": 76.21,
+      "cwnd_bytes": 111261,
+      "ssthresh_mss": 61.61,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=75.9 MSS (K=4.04s, W_max=88.0)."
+    },
+    {
+      "time": 16.972,
+      "cwnd_mss": 76.9,
+      "cwnd_bytes": 112272,
+      "ssthresh_mss": 61.61,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=76.4 MSS (K=4.04s, W_max=88.0)."
+    },
+    {
+      "time": 17.016,
+      "cwnd_mss": 77.59,
+      "cwnd_bytes": 113283,
+      "ssthresh_mss": 61.61,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=76.9 MSS (K=4.04s, W_max=88.0)."
+    },
+    {
+      "time": 17.06,
+      "cwnd_mss": 78.28,
+      "cwnd_bytes": 114293,
+      "ssthresh_mss": 61.61,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=77.4 MSS (K=4.04s, W_max=88.0)."
+    },
+    {
+      "time": 17.104,
+      "cwnd_mss": 78.98,
+      "cwnd_bytes": 115304,
+      "ssthresh_mss": 61.61,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=77.9 MSS (K=4.04s, W_max=88.0)."
+    },
+    {
+      "time": 17.148,
+      "cwnd_mss": 79.67,
+      "cwnd_bytes": 116315,
+      "ssthresh_mss": 61.61,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=78.3 MSS (K=4.04s, W_max=88.0)."
+    },
+    {
+      "time": 17.192,
+      "cwnd_mss": 80.36,
+      "cwnd_bytes": 117326,
+      "ssthresh_mss": 61.61,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=78.8 MSS (K=4.04s, W_max=88.0)."
+    },
+    {
+      "time": 17.236,
+      "cwnd_mss": 81.05,
+      "cwnd_bytes": 118336,
+      "ssthresh_mss": 61.61,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=79.2 MSS (K=4.04s, W_max=88.0)."
+    },
+    {
+      "time": 17.28,
+      "cwnd_mss": 81.74,
+      "cwnd_bytes": 119347,
+      "ssthresh_mss": 61.61,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=79.6 MSS (K=4.04s, W_max=88.0)."
+    },
+    {
+      "time": 17.324,
+      "cwnd_mss": 82.44,
+      "cwnd_bytes": 120358,
+      "ssthresh_mss": 61.61,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=80.0 MSS (K=4.04s, W_max=88.0)."
+    },
+    {
+      "time": 17.368,
+      "cwnd_mss": 83.13,
+      "cwnd_bytes": 121369,
+      "ssthresh_mss": 61.61,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=80.4 MSS (K=4.04s, W_max=88.0)."
+    },
+    {
+      "time": 17.412,
+      "cwnd_mss": 83.82,
+      "cwnd_bytes": 122379,
+      "ssthresh_mss": 61.61,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=80.7 MSS (K=4.04s, W_max=88.0)."
+    },
+    {
+      "time": 17.456,
+      "cwnd_mss": 84.51,
+      "cwnd_bytes": 123390,
+      "ssthresh_mss": 61.61,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=81.1 MSS (K=4.04s, W_max=88.0)."
+    },
+    {
+      "time": 17.5,
+      "cwnd_mss": 85.21,
+      "cwnd_bytes": 124401,
+      "ssthresh_mss": 61.61,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=81.4 MSS (K=4.04s, W_max=88.0)."
+    },
+    {
+      "time": 17.544,
+      "cwnd_mss": 85.9,
+      "cwnd_bytes": 125412,
+      "ssthresh_mss": 61.61,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=81.8 MSS (K=4.04s, W_max=88.0)."
+    },
+    {
+      "time": 17.588,
+      "cwnd_mss": 86.59,
+      "cwnd_bytes": 126423,
+      "ssthresh_mss": 61.61,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=82.1 MSS (K=4.04s, W_max=88.0)."
+    },
+    {
+      "time": 17.632,
+      "cwnd_mss": 87.28,
+      "cwnd_bytes": 127433,
+      "ssthresh_mss": 61.61,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=82.4 MSS (K=4.04s, W_max=88.0)."
+    },
+    {
+      "time": 17.676,
+      "cwnd_mss": 87.98,
+      "cwnd_bytes": 128444,
+      "ssthresh_mss": 61.61,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=82.7 MSS (K=4.04s, W_max=88.0)."
+    },
+    {
+      "time": 17.72,
+      "cwnd_mss": 61.58,
+      "cwnd_bytes": 89911,
+      "ssthresh_mss": 61.58,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 88.0, ssthresh = 61.6, K = 4.04s."
+    },
+    {
+      "time": 17.764,
+      "cwnd_mss": 89.34,
+      "cwnd_bytes": 130433,
+      "ssthresh_mss": 61.58,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=83.3 MSS (K=4.04s, W_max=88.0)."
+    },
+    {
+      "time": 17.808,
+      "cwnd_mss": 62.54,
+      "cwnd_bytes": 91303,
+      "ssthresh_mss": 62.54,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 89.3, ssthresh = 62.5, K = 4.06s."
+    },
+    {
+      "time": 17.852,
+      "cwnd_mss": 91.68,
+      "cwnd_bytes": 133847,
+      "ssthresh_mss": 62.54,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=85.0 MSS (K=4.06s, W_max=89.3)."
+    },
+    {
+      "time": 17.896,
+      "cwnd_mss": 64.17,
+      "cwnd_bytes": 93693,
+      "ssthresh_mss": 64.17,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 91.7, ssthresh = 64.2, K = 4.10s."
+    },
+    {
+      "time": 17.94,
+      "cwnd_mss": 94.7,
+      "cwnd_bytes": 138259,
+      "ssthresh_mss": 64.17,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=87.7 MSS (K=4.10s, W_max=91.7)."
+    },
+    {
+      "time": 17.984,
+      "cwnd_mss": 66.29,
+      "cwnd_bytes": 96781,
+      "ssthresh_mss": 66.29,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 94.7, ssthresh = 66.3, K = 4.14s."
+    },
+    {
+      "time": 18.028,
+      "cwnd_mss": 98.2,
+      "cwnd_bytes": 143368,
+      "ssthresh_mss": 66.29,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=90.9 MSS (K=4.14s, W_max=94.7)."
+    },
+    {
+      "time": 18.072,
+      "cwnd_mss": 68.74,
+      "cwnd_bytes": 100358,
+      "ssthresh_mss": 68.74,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 98.2, ssthresh = 68.7, K = 4.19s."
+    },
+    {
+      "time": 18.116,
+      "cwnd_mss": 102.03,
+      "cwnd_bytes": 148966,
+      "ssthresh_mss": 68.74,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=94.6 MSS (K=4.19s, W_max=98.2)."
+    },
+    {
+      "time": 18.16,
+      "cwnd_mss": 71.42,
+      "cwnd_bytes": 104276,
+      "ssthresh_mss": 71.42,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 102.0, ssthresh = 71.4, K = 4.25s."
+    },
+    {
+      "time": 18.204,
+      "cwnd_mss": 106.1,
+      "cwnd_bytes": 154907,
+      "ssthresh_mss": 71.42,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=98.6 MSS (K=4.25s, W_max=102.0)."
+    },
+    {
+      "time": 18.248,
+      "cwnd_mss": 74.27,
+      "cwnd_bytes": 108435,
+      "ssthresh_mss": 74.27,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 106.1, ssthresh = 74.3, K = 4.30s."
+    },
+    {
+      "time": 18.292,
+      "cwnd_mss": 110.33,
+      "cwnd_bytes": 161086,
+      "ssthresh_mss": 74.27,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=102.9 MSS (K=4.30s, W_max=106.1)."
+    },
+    {
+      "time": 18.336,
+      "cwnd_mss": 77.23,
+      "cwnd_bytes": 112760,
+      "ssthresh_mss": 77.23,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 110.3, ssthresh = 77.2, K = 4.36s."
+    },
+    {
+      "time": 18.38,
+      "cwnd_mss": 114.68,
+      "cwnd_bytes": 167434,
+      "ssthresh_mss": 77.23,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=107.2 MSS (K=4.36s, W_max=110.3)."
+    },
+    {
+      "time": 18.424,
+      "cwnd_mss": 80.28,
+      "cwnd_bytes": 117203,
+      "ssthresh_mss": 80.28,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 114.7, ssthresh = 80.3, K = 4.41s."
+    },
+    {
+      "time": 18.468,
+      "cwnd_mss": 119.11,
+      "cwnd_bytes": 173898,
+      "ssthresh_mss": 80.28,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=111.7 MSS (K=4.41s, W_max=114.7)."
+    },
+    {
+      "time": 18.512,
+      "cwnd_mss": 83.38,
+      "cwnd_bytes": 121729,
+      "ssthresh_mss": 83.38,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 119.1, ssthresh = 83.4, K = 4.47s."
+    },
+    {
+      "time": 18.556,
+      "cwnd_mss": 123.59,
+      "cwnd_bytes": 180445,
+      "ssthresh_mss": 83.38,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=116.3 MSS (K=4.47s, W_max=119.1)."
+    },
+    {
+      "time": 18.6,
+      "cwnd_mss": 86.52,
+      "cwnd_bytes": 126312,
+      "ssthresh_mss": 86.52,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 123.6, ssthresh = 86.5, K = 4.53s."
+    },
+    {
+      "time": 18.644,
+      "cwnd_mss": 128.12,
+      "cwnd_bytes": 187050,
+      "ssthresh_mss": 86.52,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=120.9 MSS (K=4.53s, W_max=123.6)."
+    },
+    {
+      "time": 18.688,
+      "cwnd_mss": 89.68,
+      "cwnd_bytes": 130935,
+      "ssthresh_mss": 89.68,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 128.1, ssthresh = 89.7, K = 4.58s."
+    },
+    {
+      "time": 18.732,
+      "cwnd_mss": 62.78,
+      "cwnd_bytes": 91654,
+      "ssthresh_mss": 62.78,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 89.7, ssthresh = 62.8, K = 4.07s."
+    },
+    {
+      "time": 18.776,
+      "cwnd_mss": 106.46,
+      "cwnd_bytes": 155424,
+      "ssthresh_mss": 62.78,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=88.8 MSS (K=4.07s, W_max=89.7)."
+    },
+    {
+      "time": 18.82,
+      "cwnd_mss": 74.52,
+      "cwnd_bytes": 108797,
+      "ssthresh_mss": 74.52,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 106.5, ssthresh = 74.5, K = 4.31s."
+    },
+    {
+      "time": 18.864,
+      "cwnd_mss": 119.58,
+      "cwnd_bytes": 174589,
+      "ssthresh_mss": 74.52,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=105.3 MSS (K=4.31s, W_max=106.5)."
+    },
+    {
+      "time": 18.908,
+      "cwnd_mss": 83.71,
+      "cwnd_bytes": 122212,
+      "ssthresh_mss": 83.71,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 119.6, ssthresh = 83.7, K = 4.48s."
+    },
+    {
+      "time": 18.952,
+      "cwnd_mss": 130.15,
+      "cwnd_bytes": 190025,
+      "ssthresh_mss": 83.71,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=118.2 MSS (K=4.48s, W_max=119.6)."
+    },
+    {
+      "time": 18.996,
+      "cwnd_mss": 91.11,
+      "cwnd_bytes": 133018,
+      "ssthresh_mss": 91.11,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 130.2, ssthresh = 91.1, K = 4.60s."
+    },
+    {
+      "time": 19.04,
+      "cwnd_mss": 63.78,
+      "cwnd_bytes": 93112,
+      "ssthresh_mss": 63.78,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 91.1, ssthresh = 63.8, K = 4.09s."
+    },
+    {
+      "time": 19.084,
+      "cwnd_mss": 112.3,
+      "cwnd_bytes": 163958,
+      "ssthresh_mss": 63.78,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=90.7 MSS (K=4.09s, W_max=91.1)."
+    },
+    {
+      "time": 19.128,
+      "cwnd_mss": 78.61,
+      "cwnd_bytes": 114770,
+      "ssthresh_mss": 78.61,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 112.3, ssthresh = 78.6, K = 4.38s."
+    },
+    {
+      "time": 19.172,
+      "cwnd_mss": 128.52,
+      "cwnd_bytes": 187638,
+      "ssthresh_mss": 78.61,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=111.6 MSS (K=4.38s, W_max=112.3)."
+    },
+    {
+      "time": 19.216,
+      "cwnd_mss": 89.96,
+      "cwnd_bytes": 131346,
+      "ssthresh_mss": 89.96,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 128.5, ssthresh = 90.0, K = 4.59s."
+    },
+    {
+      "time": 19.26,
+      "cwnd_mss": 62.97,
+      "cwnd_bytes": 91942,
+      "ssthresh_mss": 62.97,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 90.0, ssthresh = 63.0, K = 4.07s."
+    },
+    {
+      "time": 19.304,
+      "cwnd_mss": 114.96,
+      "cwnd_bytes": 167842,
+      "ssthresh_mss": 62.97,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=89.8 MSS (K=4.07s, W_max=90.0)."
+    },
+    {
+      "time": 19.348,
+      "cwnd_mss": 80.47,
+      "cwnd_bytes": 117489,
+      "ssthresh_mss": 80.47,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 115.0, ssthresh = 80.5, K = 4.42s."
+    },
+    {
+      "time": 19.392,
+      "cwnd_mss": 133.84,
+      "cwnd_bytes": 195410,
+      "ssthresh_mss": 80.47,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=114.5 MSS (K=4.42s, W_max=115.0)."
+    },
+    {
+      "time": 19.436,
+      "cwnd_mss": 93.69,
+      "cwnd_bytes": 136787,
+      "ssthresh_mss": 93.69,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 133.8, ssthresh = 93.7, K = 4.65s."
+    },
+    {
+      "time": 19.48,
+      "cwnd_mss": 65.58,
+      "cwnd_bytes": 95751,
+      "ssthresh_mss": 65.58,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 93.7, ssthresh = 65.6, K = 4.13s."
+    },
+    {
+      "time": 19.524,
+      "cwnd_mss": 121.03,
+      "cwnd_bytes": 176704,
+      "ssthresh_mss": 65.58,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=93.6 MSS (K=4.13s, W_max=93.7)."
+    },
+    {
+      "time": 19.568,
+      "cwnd_mss": 84.72,
+      "cwnd_bytes": 123693,
+      "ssthresh_mss": 84.72,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 121.0, ssthresh = 84.7, K = 4.49s."
+    },
+    {
+      "time": 19.612,
+      "cwnd_mss": 141.55,
+      "cwnd_bytes": 206668,
+      "ssthresh_mss": 84.72,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=120.8 MSS (K=4.49s, W_max=121.0)."
+    },
+    {
+      "time": 19.656,
+      "cwnd_mss": 99.09,
+      "cwnd_bytes": 144667,
+      "ssthresh_mss": 99.09,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 141.6, ssthresh = 99.1, K = 4.74s."
+    },
+    {
+      "time": 19.7,
+      "cwnd_mss": 69.36,
+      "cwnd_bytes": 101267,
+      "ssthresh_mss": 69.36,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 99.1, ssthresh = 69.4, K = 4.20s."
+    },
+    {
+      "time": 19.744,
+      "cwnd_mss": 128.27,
+      "cwnd_bytes": 187274,
+      "ssthresh_mss": 69.36,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=99.0 MSS (K=4.20s, W_max=99.1)."
+    },
+    {
+      "time": 19.788,
+      "cwnd_mss": 89.79,
+      "cwnd_bytes": 131092,
+      "ssthresh_mss": 89.79,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 128.3, ssthresh = 89.8, K = 4.58s."
+    },
+    {
+      "time": 19.832,
+      "cwnd_mss": 62.85,
+      "cwnd_bytes": 91764,
+      "ssthresh_mss": 62.85,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 89.8, ssthresh = 62.9, K = 4.07s."
+    },
+    {
+      "time": 19.876,
+      "cwnd_mss": 123.84,
+      "cwnd_bytes": 180804,
+      "ssthresh_mss": 62.85,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=89.8 MSS (K=4.07s, W_max=89.8)."
+    },
+    {
+      "time": 19.92,
+      "cwnd_mss": 86.69,
+      "cwnd_bytes": 126562,
+      "ssthresh_mss": 86.69,
+      "state": "CONGESTION_AVOIDANCE",
+      "explanation": "Cubic loss event: W_max = 123.8, ssthresh = 86.7, K = 4.53s."
+    },
+    {
+      "time": 19.964,
+      "cwnd_mss": 149.06,
+      "cwnd_bytes": 217624,
+      "ssthresh_mss": 86.69,
+      "state": "CUBIC_CONCAVE",
+      "explanation": "Cubic equation active (CUBIC_CONCAVE): W_cubic=123.8 MSS (K=4.53s, W_max=123.8)."
+    }
+  ],
+  "queue": [
+    {
+      "time": 1.0,
+      "queue_pkts": 10.1,
+      "max_queue": 50
+    },
+    {
+      "time": 1.044,
+      "queue_pkts": 10.8,
+      "max_queue": 50
+    },
+    {
+      "time": 1.088,
+      "queue_pkts": 11.4,
+      "max_queue": 50
+    },
+    {
+      "time": 1.132,
+      "queue_pkts": 12.1,
+      "max_queue": 50
+    },
+    {
+      "time": 1.176,
+      "queue_pkts": 12.8,
+      "max_queue": 50
+    },
+    {
+      "time": 1.22,
+      "queue_pkts": 13.5,
+      "max_queue": 50
+    },
+    {
+      "time": 1.264,
+      "queue_pkts": 14.2,
+      "max_queue": 50
+    },
+    {
+      "time": 1.308,
+      "queue_pkts": 14.9,
+      "max_queue": 50
+    },
+    {
+      "time": 1.352,
+      "queue_pkts": 15.6,
+      "max_queue": 50
+    },
+    {
+      "time": 1.396,
+      "queue_pkts": 16.3,
+      "max_queue": 50
+    },
+    {
+      "time": 1.44,
+      "queue_pkts": 17.0,
+      "max_queue": 50
+    },
+    {
+      "time": 1.484,
+      "queue_pkts": 17.7,
+      "max_queue": 50
+    },
+    {
+      "time": 1.528,
+      "queue_pkts": 18.4,
+      "max_queue": 50
+    },
+    {
+      "time": 1.572,
+      "queue_pkts": 19.1,
+      "max_queue": 50
+    },
+    {
+      "time": 1.616,
+      "queue_pkts": 19.8,
+      "max_queue": 50
+    },
+    {
+      "time": 1.66,
+      "queue_pkts": 20.4,
+      "max_queue": 50
+    },
+    {
+      "time": 1.704,
+      "queue_pkts": 21.1,
+      "max_queue": 50
+    },
+    {
+      "time": 1.748,
+      "queue_pkts": 21.8,
+      "max_queue": 50
+    },
+    {
+      "time": 1.792,
+      "queue_pkts": 22.5,
+      "max_queue": 50
+    },
+    {
+      "time": 1.836,
+      "queue_pkts": 23.2,
+      "max_queue": 50
+    },
+    {
+      "time": 1.88,
+      "queue_pkts": 23.9,
+      "max_queue": 50
+    },
+    {
+      "time": 1.924,
+      "queue_pkts": 24.6,
+      "max_queue": 50
+    },
+    {
+      "time": 1.968,
+      "queue_pkts": 25.3,
+      "max_queue": 50
+    },
+    {
+      "time": 2.012,
+      "queue_pkts": 26.0,
+      "max_queue": 50
+    },
+    {
+      "time": 2.056,
+      "queue_pkts": 26.7,
+      "max_queue": 50
+    },
+    {
+      "time": 2.1,
+      "queue_pkts": 27.4,
+      "max_queue": 50
+    },
+    {
+      "time": 2.144,
+      "queue_pkts": 28.1,
+      "max_queue": 50
+    },
+    {
+      "time": 2.188,
+      "queue_pkts": 28.8,
+      "max_queue": 50
+    },
+    {
+      "time": 2.232,
+      "queue_pkts": 29.4,
+      "max_queue": 50
+    },
+    {
+      "time": 2.276,
+      "queue_pkts": 30.1,
+      "max_queue": 50
+    },
+    {
+      "time": 2.32,
+      "queue_pkts": 30.8,
+      "max_queue": 50
+    },
+    {
+      "time": 2.364,
+      "queue_pkts": 31.5,
+      "max_queue": 50
+    },
+    {
+      "time": 2.408,
+      "queue_pkts": 32.2,
+      "max_queue": 50
+    },
+    {
+      "time": 2.452,
+      "queue_pkts": 32.9,
+      "max_queue": 50
+    },
+    {
+      "time": 2.496,
+      "queue_pkts": 33.6,
+      "max_queue": 50
+    },
+    {
+      "time": 2.54,
+      "queue_pkts": 34.3,
+      "max_queue": 50
+    },
+    {
+      "time": 2.584,
+      "queue_pkts": 35.0,
+      "max_queue": 50
+    },
+    {
+      "time": 2.628,
+      "queue_pkts": 35.7,
+      "max_queue": 50
+    },
+    {
+      "time": 2.672,
+      "queue_pkts": 36.4,
+      "max_queue": 50
+    },
+    {
+      "time": 2.716,
+      "queue_pkts": 37.1,
+      "max_queue": 50
+    },
+    {
+      "time": 2.76,
+      "queue_pkts": 37.8,
+      "max_queue": 50
+    },
+    {
+      "time": 2.804,
+      "queue_pkts": 38.4,
+      "max_queue": 50
+    },
+    {
+      "time": 2.848,
+      "queue_pkts": 39.1,
+      "max_queue": 50
+    },
+    {
+      "time": 2.892,
+      "queue_pkts": 39.8,
+      "max_queue": 50
+    },
+    {
+      "time": 2.936,
+      "queue_pkts": 40.5,
+      "max_queue": 50
+    },
+    {
+      "time": 2.98,
+      "queue_pkts": 41.2,
+      "max_queue": 50
+    },
+    {
+      "time": 3.024,
+      "queue_pkts": 41.9,
+      "max_queue": 50
+    },
+    {
+      "time": 3.068,
+      "queue_pkts": 42.6,
+      "max_queue": 50
+    },
+    {
+      "time": 3.112,
+      "queue_pkts": 43.3,
+      "max_queue": 50
+    },
+    {
+      "time": 3.156,
+      "queue_pkts": 44.0,
+      "max_queue": 50
+    },
+    {
+      "time": 3.2,
+      "queue_pkts": 44.7,
+      "max_queue": 50
+    },
+    {
+      "time": 3.244,
+      "queue_pkts": 45.4,
+      "max_queue": 50
+    },
+    {
+      "time": 3.288,
+      "queue_pkts": 46.1,
+      "max_queue": 50
+    },
+    {
+      "time": 3.332,
+      "queue_pkts": 46.8,
+      "max_queue": 50
+    },
+    {
+      "time": 3.376,
+      "queue_pkts": 47.4,
+      "max_queue": 50
+    },
+    {
+      "time": 3.42,
+      "queue_pkts": 48.1,
+      "max_queue": 50
+    },
+    {
+      "time": 3.464,
+      "queue_pkts": 48.8,
+      "max_queue": 50
+    },
+    {
+      "time": 3.508,
+      "queue_pkts": 49.5,
+      "max_queue": 50
+    },
+    {
+      "time": 3.552,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 3.596,
+      "queue_pkts": 23.9,
+      "max_queue": 50
+    },
+    {
+      "time": 3.64,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 3.684,
+      "queue_pkts": 45.5,
+      "max_queue": 50
+    },
+    {
+      "time": 3.728,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 3.772,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 3.816,
+      "queue_pkts": 31.8,
+      "max_queue": 50
+    },
+    {
+      "time": 3.86,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 3.904,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 3.948,
+      "queue_pkts": 26.1,
+      "max_queue": 50
+    },
+    {
+      "time": 3.992,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 4.036,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 4.08,
+      "queue_pkts": 24.4,
+      "max_queue": 50
+    },
+    {
+      "time": 4.124,
+      "queue_pkts": 26.7,
+      "max_queue": 50
+    },
+    {
+      "time": 4.168,
+      "queue_pkts": 27.5,
+      "max_queue": 50
+    },
+    {
+      "time": 4.212,
+      "queue_pkts": 28.3,
+      "max_queue": 50
+    },
+    {
+      "time": 4.256,
+      "queue_pkts": 29.1,
+      "max_queue": 50
+    },
+    {
+      "time": 4.3,
+      "queue_pkts": 29.9,
+      "max_queue": 50
+    },
+    {
+      "time": 4.344,
+      "queue_pkts": 30.6,
+      "max_queue": 50
+    },
+    {
+      "time": 4.388,
+      "queue_pkts": 31.3,
+      "max_queue": 50
+    },
+    {
+      "time": 4.432,
+      "queue_pkts": 32.0,
+      "max_queue": 50
+    },
+    {
+      "time": 4.476,
+      "queue_pkts": 32.7,
+      "max_queue": 50
+    },
+    {
+      "time": 4.52,
+      "queue_pkts": 33.4,
+      "max_queue": 50
+    },
+    {
+      "time": 4.564,
+      "queue_pkts": 34.0,
+      "max_queue": 50
+    },
+    {
+      "time": 4.608,
+      "queue_pkts": 34.6,
+      "max_queue": 50
+    },
+    {
+      "time": 4.652,
+      "queue_pkts": 35.3,
+      "max_queue": 50
+    },
+    {
+      "time": 4.696,
+      "queue_pkts": 35.9,
+      "max_queue": 50
+    },
+    {
+      "time": 4.74,
+      "queue_pkts": 36.4,
+      "max_queue": 50
+    },
+    {
+      "time": 4.784,
+      "queue_pkts": 37.0,
+      "max_queue": 50
+    },
+    {
+      "time": 4.828,
+      "queue_pkts": 37.6,
+      "max_queue": 50
+    },
+    {
+      "time": 4.872,
+      "queue_pkts": 38.1,
+      "max_queue": 50
+    },
+    {
+      "time": 4.916,
+      "queue_pkts": 38.8,
+      "max_queue": 50
+    },
+    {
+      "time": 4.96,
+      "queue_pkts": 39.5,
+      "max_queue": 50
+    },
+    {
+      "time": 5.004,
+      "queue_pkts": 40.2,
+      "max_queue": 50
+    },
+    {
+      "time": 5.048,
+      "queue_pkts": 40.9,
+      "max_queue": 50
+    },
+    {
+      "time": 5.092,
+      "queue_pkts": 41.6,
+      "max_queue": 50
+    },
+    {
+      "time": 5.136,
+      "queue_pkts": 42.2,
+      "max_queue": 50
+    },
+    {
+      "time": 5.18,
+      "queue_pkts": 42.9,
+      "max_queue": 50
+    },
+    {
+      "time": 5.224,
+      "queue_pkts": 43.6,
+      "max_queue": 50
+    },
+    {
+      "time": 5.268,
+      "queue_pkts": 44.3,
+      "max_queue": 50
+    },
+    {
+      "time": 5.312,
+      "queue_pkts": 45.0,
+      "max_queue": 50
+    },
+    {
+      "time": 5.356,
+      "queue_pkts": 45.7,
+      "max_queue": 50
+    },
+    {
+      "time": 5.4,
+      "queue_pkts": 46.4,
+      "max_queue": 50
+    },
+    {
+      "time": 5.444,
+      "queue_pkts": 47.1,
+      "max_queue": 50
+    },
+    {
+      "time": 5.488,
+      "queue_pkts": 47.8,
+      "max_queue": 50
+    },
+    {
+      "time": 5.532,
+      "queue_pkts": 48.5,
+      "max_queue": 50
+    },
+    {
+      "time": 5.576,
+      "queue_pkts": 49.2,
+      "max_queue": 50
+    },
+    {
+      "time": 5.62,
+      "queue_pkts": 49.9,
+      "max_queue": 50
+    },
+    {
+      "time": 5.664,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 5.708,
+      "queue_pkts": 24.1,
+      "max_queue": 50
+    },
+    {
+      "time": 5.752,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 5.796,
+      "queue_pkts": 24.9,
+      "max_queue": 50
+    },
+    {
+      "time": 5.84,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 5.884,
+      "queue_pkts": 26.4,
+      "max_queue": 50
+    },
+    {
+      "time": 5.928,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 5.972,
+      "queue_pkts": 28.4,
+      "max_queue": 50
+    },
+    {
+      "time": 6.016,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 6.06,
+      "queue_pkts": 30.8,
+      "max_queue": 50
+    },
+    {
+      "time": 6.104,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 6.148,
+      "queue_pkts": 33.4,
+      "max_queue": 50
+    },
+    {
+      "time": 6.192,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 6.236,
+      "queue_pkts": 36.2,
+      "max_queue": 50
+    },
+    {
+      "time": 6.28,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 6.324,
+      "queue_pkts": 39.2,
+      "max_queue": 50
+    },
+    {
+      "time": 6.368,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 6.412,
+      "queue_pkts": 42.2,
+      "max_queue": 50
+    },
+    {
+      "time": 6.456,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 6.5,
+      "queue_pkts": 45.3,
+      "max_queue": 50
+    },
+    {
+      "time": 6.544,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 6.588,
+      "queue_pkts": 48.4,
+      "max_queue": 50
+    },
+    {
+      "time": 6.632,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 6.676,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 6.72,
+      "queue_pkts": 24.8,
+      "max_queue": 50
+    },
+    {
+      "time": 6.764,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 6.808,
+      "queue_pkts": 36.5,
+      "max_queue": 50
+    },
+    {
+      "time": 6.852,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 6.896,
+      "queue_pkts": 45.7,
+      "max_queue": 50
+    },
+    {
+      "time": 6.94,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 6.984,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 7.028,
+      "queue_pkts": 25.8,
+      "max_queue": 50
+    },
+    {
+      "time": 7.072,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 7.116,
+      "queue_pkts": 40.6,
+      "max_queue": 50
+    },
+    {
+      "time": 7.16,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 7.204,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 7.248,
+      "queue_pkts": 25.1,
+      "max_queue": 50
+    },
+    {
+      "time": 7.292,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 7.336,
+      "queue_pkts": 42.5,
+      "max_queue": 50
+    },
+    {
+      "time": 7.38,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 7.424,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 7.468,
+      "queue_pkts": 27.7,
+      "max_queue": 50
+    },
+    {
+      "time": 7.512,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 7.556,
+      "queue_pkts": 46.7,
+      "max_queue": 50
+    },
+    {
+      "time": 7.6,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 7.644,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 7.688,
+      "queue_pkts": 31.4,
+      "max_queue": 50
+    },
+    {
+      "time": 7.732,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 7.776,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 7.82,
+      "queue_pkts": 25.0,
+      "max_queue": 50
+    },
+    {
+      "time": 7.864,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 7.908,
+      "queue_pkts": 48.7,
+      "max_queue": 50
+    },
+    {
+      "time": 7.952,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 7.996,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 8.04,
+      "queue_pkts": 35.1,
+      "max_queue": 50
+    },
+    {
+      "time": 8.084,
+      "queue_pkts": 36.9,
+      "max_queue": 50
+    },
+    {
+      "time": 8.128,
+      "queue_pkts": 37.9,
+      "max_queue": 50
+    },
+    {
+      "time": 8.172,
+      "queue_pkts": 38.8,
+      "max_queue": 50
+    },
+    {
+      "time": 8.216,
+      "queue_pkts": 39.6,
+      "max_queue": 50
+    },
+    {
+      "time": 8.26,
+      "queue_pkts": 40.5,
+      "max_queue": 50
+    },
+    {
+      "time": 8.304,
+      "queue_pkts": 41.3,
+      "max_queue": 50
+    },
+    {
+      "time": 8.348,
+      "queue_pkts": 42.2,
+      "max_queue": 50
+    },
+    {
+      "time": 8.392,
+      "queue_pkts": 43.0,
+      "max_queue": 50
+    },
+    {
+      "time": 8.436,
+      "queue_pkts": 43.7,
+      "max_queue": 50
+    },
+    {
+      "time": 8.48,
+      "queue_pkts": 44.5,
+      "max_queue": 50
+    },
+    {
+      "time": 8.524,
+      "queue_pkts": 45.3,
+      "max_queue": 50
+    },
+    {
+      "time": 8.568,
+      "queue_pkts": 46.0,
+      "max_queue": 50
+    },
+    {
+      "time": 8.612,
+      "queue_pkts": 46.7,
+      "max_queue": 50
+    },
+    {
+      "time": 8.656,
+      "queue_pkts": 47.4,
+      "max_queue": 50
+    },
+    {
+      "time": 8.7,
+      "queue_pkts": 48.1,
+      "max_queue": 50
+    },
+    {
+      "time": 8.744,
+      "queue_pkts": 48.8,
+      "max_queue": 50
+    },
+    {
+      "time": 8.788,
+      "queue_pkts": 49.4,
+      "max_queue": 50
+    },
+    {
+      "time": 8.832,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 8.876,
+      "queue_pkts": 23.7,
+      "max_queue": 50
+    },
+    {
+      "time": 8.92,
+      "queue_pkts": 38.2,
+      "max_queue": 50
+    },
+    {
+      "time": 8.964,
+      "queue_pkts": 38.9,
+      "max_queue": 50
+    },
+    {
+      "time": 9.008,
+      "queue_pkts": 39.6,
+      "max_queue": 50
+    },
+    {
+      "time": 9.052,
+      "queue_pkts": 40.3,
+      "max_queue": 50
+    },
+    {
+      "time": 9.096,
+      "queue_pkts": 41.0,
+      "max_queue": 50
+    },
+    {
+      "time": 9.14,
+      "queue_pkts": 41.7,
+      "max_queue": 50
+    },
+    {
+      "time": 9.184,
+      "queue_pkts": 42.4,
+      "max_queue": 50
+    },
+    {
+      "time": 9.228,
+      "queue_pkts": 43.1,
+      "max_queue": 50
+    },
+    {
+      "time": 9.272,
+      "queue_pkts": 43.7,
+      "max_queue": 50
+    },
+    {
+      "time": 9.316,
+      "queue_pkts": 44.4,
+      "max_queue": 50
+    },
+    {
+      "time": 9.36,
+      "queue_pkts": 45.1,
+      "max_queue": 50
+    },
+    {
+      "time": 9.404,
+      "queue_pkts": 45.8,
+      "max_queue": 50
+    },
+    {
+      "time": 9.448,
+      "queue_pkts": 46.5,
+      "max_queue": 50
+    },
+    {
+      "time": 9.492,
+      "queue_pkts": 47.2,
+      "max_queue": 50
+    },
+    {
+      "time": 9.536,
+      "queue_pkts": 47.9,
+      "max_queue": 50
+    },
+    {
+      "time": 9.58,
+      "queue_pkts": 48.6,
+      "max_queue": 50
+    },
+    {
+      "time": 9.624,
+      "queue_pkts": 49.3,
+      "max_queue": 50
+    },
+    {
+      "time": 9.668,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 9.712,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 9.756,
+      "queue_pkts": 24.2,
+      "max_queue": 50
+    },
+    {
+      "time": 9.8,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 9.844,
+      "queue_pkts": 25.4,
+      "max_queue": 50
+    },
+    {
+      "time": 9.888,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 9.932,
+      "queue_pkts": 27.3,
+      "max_queue": 50
+    },
+    {
+      "time": 9.976,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 10.02,
+      "queue_pkts": 29.6,
+      "max_queue": 50
+    },
+    {
+      "time": 10.064,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 10.108,
+      "queue_pkts": 32.1,
+      "max_queue": 50
+    },
+    {
+      "time": 10.152,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 10.196,
+      "queue_pkts": 34.9,
+      "max_queue": 50
+    },
+    {
+      "time": 10.24,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 10.284,
+      "queue_pkts": 37.8,
+      "max_queue": 50
+    },
+    {
+      "time": 10.328,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 10.372,
+      "queue_pkts": 40.8,
+      "max_queue": 50
+    },
+    {
+      "time": 10.416,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 10.46,
+      "queue_pkts": 43.9,
+      "max_queue": 50
+    },
+    {
+      "time": 10.504,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 10.548,
+      "queue_pkts": 47.0,
+      "max_queue": 50
+    },
+    {
+      "time": 10.592,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 10.636,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 10.68,
+      "queue_pkts": 23.8,
+      "max_queue": 50
+    },
+    {
+      "time": 10.724,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 10.768,
+      "queue_pkts": 35.4,
+      "max_queue": 50
+    },
+    {
+      "time": 10.812,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 10.856,
+      "queue_pkts": 44.4,
+      "max_queue": 50
+    },
+    {
+      "time": 10.9,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 10.944,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 10.988,
+      "queue_pkts": 24.9,
+      "max_queue": 50
+    },
+    {
+      "time": 11.032,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 11.076,
+      "queue_pkts": 39.5,
+      "max_queue": 50
+    },
+    {
+      "time": 11.12,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 11.164,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 11.208,
+      "queue_pkts": 24.2,
+      "max_queue": 50
+    },
+    {
+      "time": 11.252,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 11.296,
+      "queue_pkts": 41.5,
+      "max_queue": 50
+    },
+    {
+      "time": 11.34,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 11.384,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 11.428,
+      "queue_pkts": 26.9,
+      "max_queue": 50
+    },
+    {
+      "time": 11.472,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 11.516,
+      "queue_pkts": 45.7,
+      "max_queue": 50
+    },
+    {
+      "time": 11.56,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 11.604,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 11.648,
+      "queue_pkts": 30.6,
+      "max_queue": 50
+    },
+    {
+      "time": 11.692,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 11.736,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 11.78,
+      "queue_pkts": 24.3,
+      "max_queue": 50
+    },
+    {
+      "time": 11.824,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 11.868,
+      "queue_pkts": 47.8,
+      "max_queue": 50
+    },
+    {
+      "time": 11.912,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 11.956,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 12.0,
+      "queue_pkts": 34.4,
+      "max_queue": 50
+    },
+    {
+      "time": 12.044,
+      "queue_pkts": 35.3,
+      "max_queue": 50
+    },
+    {
+      "time": 12.088,
+      "queue_pkts": 36.2,
+      "max_queue": 50
+    },
+    {
+      "time": 12.132,
+      "queue_pkts": 37.2,
+      "max_queue": 50
+    },
+    {
+      "time": 12.176,
+      "queue_pkts": 38.0,
+      "max_queue": 50
+    },
+    {
+      "time": 12.22,
+      "queue_pkts": 38.9,
+      "max_queue": 50
+    },
+    {
+      "time": 12.264,
+      "queue_pkts": 39.8,
+      "max_queue": 50
+    },
+    {
+      "time": 12.308,
+      "queue_pkts": 40.6,
+      "max_queue": 50
+    },
+    {
+      "time": 12.352,
+      "queue_pkts": 41.4,
+      "max_queue": 50
+    },
+    {
+      "time": 12.396,
+      "queue_pkts": 42.2,
+      "max_queue": 50
+    },
+    {
+      "time": 12.44,
+      "queue_pkts": 43.0,
+      "max_queue": 50
+    },
+    {
+      "time": 12.484,
+      "queue_pkts": 43.8,
+      "max_queue": 50
+    },
+    {
+      "time": 12.528,
+      "queue_pkts": 44.5,
+      "max_queue": 50
+    },
+    {
+      "time": 12.572,
+      "queue_pkts": 45.2,
+      "max_queue": 50
+    },
+    {
+      "time": 12.616,
+      "queue_pkts": 45.9,
+      "max_queue": 50
+    },
+    {
+      "time": 12.66,
+      "queue_pkts": 46.6,
+      "max_queue": 50
+    },
+    {
+      "time": 12.704,
+      "queue_pkts": 47.3,
+      "max_queue": 50
+    },
+    {
+      "time": 12.748,
+      "queue_pkts": 48.0,
+      "max_queue": 50
+    },
+    {
+      "time": 12.792,
+      "queue_pkts": 48.6,
+      "max_queue": 50
+    },
+    {
+      "time": 12.836,
+      "queue_pkts": 49.2,
+      "max_queue": 50
+    },
+    {
+      "time": 12.88,
+      "queue_pkts": 49.8,
+      "max_queue": 50
+    },
+    {
+      "time": 12.924,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 12.968,
+      "queue_pkts": 24.0,
+      "max_queue": 50
+    },
+    {
+      "time": 13.012,
+      "queue_pkts": 39.9,
+      "max_queue": 50
+    },
+    {
+      "time": 13.056,
+      "queue_pkts": 40.6,
+      "max_queue": 50
+    },
+    {
+      "time": 13.1,
+      "queue_pkts": 41.3,
+      "max_queue": 50
+    },
+    {
+      "time": 13.144,
+      "queue_pkts": 42.0,
+      "max_queue": 50
+    },
+    {
+      "time": 13.188,
+      "queue_pkts": 42.7,
+      "max_queue": 50
+    },
+    {
+      "time": 13.232,
+      "queue_pkts": 43.4,
+      "max_queue": 50
+    },
+    {
+      "time": 13.276,
+      "queue_pkts": 44.1,
+      "max_queue": 50
+    },
+    {
+      "time": 13.32,
+      "queue_pkts": 44.8,
+      "max_queue": 50
+    },
+    {
+      "time": 13.364,
+      "queue_pkts": 45.5,
+      "max_queue": 50
+    },
+    {
+      "time": 13.408,
+      "queue_pkts": 46.2,
+      "max_queue": 50
+    },
+    {
+      "time": 13.452,
+      "queue_pkts": 46.8,
+      "max_queue": 50
+    },
+    {
+      "time": 13.496,
+      "queue_pkts": 47.5,
+      "max_queue": 50
+    },
+    {
+      "time": 13.54,
+      "queue_pkts": 48.2,
+      "max_queue": 50
+    },
+    {
+      "time": 13.584,
+      "queue_pkts": 48.9,
+      "max_queue": 50
+    },
+    {
+      "time": 13.628,
+      "queue_pkts": 49.6,
+      "max_queue": 50
+    },
+    {
+      "time": 13.672,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 13.716,
+      "queue_pkts": 23.9,
+      "max_queue": 50
+    },
+    {
+      "time": 13.76,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 13.804,
+      "queue_pkts": 24.8,
+      "max_queue": 50
+    },
+    {
+      "time": 13.848,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 13.892,
+      "queue_pkts": 26.4,
+      "max_queue": 50
+    },
+    {
+      "time": 13.936,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 13.98,
+      "queue_pkts": 28.5,
+      "max_queue": 50
+    },
+    {
+      "time": 14.024,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 14.068,
+      "queue_pkts": 31.0,
+      "max_queue": 50
+    },
+    {
+      "time": 14.112,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 14.156,
+      "queue_pkts": 33.6,
+      "max_queue": 50
+    },
+    {
+      "time": 14.2,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 14.244,
+      "queue_pkts": 36.5,
+      "max_queue": 50
+    },
+    {
+      "time": 14.288,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 14.332,
+      "queue_pkts": 39.4,
+      "max_queue": 50
+    },
+    {
+      "time": 14.376,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 14.42,
+      "queue_pkts": 42.5,
+      "max_queue": 50
+    },
+    {
+      "time": 14.464,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 14.508,
+      "queue_pkts": 45.6,
+      "max_queue": 50
+    },
+    {
+      "time": 14.552,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 14.596,
+      "queue_pkts": 48.7,
+      "max_queue": 50
+    },
+    {
+      "time": 14.64,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 14.684,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 14.728,
+      "queue_pkts": 25.0,
+      "max_queue": 50
+    },
+    {
+      "time": 14.772,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 14.816,
+      "queue_pkts": 36.7,
+      "max_queue": 50
+    },
+    {
+      "time": 14.86,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 14.904,
+      "queue_pkts": 45.9,
+      "max_queue": 50
+    },
+    {
+      "time": 14.948,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 14.992,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 15.036,
+      "queue_pkts": 26.0,
+      "max_queue": 50
+    },
+    {
+      "time": 15.08,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 15.124,
+      "queue_pkts": 40.8,
+      "max_queue": 50
+    },
+    {
+      "time": 15.168,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 15.212,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 15.256,
+      "queue_pkts": 25.2,
+      "max_queue": 50
+    },
+    {
+      "time": 15.3,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 15.344,
+      "queue_pkts": 42.7,
+      "max_queue": 50
+    },
+    {
+      "time": 15.388,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 15.432,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 15.476,
+      "queue_pkts": 27.8,
+      "max_queue": 50
+    },
+    {
+      "time": 15.52,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 15.564,
+      "queue_pkts": 46.9,
+      "max_queue": 50
+    },
+    {
+      "time": 15.608,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 15.652,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 15.696,
+      "queue_pkts": 31.6,
+      "max_queue": 50
+    },
+    {
+      "time": 15.74,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 15.784,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 15.828,
+      "queue_pkts": 25.1,
+      "max_queue": 50
+    },
+    {
+      "time": 15.872,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 15.916,
+      "queue_pkts": 48.9,
+      "max_queue": 50
+    },
+    {
+      "time": 15.96,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 16.004,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 16.048,
+      "queue_pkts": 35.3,
+      "max_queue": 50
+    },
+    {
+      "time": 16.092,
+      "queue_pkts": 37.3,
+      "max_queue": 50
+    },
+    {
+      "time": 16.136,
+      "queue_pkts": 38.2,
+      "max_queue": 50
+    },
+    {
+      "time": 16.18,
+      "queue_pkts": 39.1,
+      "max_queue": 50
+    },
+    {
+      "time": 16.224,
+      "queue_pkts": 40.0,
+      "max_queue": 50
+    },
+    {
+      "time": 16.268,
+      "queue_pkts": 40.8,
+      "max_queue": 50
+    },
+    {
+      "time": 16.312,
+      "queue_pkts": 41.6,
+      "max_queue": 50
+    },
+    {
+      "time": 16.356,
+      "queue_pkts": 42.5,
+      "max_queue": 50
+    },
+    {
+      "time": 16.4,
+      "queue_pkts": 43.3,
+      "max_queue": 50
+    },
+    {
+      "time": 16.444,
+      "queue_pkts": 44.1,
+      "max_queue": 50
+    },
+    {
+      "time": 16.488,
+      "queue_pkts": 44.8,
+      "max_queue": 50
+    },
+    {
+      "time": 16.532,
+      "queue_pkts": 45.6,
+      "max_queue": 50
+    },
+    {
+      "time": 16.576,
+      "queue_pkts": 46.3,
+      "max_queue": 50
+    },
+    {
+      "time": 16.62,
+      "queue_pkts": 47.0,
+      "max_queue": 50
+    },
+    {
+      "time": 16.664,
+      "queue_pkts": 47.7,
+      "max_queue": 50
+    },
+    {
+      "time": 16.708,
+      "queue_pkts": 48.4,
+      "max_queue": 50
+    },
+    {
+      "time": 16.752,
+      "queue_pkts": 49.1,
+      "max_queue": 50
+    },
+    {
+      "time": 16.796,
+      "queue_pkts": 49.7,
+      "max_queue": 50
+    },
+    {
+      "time": 16.84,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 16.884,
+      "queue_pkts": 23.9,
+      "max_queue": 50
+    },
+    {
+      "time": 16.928,
+      "queue_pkts": 38.5,
+      "max_queue": 50
+    },
+    {
+      "time": 16.972,
+      "queue_pkts": 39.2,
+      "max_queue": 50
+    },
+    {
+      "time": 17.016,
+      "queue_pkts": 39.9,
+      "max_queue": 50
+    },
+    {
+      "time": 17.06,
+      "queue_pkts": 40.6,
+      "max_queue": 50
+    },
+    {
+      "time": 17.104,
+      "queue_pkts": 41.3,
+      "max_queue": 50
+    },
+    {
+      "time": 17.148,
+      "queue_pkts": 42.0,
+      "max_queue": 50
+    },
+    {
+      "time": 17.192,
+      "queue_pkts": 42.7,
+      "max_queue": 50
+    },
+    {
+      "time": 17.236,
+      "queue_pkts": 43.4,
+      "max_queue": 50
+    },
+    {
+      "time": 17.28,
+      "queue_pkts": 44.1,
+      "max_queue": 50
+    },
+    {
+      "time": 17.324,
+      "queue_pkts": 44.8,
+      "max_queue": 50
+    },
+    {
+      "time": 17.368,
+      "queue_pkts": 45.5,
+      "max_queue": 50
+    },
+    {
+      "time": 17.412,
+      "queue_pkts": 46.2,
+      "max_queue": 50
+    },
+    {
+      "time": 17.456,
+      "queue_pkts": 46.8,
+      "max_queue": 50
+    },
+    {
+      "time": 17.5,
+      "queue_pkts": 47.5,
+      "max_queue": 50
+    },
+    {
+      "time": 17.544,
+      "queue_pkts": 48.2,
+      "max_queue": 50
+    },
+    {
+      "time": 17.588,
+      "queue_pkts": 48.9,
+      "max_queue": 50
+    },
+    {
+      "time": 17.632,
+      "queue_pkts": 49.6,
+      "max_queue": 50
+    },
+    {
+      "time": 17.676,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 17.72,
+      "queue_pkts": 23.9,
+      "max_queue": 50
+    },
+    {
+      "time": 17.764,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 17.808,
+      "queue_pkts": 24.9,
+      "max_queue": 50
+    },
+    {
+      "time": 17.852,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 17.896,
+      "queue_pkts": 26.5,
+      "max_queue": 50
+    },
+    {
+      "time": 17.94,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 17.984,
+      "queue_pkts": 28.6,
+      "max_queue": 50
+    },
+    {
+      "time": 18.028,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 18.072,
+      "queue_pkts": 31.1,
+      "max_queue": 50
+    },
+    {
+      "time": 18.116,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 18.16,
+      "queue_pkts": 33.8,
+      "max_queue": 50
+    },
+    {
+      "time": 18.204,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 18.248,
+      "queue_pkts": 36.6,
+      "max_queue": 50
+    },
+    {
+      "time": 18.292,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 18.336,
+      "queue_pkts": 39.6,
+      "max_queue": 50
+    },
+    {
+      "time": 18.38,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 18.424,
+      "queue_pkts": 42.6,
+      "max_queue": 50
+    },
+    {
+      "time": 18.468,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 18.512,
+      "queue_pkts": 45.7,
+      "max_queue": 50
+    },
+    {
+      "time": 18.556,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 18.6,
+      "queue_pkts": 48.8,
+      "max_queue": 50
+    },
+    {
+      "time": 18.644,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 18.688,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 18.732,
+      "queue_pkts": 25.1,
+      "max_queue": 50
+    },
+    {
+      "time": 18.776,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 18.82,
+      "queue_pkts": 36.8,
+      "max_queue": 50
+    },
+    {
+      "time": 18.864,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 18.908,
+      "queue_pkts": 46.0,
+      "max_queue": 50
+    },
+    {
+      "time": 18.952,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 18.996,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 19.04,
+      "queue_pkts": 26.1,
+      "max_queue": 50
+    },
+    {
+      "time": 19.084,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 19.128,
+      "queue_pkts": 40.9,
+      "max_queue": 50
+    },
+    {
+      "time": 19.172,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 19.216,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 19.26,
+      "queue_pkts": 25.3,
+      "max_queue": 50
+    },
+    {
+      "time": 19.304,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 19.348,
+      "queue_pkts": 42.8,
+      "max_queue": 50
+    },
+    {
+      "time": 19.392,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 19.436,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 19.48,
+      "queue_pkts": 27.9,
+      "max_queue": 50
+    },
+    {
+      "time": 19.524,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 19.568,
+      "queue_pkts": 47.1,
+      "max_queue": 50
+    },
+    {
+      "time": 19.612,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 19.656,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 19.7,
+      "queue_pkts": 31.7,
+      "max_queue": 50
+    },
+    {
+      "time": 19.744,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 19.788,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 19.832,
+      "queue_pkts": 25.2,
+      "max_queue": 50
+    },
+    {
+      "time": 19.876,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    },
+    {
+      "time": 19.92,
+      "queue_pkts": 49.0,
+      "max_queue": 50
+    },
+    {
+      "time": 19.964,
+      "queue_pkts": 50.0,
+      "max_queue": 50
+    }
+  ],
+  "throughput": [
+    {
+      "time": 1.0,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 1.044,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 1.088,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 1.132,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 1.176,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 1.22,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 1.264,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 1.308,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 1.352,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 1.396,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 1.44,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 1.484,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 1.528,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 1.572,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 1.616,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 1.66,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 1.704,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 1.748,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 1.792,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 1.836,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 1.88,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 1.924,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 1.968,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 2.012,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 2.056,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 2.1,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 2.144,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 2.188,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 2.232,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 2.276,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 2.32,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 2.364,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 2.408,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 2.452,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 2.496,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 2.54,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 2.584,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 2.628,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 2.672,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 2.716,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 2.76,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 2.804,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 2.848,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 2.892,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 2.936,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 2.98,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 3.024,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 3.068,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 3.112,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 3.156,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 3.2,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 3.244,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 3.288,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 3.332,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 3.376,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 3.42,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 3.464,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 3.508,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 3.552,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 3.596,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 3.64,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 3.684,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 3.728,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 3.772,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 3.816,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 3.86,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 3.904,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 3.948,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 3.992,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 4.036,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 4.08,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 4.124,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 4.168,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 4.212,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 4.256,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 4.3,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 4.344,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 4.388,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 4.432,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 4.476,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 4.52,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 4.564,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 4.608,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 4.652,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 4.696,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 4.74,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 4.784,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 4.828,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 4.872,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 4.916,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 4.96,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 5.004,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 5.048,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 5.092,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 5.136,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 5.18,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 5.224,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 5.268,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 5.312,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 5.356,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 5.4,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 5.444,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 5.488,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 5.532,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 5.576,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 5.62,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 5.664,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 5.708,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 5.752,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 5.796,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 5.84,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 5.884,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 5.928,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 5.972,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 6.016,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 6.06,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 6.104,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 6.148,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 6.192,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 6.236,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 6.28,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 6.324,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 6.368,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 6.412,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 6.456,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 6.5,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 6.544,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 6.588,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 6.632,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 6.676,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 6.72,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 6.764,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 6.808,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 6.852,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 6.896,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 6.94,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 6.984,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 7.028,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 7.072,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 7.116,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 7.16,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 7.204,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 7.248,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 7.292,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 7.336,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 7.38,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 7.424,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 7.468,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 7.512,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 7.556,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 7.6,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 7.644,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 7.688,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 7.732,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 7.776,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 7.82,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 7.864,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 7.908,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 7.952,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 7.996,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 8.04,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 8.084,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 8.128,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 8.172,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 8.216,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 8.26,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 8.304,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 8.348,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 8.392,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 8.436,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 8.48,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 8.524,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 8.568,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 8.612,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 8.656,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 8.7,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 8.744,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 8.788,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 8.832,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 8.876,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 8.92,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 8.964,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 9.008,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 9.052,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 9.096,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 9.14,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 9.184,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 9.228,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 9.272,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 9.316,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 9.36,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 9.404,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 9.448,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 9.492,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 9.536,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 9.58,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 9.624,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 9.668,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 9.712,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 9.756,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 9.8,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 9.844,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 9.888,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 9.932,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 9.976,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 10.02,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 10.064,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 10.108,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 10.152,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 10.196,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 10.24,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 10.284,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 10.328,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 10.372,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 10.416,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 10.46,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 10.504,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 10.548,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 10.592,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 10.636,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 10.68,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 10.724,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 10.768,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 10.812,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 10.856,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 10.9,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 10.944,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 10.988,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 11.032,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 11.076,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 11.12,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 11.164,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 11.208,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 11.252,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 11.296,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 11.34,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 11.384,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 11.428,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 11.472,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 11.516,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 11.56,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 11.604,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 11.648,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 11.692,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 11.736,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 11.78,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 11.824,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 11.868,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 11.912,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 11.956,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 12.0,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 12.044,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 12.088,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 12.132,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 12.176,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 12.22,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 12.264,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 12.308,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 12.352,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 12.396,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 12.44,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 12.484,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 12.528,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 12.572,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 12.616,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 12.66,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 12.704,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 12.748,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 12.792,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 12.836,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 12.88,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 12.924,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 12.968,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 13.012,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 13.056,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 13.1,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 13.144,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 13.188,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 13.232,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 13.276,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 13.32,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 13.364,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 13.408,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 13.452,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 13.496,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 13.54,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 13.584,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 13.628,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 13.672,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 13.716,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 13.76,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 13.804,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 13.848,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 13.892,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 13.936,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 13.98,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 14.024,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 14.068,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 14.112,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 14.156,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 14.2,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 14.244,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 14.288,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 14.332,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 14.376,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 14.42,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 14.464,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 14.508,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 14.552,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 14.596,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 14.64,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 14.684,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 14.728,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 14.772,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 14.816,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 14.86,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 14.904,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 14.948,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 14.992,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 15.036,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 15.08,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 15.124,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 15.168,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 15.212,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 15.256,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 15.3,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 15.344,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 15.388,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 15.432,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 15.476,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 15.52,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 15.564,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 15.608,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 15.652,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 15.696,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 15.74,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 15.784,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 15.828,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 15.872,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 15.916,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 15.96,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 16.004,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 16.048,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 16.092,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 16.136,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 16.18,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 16.224,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 16.268,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 16.312,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 16.356,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 16.4,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 16.444,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 16.488,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 16.532,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 16.576,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 16.62,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 16.664,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 16.708,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 16.752,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 16.796,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 16.84,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 16.884,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 16.928,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 16.972,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 17.016,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 17.06,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 17.104,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 17.148,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 17.192,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 17.236,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 17.28,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 17.324,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 17.368,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 17.412,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 17.456,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 17.5,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 17.544,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 17.588,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 17.632,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 17.676,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 17.72,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 17.764,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 17.808,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 17.852,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 17.896,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 17.94,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 17.984,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 18.028,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 18.072,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 18.116,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 18.16,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 18.204,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 18.248,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 18.292,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 18.336,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 18.38,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 18.424,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 18.468,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 18.512,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 18.556,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 18.6,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 18.644,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 18.688,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 18.732,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 18.776,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 18.82,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 18.864,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 18.908,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 18.952,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 18.996,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 19.04,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 19.084,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 19.128,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 19.172,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 19.216,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 19.26,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 19.304,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 19.348,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 19.392,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 19.436,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 19.48,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 19.524,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 19.568,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 19.612,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 19.656,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 19.7,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 19.744,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 19.788,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 19.832,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 19.876,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 19.92,
+      "throughput_mbps": 10.0
+    },
+    {
+      "time": 19.964,
+      "throughput_mbps": 10.0
+    }
+  ],
+  "drops": [
+    {
+      "time": 3.596,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 3972,
+      "packet_size": 1460
+    },
+    {
+      "time": 3.684,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 4120,
+      "packet_size": 1460
+    },
+    {
+      "time": 3.772,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 4290,
+      "packet_size": 1460
+    },
+    {
+      "time": 3.816,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 4377,
+      "packet_size": 1460
+    },
+    {
+      "time": 3.904,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 4533,
+      "packet_size": 1460
+    },
+    {
+      "time": 3.948,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 4620,
+      "packet_size": 1460
+    },
+    {
+      "time": 4.036,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 4770,
+      "packet_size": 1460
+    },
+    {
+      "time": 4.08,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 4857,
+      "packet_size": 1460
+    },
+    {
+      "time": 5.708,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 7651,
+      "packet_size": 1460
+    },
+    {
+      "time": 5.796,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 7799,
+      "packet_size": 1460
+    },
+    {
+      "time": 5.884,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 7948,
+      "packet_size": 1460
+    },
+    {
+      "time": 5.972,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 8099,
+      "packet_size": 1460
+    },
+    {
+      "time": 6.06,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 8252,
+      "packet_size": 1460
+    },
+    {
+      "time": 6.148,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 8407,
+      "packet_size": 1460
+    },
+    {
+      "time": 6.236,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 8565,
+      "packet_size": 1460
+    },
+    {
+      "time": 6.324,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 8725,
+      "packet_size": 1460
+    },
+    {
+      "time": 6.412,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 8888,
+      "packet_size": 1460
+    },
+    {
+      "time": 6.5,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 9054,
+      "packet_size": 1460
+    },
+    {
+      "time": 6.588,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 9223,
+      "packet_size": 1460
+    },
+    {
+      "time": 6.676,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 9396,
+      "packet_size": 1460
+    },
+    {
+      "time": 6.72,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 9483,
+      "packet_size": 1460
+    },
+    {
+      "time": 6.808,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 9632,
+      "packet_size": 1460
+    },
+    {
+      "time": 6.896,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 9793,
+      "packet_size": 1460
+    },
+    {
+      "time": 6.984,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 9963,
+      "packet_size": 1460
+    },
+    {
+      "time": 7.028,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 10050,
+      "packet_size": 1460
+    },
+    {
+      "time": 7.116,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 10200,
+      "packet_size": 1460
+    },
+    {
+      "time": 7.204,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 10365,
+      "packet_size": 1460
+    },
+    {
+      "time": 7.248,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 10452,
+      "packet_size": 1460
+    },
+    {
+      "time": 7.336,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 10601,
+      "packet_size": 1460
+    },
+    {
+      "time": 7.424,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 10768,
+      "packet_size": 1460
+    },
+    {
+      "time": 7.468,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 10855,
+      "packet_size": 1460
+    },
+    {
+      "time": 7.556,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 11007,
+      "packet_size": 1460
+    },
+    {
+      "time": 7.644,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 11178,
+      "packet_size": 1460
+    },
+    {
+      "time": 7.688,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 11265,
+      "packet_size": 1460
+    },
+    {
+      "time": 7.776,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 11421,
+      "packet_size": 1460
+    },
+    {
+      "time": 7.82,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 11508,
+      "packet_size": 1460
+    },
+    {
+      "time": 7.908,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 11657,
+      "packet_size": 1460
+    },
+    {
+      "time": 7.996,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 11830,
+      "packet_size": 1460
+    },
+    {
+      "time": 8.04,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 11917,
+      "packet_size": 1460
+    },
+    {
+      "time": 8.876,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 13449,
+      "packet_size": 1460
+    },
+    {
+      "time": 9.756,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 15059,
+      "packet_size": 1460
+    },
+    {
+      "time": 9.844,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 15207,
+      "packet_size": 1460
+    },
+    {
+      "time": 9.932,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 15357,
+      "packet_size": 1460
+    },
+    {
+      "time": 10.02,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 15508,
+      "packet_size": 1460
+    },
+    {
+      "time": 10.108,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 15662,
+      "packet_size": 1460
+    },
+    {
+      "time": 10.196,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 15818,
+      "packet_size": 1460
+    },
+    {
+      "time": 10.284,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 15977,
+      "packet_size": 1460
+    },
+    {
+      "time": 10.372,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 16139,
+      "packet_size": 1460
+    },
+    {
+      "time": 10.46,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 16304,
+      "packet_size": 1460
+    },
+    {
+      "time": 10.548,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 16472,
+      "packet_size": 1460
+    },
+    {
+      "time": 10.636,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 16643,
+      "packet_size": 1460
+    },
+    {
+      "time": 10.68,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 16730,
+      "packet_size": 1460
+    },
+    {
+      "time": 10.768,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 16878,
+      "packet_size": 1460
+    },
+    {
+      "time": 10.856,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 17038,
+      "packet_size": 1460
+    },
+    {
+      "time": 10.944,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 17207,
+      "packet_size": 1460
+    },
+    {
+      "time": 10.988,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 17294,
+      "packet_size": 1460
+    },
+    {
+      "time": 11.076,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 17443,
+      "packet_size": 1460
+    },
+    {
+      "time": 11.164,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 17607,
+      "packet_size": 1460
+    },
+    {
+      "time": 11.208,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 17694,
+      "packet_size": 1460
+    },
+    {
+      "time": 11.296,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 17842,
+      "packet_size": 1460
+    },
+    {
+      "time": 11.384,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 18008,
+      "packet_size": 1460
+    },
+    {
+      "time": 11.428,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 18095,
+      "packet_size": 1460
+    },
+    {
+      "time": 11.516,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 18246,
+      "packet_size": 1460
+    },
+    {
+      "time": 11.604,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 18416,
+      "packet_size": 1460
+    },
+    {
+      "time": 11.648,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 18503,
+      "packet_size": 1460
+    },
+    {
+      "time": 11.736,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 18658,
+      "packet_size": 1460
+    },
+    {
+      "time": 11.78,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 18745,
+      "packet_size": 1460
+    },
+    {
+      "time": 11.868,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 18893,
+      "packet_size": 1460
+    },
+    {
+      "time": 11.956,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 19065,
+      "packet_size": 1460
+    },
+    {
+      "time": 12.0,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 19152,
+      "packet_size": 1460
+    },
+    {
+      "time": 12.968,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 20914,
+      "packet_size": 1460
+    },
+    {
+      "time": 13.716,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 22291,
+      "packet_size": 1460
+    },
+    {
+      "time": 13.804,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 22439,
+      "packet_size": 1460
+    },
+    {
+      "time": 13.892,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 22588,
+      "packet_size": 1460
+    },
+    {
+      "time": 13.98,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 22739,
+      "packet_size": 1460
+    },
+    {
+      "time": 14.068,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 22892,
+      "packet_size": 1460
+    },
+    {
+      "time": 14.156,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 23047,
+      "packet_size": 1460
+    },
+    {
+      "time": 14.244,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 23205,
+      "packet_size": 1460
+    },
+    {
+      "time": 14.332,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 23366,
+      "packet_size": 1460
+    },
+    {
+      "time": 14.42,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 23530,
+      "packet_size": 1460
+    },
+    {
+      "time": 14.508,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 23697,
+      "packet_size": 1460
+    },
+    {
+      "time": 14.596,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 23867,
+      "packet_size": 1460
+    },
+    {
+      "time": 14.684,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 24040,
+      "packet_size": 1460
+    },
+    {
+      "time": 14.728,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 24127,
+      "packet_size": 1460
+    },
+    {
+      "time": 14.816,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 24276,
+      "packet_size": 1460
+    },
+    {
+      "time": 14.904,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 24437,
+      "packet_size": 1460
+    },
+    {
+      "time": 14.992,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 24607,
+      "packet_size": 1460
+    },
+    {
+      "time": 15.036,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 24694,
+      "packet_size": 1460
+    },
+    {
+      "time": 15.124,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 24844,
+      "packet_size": 1460
+    },
+    {
+      "time": 15.212,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 25009,
+      "packet_size": 1460
+    },
+    {
+      "time": 15.256,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 25096,
+      "packet_size": 1460
+    },
+    {
+      "time": 15.344,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 25245,
+      "packet_size": 1460
+    },
+    {
+      "time": 15.432,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 25412,
+      "packet_size": 1460
+    },
+    {
+      "time": 15.476,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 25499,
+      "packet_size": 1460
+    },
+    {
+      "time": 15.564,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 25651,
+      "packet_size": 1460
+    },
+    {
+      "time": 15.652,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 25822,
+      "packet_size": 1460
+    },
+    {
+      "time": 15.696,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 25909,
+      "packet_size": 1460
+    },
+    {
+      "time": 15.784,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 26065,
+      "packet_size": 1460
+    },
+    {
+      "time": 15.828,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 26152,
+      "packet_size": 1460
+    },
+    {
+      "time": 15.916,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 26301,
+      "packet_size": 1460
+    },
+    {
+      "time": 16.004,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 26474,
+      "packet_size": 1460
+    },
+    {
+      "time": 16.048,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 26561,
+      "packet_size": 1460
+    },
+    {
+      "time": 16.884,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 28096,
+      "packet_size": 1460
+    },
+    {
+      "time": 17.72,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 29625,
+      "packet_size": 1460
+    },
+    {
+      "time": 17.808,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 29773,
+      "packet_size": 1460
+    },
+    {
+      "time": 17.896,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 29922,
+      "packet_size": 1460
+    },
+    {
+      "time": 17.984,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 30073,
+      "packet_size": 1460
+    },
+    {
+      "time": 18.072,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 30226,
+      "packet_size": 1460
+    },
+    {
+      "time": 18.16,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 30381,
+      "packet_size": 1460
+    },
+    {
+      "time": 18.248,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 30539,
+      "packet_size": 1460
+    },
+    {
+      "time": 18.336,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 30700,
+      "packet_size": 1460
+    },
+    {
+      "time": 18.424,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 30864,
+      "packet_size": 1460
+    },
+    {
+      "time": 18.512,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 31031,
+      "packet_size": 1460
+    },
+    {
+      "time": 18.6,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 31201,
+      "packet_size": 1460
+    },
+    {
+      "time": 18.688,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 31374,
+      "packet_size": 1460
+    },
+    {
+      "time": 18.732,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 31461,
+      "packet_size": 1460
+    },
+    {
+      "time": 18.82,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 31610,
+      "packet_size": 1460
+    },
+    {
+      "time": 18.908,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 31771,
+      "packet_size": 1460
+    },
+    {
+      "time": 18.996,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 31941,
+      "packet_size": 1460
+    },
+    {
+      "time": 19.04,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 32028,
+      "packet_size": 1460
+    },
+    {
+      "time": 19.128,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 32178,
+      "packet_size": 1460
+    },
+    {
+      "time": 19.216,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 32343,
+      "packet_size": 1460
+    },
+    {
+      "time": 19.26,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 32430,
+      "packet_size": 1460
+    },
+    {
+      "time": 19.348,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 32579,
+      "packet_size": 1460
+    },
+    {
+      "time": 19.436,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 32746,
+      "packet_size": 1460
+    },
+    {
+      "time": 19.48,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 32833,
+      "packet_size": 1460
+    },
+    {
+      "time": 19.568,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 32985,
+      "packet_size": 1460
+    },
+    {
+      "time": 19.656,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 33156,
+      "packet_size": 1460
+    },
+    {
+      "time": 19.7,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 33243,
+      "packet_size": 1460
+    },
+    {
+      "time": 19.788,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 33399,
+      "packet_size": 1460
+    },
+    {
+      "time": 19.832,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 33486,
+      "packet_size": 1460
+    },
+    {
+      "time": 19.92,
+      "reason": "BUFFER_OVERFLOW",
+      "seq": 33635,
+      "packet_size": 1460
+    }
+  ]
+}
